@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'ArtDepartmentJNL';
+	font-style: normal;
+	src: url('./fonts/ArtDepartmentJNL.eot');
+	src: url("./fonts/ArtDepartmentJNL.eot?#iefix") format("embedded-opentype"), url("./fonts/ArtDepartmentJNL.woff") format("woff"), url("./fonts/ArtDepartmentJNL.ttf") format("truetype"), url("./fonts/ArtDepartmentJNL.svg") format("svg");
+	font-weight: normal;
+}

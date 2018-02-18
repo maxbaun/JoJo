@@ -1,0 +1,7 @@
+.wrap {
+	max-width: 950px;
+	background-color: #FFF;
+	margin: 0 auto;
+	-moz-box-shadow: 0 0 30px 0 #999;
+	-webkit-box-shadow: 0 0 30px 0 #999;
+}

@@ -1,0 +1,745 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1518996677347,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cc242f0b5421425269442adec69daef3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e078d6a5815d3a9717208bf01742b6bb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d8a1bedc2b2794fa56ee170f159027b2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "61a8f8745eecec040977c3b497bda7b3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8509630315bb5c40be975ec5a62d84ba",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2bb0a83c2ca75d164c69fee0c8e7fa71",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maxbaun/Projects/JoJo/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5d1093a722f14602bcee773a9bd2e5dc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/maxbaun/Projects/JoJo",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "d41d8cd98f00b204e9800998ecf8427e",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maxbaun/Projects/JoJo",
+      "packageJson": {
+        "name": "JoJo",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Max Baun <max@d3applications.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "Base64",
+            "version": "1.0.1"
+          },
+          {
+            "name": "axios",
+            "version": "0.17.1"
+          },
+          {
+            "name": "babel-plugin-transform-decorators-legacy",
+            "version": "^1.3.4"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.201"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.37"
+          },
+          {
+            "name": "gatsby-plugin-postcss-sass",
+            "version": "^1.0.17"
+          },
+          {
+            "name": "history",
+            "version": "4.7.2"
+          },
+          {
+            "name": "html-react-parser",
+            "version": "0.4.1"
+          },
+          {
+            "name": "immutable",
+            "version": "3.8.2"
+          },
+          {
+            "name": "lodash",
+            "version": "4.17.5"
+          },
+          {
+            "name": "lodash-decorators",
+            "version": "4.5.0"
+          },
+          {
+            "name": "moment",
+            "version": "2.20.1"
+          },
+          {
+            "name": "react",
+            "version": "16.2.0"
+          },
+          {
+            "name": "react-addons-css-transition-group",
+            "version": "15.6.2"
+          },
+          {
+            "name": "react-cookie",
+            "version": "2.1.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "16.2.0"
+          },
+          {
+            "name": "react-ga",
+            "version": "2.4.1"
+          },
+          {
+            "name": "react-immutable-proptypes",
+            "version": "2.1.0"
+          },
+          {
+            "name": "react-markdown",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "react-motion",
+            "version": "0.5.2"
+          },
+          {
+            "name": "react-redux",
+            "version": "5.0.6"
+          },
+          {
+            "name": "react-router",
+            "version": "4.2.0"
+          },
+          {
+            "name": "react-router-redux",
+            "version": "4.0.8"
+          },
+          {
+            "name": "react-visibility-sensor",
+            "version": "3.11.0"
+          },
+          {
+            "name": "redux",
+            "version": "3.7.2"
+          },
+          {
+            "name": "redux-immutable",
+            "version": "4.0.0"
+          },
+          {
+            "name": "redux-router",
+            "version": "2.1.2"
+          },
+          {
+            "name": "redux-saga",
+            "version": "0.16.0"
+          },
+          {
+            "name": "redux-saga-testing",
+            "version": "1.0.5"
+          },
+          {
+            "name": "reselect",
+            "version": "3.0.1"
+          },
+          {
+            "name": "serve",
+            "version": "^6.4.9"
+          },
+          {
+            "name": "unpipe",
+            "version": "1.0.0"
+          },
+          {
+            "name": "webpack-merge",
+            "version": "^4.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "autoprefixer",
+            "version": "8.0.0"
+          },
+          {
+            "name": "autoprefixer-core",
+            "version": "6.0.1"
+          },
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^8.2.1"
+          },
+          {
+            "name": "babel-jest",
+            "version": "^20.0.3"
+          },
+          {
+            "name": "babel-plugin-add-module-exports",
+            "version": "^0.2.1"
+          },
+          {
+            "name": "babel-plugin-lodash",
+            "version": "^3.2.11"
+          },
+          {
+            "name": "babel-plugin-transform-async-to-generator",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-plugin-transform-flow-strip-types",
+            "version": "^6.22.0"
+          },
+          {
+            "name": "babel-plugin-transform-runtime",
+            "version": "^6.23.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.0"
+          },
+          {
+            "name": "babel-preset-flow",
+            "version": "^6.23.0"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-preset-stage-0",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-register",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "compression-webpack-plugin",
+            "version": "1.1.6"
+          },
+          {
+            "name": "css-loader",
+            "version": "0.28.9"
+          },
+          {
+            "name": "enzyme",
+            "version": "3.3.0"
+          },
+          {
+            "name": "enzyme-to-json",
+            "version": "3.3.1"
+          },
+          {
+            "name": "es6-promise",
+            "version": "4.2.4"
+          },
+          {
+            "name": "eslint",
+            "version": "4.17.0"
+          },
+          {
+            "name": "eslint-config-xo",
+            "version": "0.20.0"
+          },
+          {
+            "name": "eslint-config-xo-react",
+            "version": "0.16.0"
+          },
+          {
+            "name": "eslint-plugin-babel",
+            "version": "4.1.2"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "2.8.0"
+          },
+          {
+            "name": "eslint-plugin-jest",
+            "version": "21.12.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "7.6.1"
+          },
+          {
+            "name": "exports-loader",
+            "version": "0.7.0"
+          },
+          {
+            "name": "express",
+            "version": "4.16.2"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "3.0.2"
+          },
+          {
+            "name": "file-loader",
+            "version": "1.1.6"
+          },
+          {
+            "name": "html-loader",
+            "version": "0.5.5"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "2.30.1"
+          },
+          {
+            "name": "identity-obj-proxy",
+            "version": "3.0.0"
+          },
+          {
+            "name": "image-webpack-loader",
+            "version": "4.1.0"
+          },
+          {
+            "name": "imports-loader",
+            "version": "0.7.1"
+          },
+          {
+            "name": "jest",
+            "version": "22.3.0"
+          },
+          {
+            "name": "jest-cli",
+            "version": "22.3.0"
+          },
+          {
+            "name": "mongoose",
+            "version": "5.0.6"
+          },
+          {
+            "name": "postcss-automath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "postcss-color-function",
+            "version": "4.0.1"
+          },
+          {
+            "name": "postcss-cssnext",
+            "version": "3.1.0"
+          },
+          {
+            "name": "postcss-import",
+            "version": "11.1.0"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "2.1.0"
+          },
+          {
+            "name": "postcss-mixins",
+            "version": "6.2.0"
+          },
+          {
+            "name": "postcss-nested",
+            "version": "3.0.0"
+          },
+          {
+            "name": "postcss-nesting",
+            "version": "4.2.1"
+          },
+          {
+            "name": "postcss-simple-vars",
+            "version": "4.1.0"
+          },
+          {
+            "name": "postcss-uncss",
+            "version": "0.16.1"
+          },
+          {
+            "name": "postcss-utilities",
+            "version": "0.8.0"
+          },
+          {
+            "name": "precss",
+            "version": "3.1.0"
+          },
+          {
+            "name": "qs",
+            "version": "6.5.1"
+          },
+          {
+            "name": "react-addons-test-utils",
+            "version": "15.6.2"
+          },
+          {
+            "name": "redux-devtools",
+            "version": "3.4.1"
+          },
+          {
+            "name": "redux-logger",
+            "version": "3.0.6"
+          },
+          {
+            "name": "redux-mock-store",
+            "version": "1.5.1"
+          },
+          {
+            "name": "regenerator-runtime",
+            "version": "0.11.1"
+          },
+          {
+            "name": "sinon",
+            "version": "4.3.0"
+          },
+          {
+            "name": "style-loader",
+            "version": "0.20.2"
+          },
+          {
+            "name": "stylelint",
+            "version": "8.4.0"
+          },
+          {
+            "name": "stylelint-webpack-plugin",
+            "version": "0.10.2"
+          },
+          {
+            "name": "uncss",
+            "version": "0.16.1"
+          },
+          {
+            "name": "url-loader",
+            "version": "0.6.2"
+          },
+          {
+            "name": "webpack",
+            "version": "3.11.0"
+          },
+          {
+            "name": "webpack-dev-middleware",
+            "version": "2.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "941390be32826e5d26e10f68257bb7cc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-02-18T23:31:14.505Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d9290e1aa214ac20f876ddc8466708c6",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "updatedAt": 1518996677353,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8d4b1bd249ba4e95071eab874c65bc7a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1518996677356,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fa9c15bd5ade08c019fba9af9b2b88a1",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "d5b4e4d0fda538eeffbbe1e4e5d49f62"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

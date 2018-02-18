@@ -1,0 +1,171 @@
+@import '../utils/variables.css';
+@import '../utils/mixins.css';
+
+$toggleColor: color-mod($white alpha(0.8));
+
+.navbar {
+	composes: navbar from '../vendor/bootstrap.css';
+	composes: navbar-expand-lg from '../vendor/bootstrap.css';
+	background-color: transparent;
+
+	@media (--desktopUp) {
+		background-color: $blue;
+	}
+
+	.dropdownItem {
+		padding: 0.4rem 0.5rem;
+	}
+}
+
+.brand {
+	composes: navbar-brand from '../vendor/bootstrap.css';
+	@include fontSize(24, 24);
+	font-family: $heading;
+	color: $white;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.75);
+
+	@include desktopUp {
+		display: none;
+	}
+}
+
+.toggler {
+	composes: navbar-toggler from '../vendor/bootstrap.css';
+	border-color: $toggleColor;
+	color: $toggleColor;
+	outline: none !important;
+}
+
+.togglerIcon {
+	composes: navbar-toggler-icon from '../vendor/bootstrap.css';
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.collapse {
+	composes: collapse from '../vendor/bootstrap.css';
+	composes: navbar-collapse from '../vendor/bootstrap.css';
+	display: block;
+
+	@media (--collapseDown) {
+		background-color: color-mod($blue alpha(1));
+		height: 100%;
+		margin-left: -1rem;
+		margin-right: -1rem;
+		margin-top: 0;
+		padding: 1rem;
+		position: fixed;
+		width: 320px;
+		right: 0;
+		top: 0;
+		transition: transform 0.3s;
+		transform: translate3d(320px, 0, 0);
+		z-index: 3;
+	}
+}
+
+.collapseActive {
+	composes: collapse;
+
+	@media (--collapseDown) {
+		transform: translate3d(-1rem, 0, 0);
+	}
+}
+
+.backdrop {
+	@media (--collapseDown) {
+		background-color: color-mod($black alpha(0.4));
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		visibility: hidden;
+		transition: opacity 0.3s, visibility 0s 0.3s;
+		z-index: 2;
+	}
+}
+
+.backdropActive {
+	composes: backdrop;
+	opacity: 1;
+	visibility: visible;
+	transition: opacity 0.3s, visibility 0s;
+}
+
+.close {
+	composes: fa from '../vendor/fontawesome-all.css';
+	composes: fa-times from '../vendor/fontawesome-all.css';
+	@include fontSize(20, 20);
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.menu {
+	composes: navbar-nav from '../vendor/bootstrap.css';
+	composes: mr-auto from '../vendor/bootstrap.css';
+	composes: ml-auto from '../vendor/bootstrap.css';
+}
+
+.navItem {
+	composes: nav-item from '../vendor/bootstrap.css';
+	@include fontSize(15, 15);
+	text-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.75);
+	text-transform: uppercase;
+}
+
+.navLink {
+	composes: nav-link from '../vendor/bootstrap.css';
+	color: $black;
+	cursor: pointer;
+
+	&:hover,
+	&:active {
+		background-color: transparent;
+		color: $black;
+	}
+}
+
+.navDropdown {
+	composes: nav-item from '../vendor/bootstrap.css';
+	composes: dropdown from '../vendor/bootstrap.css';
+	composes: navItem;
+
+	@include desktopUp {
+		&:hover {
+			.dropdownMenu {
+				display: block;
+			}
+		}
+	}
+}
+
+.dropdownMenu {
+	composes: dropdown-menu from '../vendor/bootstrap.css';
+	background-color: transparent;
+	border: none;
+	margin: 0;
+
+	@media (--desktopUp) {
+		background-color: $blue;
+	}
+
+	@media (--collapseDown) {
+		display: block;
+		padding: 0;
+	}
+}
+
+.dropdownItem {
+	composes: dropdown-item from '../vendor/bootstrap.css';
+	composes: navLink;
+}
+
+.toggle {
+	composes: navLink;
+	composes: dropdown-toggle from '../vendor/bootstrap.css';
+}

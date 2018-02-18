@@ -1,0 +1,73 @@
+@import "../utils/variables.css";
+@import "../utils/mixins.css";
+
+.header {
+	position: relative;
+}
+
+.imageDesktop {
+	background-image: url('../../img/header.jpg');
+	background-repeat: no-repeat;
+	background-size: 950px 322px;
+	display: none;
+	height: 322px;
+	position: relative;
+
+	@include desktopUp {
+		display: block;
+	}
+}
+
+.imageMobile {
+	display: block;
+	position: relative;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	@include desktopUp {
+		display: none;
+	}
+
+	&::before {
+		background-color: color-mod($black alpha(0.2));
+		content: ' ';
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 0;
+	}
+}
+
+.title {
+	@include fontSize(40, 40);
+	bottom: 20px;
+	color: $grey;
+	display: block;
+	font-family: $heading;
+	letter-spacing: 3px;
+	position: absolute;
+	right: 20px;
+	text-shadow: 1px 1px 5px $black;
+}
+
+.cta {
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 0;
+}
+
+.navWrap {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+
+	@media (--desktopUp) {
+		position: relative;
+	}
+}
