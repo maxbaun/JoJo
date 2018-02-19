@@ -163,3 +163,66 @@ export const images = fromJS([
 	i31,
 	i32
 ]);
+
+export const videos = fromJS([
+	{
+		src: 'https://player.vimeo.com/video/139323117',
+		source: 'vimeo'
+	},
+	{
+		src: 'https://player.vimeo.com/video/132044473',
+		source: 'vimeo'
+	},
+	{
+		src: 'http://www.youtube.com/embed/_HsIMavl-SY?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/jsOb_g_sUf4?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/DxMKyko9uls?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/gpgzFFdNUD0?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/ma74FuMl7Ig?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/paIsVP_k3QI?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/NywL39BImIk?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/XyfNkurhVxM?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/Xqp8GNKWvmE?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/47CUBTIVhDY?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/0z8mWkDAVRM?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/pJ3S7IiOWw0?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	},
+	{
+		src: 'http://www.youtube.com/embed/TsydUkuJsPo?rel=0&fs=1&showinfo=1',
+		source: 'youtube'
+	}
+]);

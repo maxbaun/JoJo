@@ -139,7 +139,8 @@ $toggleColor: color-mod($white alpha(0.8));
 	cursor: pointer;
 
 	&:hover,
-	&:active {
+	&:active,
+	&:focus {
 		background-color: transparent;
 		color: $black;
 	}
