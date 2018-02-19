@@ -15,6 +15,13 @@ $toggleColor: color-mod($white alpha(0.8));
 	.dropdownItem {
 		padding: 0.4rem 0.5rem;
 	}
+
+	.navLink {
+		@media (--desktopUp) {
+			padding-left: 1.25rem !important;
+			padding-right: 1.1rem !important;
+		}
+	}
 }
 
 .brand {
@@ -23,7 +30,11 @@ $toggleColor: color-mod($white alpha(0.8));
 	font-family: $heading;
 	color: $white;
 	letter-spacing: 3px;
-	text-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.75);
+	text-shadow: $headingShadow;
+
+	&:hover {
+		color: $white;
+	}
 
 	@include desktopUp {
 		display: none;
@@ -103,6 +114,10 @@ $toggleColor: color-mod($white alpha(0.8));
 	position: absolute;
 	top: 20px;
 	right: 20px;
+
+	@media (--desktopUp) {
+		display: none;
+	}
 }
 
 .menu {
@@ -168,4 +183,11 @@ $toggleColor: color-mod($white alpha(0.8));
 .toggle {
 	composes: navLink;
 	composes: dropdown-toggle from '../vendor/bootstrap.css';
+
+	&::after {
+		@include icon;
+		border: none;
+		content: '\f078';
+		vertical-align: top;
+	}
 }

@@ -1,10 +1,10 @@
 module.exports = {
 	plugins: [
-		require('stylelint'),
+		// require('stylelint'),
 		require('postcss-import'),
 		// require('postcss-automath'),
 		require('precss'),
-		require('postcss-color-function'),
+		// require('postcss-color-function'),
 		// require('postcss-mixins'),
 		require('postcss-utilities'),
 		// require('postcss-simple-vars'),

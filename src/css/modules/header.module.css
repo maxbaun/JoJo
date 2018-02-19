@@ -3,6 +3,15 @@
 
 .header {
 	position: relative;
+	height: 273px;
+
+	@media (--smallUp) {
+		height: 400px;
+	}
+
+	@media (--desktopUp) {
+		height: auto;
+	}
 }
 
 .imageDesktop {
@@ -19,12 +28,16 @@
 }
 
 .imageMobile {
-	display: block;
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	overflow: hidden;
 	position: relative;
 
 	img {
-		width: 100%;
-		height: auto;
+		width: auto;
+		height: 100%;
 	}
 
 	@include desktopUp {
@@ -32,7 +45,7 @@
 	}
 
 	&::before {
-		background-color: color-mod($black alpha(0.2));
+		background-color: color-mod($black alpha(0.1));
 		content: ' ';
 		height: 100%;
 		left: 0;
@@ -52,7 +65,17 @@
 	letter-spacing: 3px;
 	position: absolute;
 	right: 20px;
-	text-shadow: 1px 1px 5px $black;
+	text-shadow: $headingShadow;
+}
+
+.subtitle {
+	composes: title;
+	@include fontSize(24, 24);
+	bottom: auto;
+	margin-bottom: 1rem;
+	position: relative;
+	right: auto;
+	text-align: center;
 }
 
 .cta {
@@ -60,6 +83,22 @@
 	position: absolute;
 	right: 20px;
 	top: 0;
+}
+
+.ctaMobile {
+	align-items: center;
+	bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	left: 0;
+	margin: 0 auto;
+	width: 90%;
+	right: 0;
+	position: absolute;
+}
+
+.button {
+	composes: primary from '../utils/buttons.css';
 }
 
 .navWrap {

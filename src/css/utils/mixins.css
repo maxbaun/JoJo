@@ -1,3 +1,5 @@
+@import './variables.css';
+
 $xs     : 576px;
 $sm     : 768px;
 $md     : 992px;
@@ -26,6 +28,8 @@ $md-max : ($lg - 1);
 
 @custom-media --collapseDown (max-width: $sm-max);
 
+@custom-media --smallUp (min-width: $xs);
+@custom-media --tabletUp (min-width: $sm);
 @custom-media --desktopUp (min-width: $md);
 
 @mixin tablet{
@@ -61,6 +65,17 @@ $md-max : ($lg - 1);
 @mixin fontSize($sizeValue: 1.6, $line: $sizeValue * 1.5) {
 	font-size: calc($sizeValue * 1px) !important;
 	line-height: calc($line * 1px) !important;
-	font-size: calc(calc($line / 10) * 1rem) !imporant;
+	font-size: calc(calc($line / 10) * 1rem) !imporant; /* stylelint-disable */
 	line-height: calc(calc($line / 10) * 1rem) !imporant;
+}
+
+@mixin noLink {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+@mixin icon {
+	font-family: $fontIcon;
+	font-weight: 900;
 }

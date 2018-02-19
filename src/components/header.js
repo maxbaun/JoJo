@@ -5,37 +5,36 @@ import Link from 'gatsby-link';
 import CSS from '../css/modules/header.module.css';
 import Navbar from './navbar';
 
-import ctaImage from '../img/db-link.png';
 import headerImage from '../img/header.jpg';
 
-const Header = ({title}) => {
+const Header = ({title, subtitle}) => {
 	return (
 		<header className={CSS.header}>
 			<div className={CSS.imageDesktop}>
-				<h1 className={CSS.title}>{title}</h1>
-				<div className={CSS.cta}>
-					<Link to="/dolphin-behavior">
-						<img src={ctaImage} width="216"/>
-					</Link>
-				</div>
+				<Link to="/"><h1 className={CSS.title}>{title}</h1></Link>
 			</div>
 			<div className={CSS.navWrap}>
-				<Navbar/>
+				<Navbar brand={title}/>
 			</div>
 
 			<div className={CSS.imageMobile}>
 				<img src={headerImage} alt="JoJo and Jay"/>
+				<div className={CSS.ctaMobile}>
+					<h1 className={CSS.subtitle}>{subtitle}</h1>
+				</div>
 			</div>
 		</header>
 	);
 };
 
 Header.propTypes = {
-	title: PropTypes.string
+	title: PropTypes.string,
+	subtitle: PropTypes.string
 };
 
 Header.defaultProps = {
-	title: ''
+	title: '',
+	subtitle: ''
 };
 
 export default Header;

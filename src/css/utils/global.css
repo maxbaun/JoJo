@@ -1,6 +1,9 @@
+@import './variables.css';
+
 body {
-	background-image: url('../img/body-bg.jpg');
+	background-image: url('../../img/body-bg.jpg');
 	background-repeat: repeat-x;
+	font-family: $font;
 	font-size: 14px;
 	margin: 0;
 }

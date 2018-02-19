@@ -1,0 +1,18 @@
+@import './variables.css';
+
+.btn {
+	composes: btn from '../vendor/bootstrap.css';
+}
+
+.primary {
+	composes: btn;
+	background-color: $green;
+	border-color: $green;
+	color: $white;
+
+	&:hover {
+		background-color: $greenDark;
+		border-color: $greenDark;
+		color: $white;
+	}
+}

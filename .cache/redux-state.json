@@ -8,7 +8,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1518996677347,
+      "updatedAt": 1519004626191,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cc242f0b5421425269442adec69daef3",
+        "contentDigest": "5ee65313be360eb2310739db6c857e90",
         "owner": "internal-data-bridge"
       }
     },
@@ -677,12 +677,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-18T23:31:14.505Z",
+      "buildTime": "2018-02-19T01:43:43.815Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d9290e1aa214ac20f876ddc8466708c6",
+        "contentDigest": "cf8b5a785b2954b893cf6465de0df614",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -695,7 +695,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
-      "updatedAt": 1518996677353,
+      "updatedAt": 1519004626197,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
@@ -704,7 +704,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8d4b1bd249ba4e95071eab874c65bc7a",
+        "contentDigest": "046a2b7b04f18b09965c9f7a5c821d74",
         "owner": "internal-data-bridge"
       }
     },
@@ -716,7 +716,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1518996677356,
+      "updatedAt": 1519004626198,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
@@ -725,7 +725,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fa9c15bd5ade08c019fba9af9b2b88a1",
+        "contentDigest": "1c187a4d319c5e6e52d13c0c7a8f7144",
         "owner": "internal-data-bridge"
       }
     }

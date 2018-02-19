@@ -1,102 +1,11 @@
-import React from 'react';
-import {fromJS} from 'immutable';
+import React, {Fragment} from 'react';
 import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
 import {bind} from 'lodash-decorators';
 
 import {click} from '../utils/componentHelpers';
 import CSS from '../css/modules/navbar.module.css';
-
-const navbarBrand = 'JoJo And Jay';
-const primaryNavItems = fromJS([
-	{
-		name: 'Home',
-		link: '/'
-	},
-	{
-		name: 'About',
-		link: '/about'
-	},
-	{
-		name: 'Photos',
-		link: '/photos'
-	},
-	{
-		name: 'Videos',
-		link: '/videos'
-	},
-	{
-		name: 'JoJo & Friends',
-		link: '#',
-		dropdown: [
-			{
-				name: 'JoJo',
-				link: '/jojo'
-			},
-			{
-				name: 'Mojo',
-				link: '/mojo'
-			},
-			{
-				name: 'Raggedy Anne',
-				link: '/raggedyanne'
-			},
-			{
-				name: 'Bo',
-				link: '/bo'
-			},
-			{
-				name: 'Lemon Lips',
-				link: '/lemonlips'
-			},
-			{
-				name: 'Piney',
-				link: '/piney'
-			},
-			{
-				name: 'Scarside',
-				link: '/scarside'
-			},
-			{
-				name: 'Julia & Friskey',
-				link: '/julia'
-			},
-			{
-				name: 'Whitey',
-				link: '/whitey'
-			},
-			{
-				name: 'Whizzer',
-				link: '/whizzer'
-			},
-			{
-				name: 'Snipper',
-				link: '/snipper'
-			},
-			{
-				name: 'White Tip',
-				link: '/whitetip'
-			}
-		]
-	},
-	{
-		name: 'Stories',
-		link: 'http://jojo-stories.blogspot.com',
-		target: '_blank'
-	},
-	{
-		name: 'Shop',
-		link: '/shop'
-	},
-	{
-		name: 'Blog',
-		link: 'http://jojo-and-jay.blogspot.com',
-		target: '_blank'
-	},
-	{
-		name: 'Contact Me',
-		link: 'mailto:spssargent@gmail.com'
-	}
-]);
+import {primaryNavItems} from '../constants';
 
 export default class Navbar extends React.Component {
 	constructor(props) {
@@ -106,6 +15,14 @@ export default class Navbar extends React.Component {
 			active: false
 		};
 	}
+
+	static propTypes = {
+		brand: PropTypes.string
+	};
+
+	static defaultProps = {
+		brand: ''
+	};
 
 	@bind()
 	handleToggle() {
@@ -125,10 +42,11 @@ export default class Navbar extends React.Component {
 
 	render() {
 		const {active} = this.state;
+		const {brand} = this.props;
 
 		return (
 			<nav className={CSS.navbar}>
-				<a className={CSS.brand} href="/">{navbarBrand}</a>
+				<Link className={CSS.brand} to="/">{brand}</Link>
 				<button
 					className={CSS.toggler}
 					onClick={click(this.handleToggle)}
@@ -165,8 +83,15 @@ export default class Navbar extends React.Component {
 				</span>
 				<div className={CSS.dropdownMenu} aria-labelledby="navbarDropdown">
 					{item.get('dropdown').map(child => {
+						const external = child.get('link').indexOf('//') > -1 || child.get('link').indexOf('mailto') > -1;
+
 						return (
-							<Link key={child.get('name')} className={CSS.dropdownItem} to={child.get('link')}>{child.get('name')}</Link>
+							<Fragment key={child.get('name')}>
+								{external ?
+									<a className={CSS.dropdownItem} href={child.get('link')} target="_blank">{child.get('name')}</a> :
+									<Link className={CSS.dropdownItem} to={child.get('link')}>{child.get('name')}</Link>
+								}
+							</Fragment>
 						);
 					})}
 				</div>

@@ -1,0 +1,36 @@
+@import '../utils/variables.css';
+@import '../utils/mixins.css';
+
+.copy {
+	background-color: $blueLight;
+	padding: 1.2rem 0;
+	text-align: center;
+
+	span {
+		font-weight: 700;
+	}
+
+	a {
+		@include noLink;
+		color: $black;
+
+		&:hover {
+			color: $black;
+		}
+	}
+}
+
+.islandInfo {
+	background-color: $black;
+	padding: 2rem 0;
+	text-align: center;
+
+	a {
+		@include noLink;
+		color: $white;
+
+		&:hover {
+			color: $blueDark;
+		}
+	}
+}
