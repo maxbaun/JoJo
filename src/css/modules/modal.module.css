@@ -1,0 +1,44 @@
+@import '../utils/variables.css';
+@import '../utils/mixins.css';
+
+.modal {
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1001;
+}
+
+.overlay {
+	background-color: color-mod($black alpha(0.5));
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.wrap {
+	border-radius: 2px;
+	height: 90%;
+	margin: 5% auto;
+	max-height: 80%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 90%;
+}
+
+.close {
+	composes: fa from '../vendor/fontawesome-all.css';
+	composes: fa-times from '../vendor/fontawesome-all.css';
+	@include fontSize(24, 24);
+	color: $white;
+	cursor: pointer;
+	opacity: 0.6;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}

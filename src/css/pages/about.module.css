@@ -1,0 +1,18 @@
+@import '../utils/mixins.css';
+@import '../utils/variables.css';
+
+.info {
+	margin-bottom: 1rem;
+
+	img {
+		display: block;
+		width: auto;
+		height: 188px;
+		margin: 0 auto 0.9rem;
+	}
+
+	span {
+		display: block;
+		padding: 0 0.5rem;
+	}
+}

@@ -1,0 +1,65 @@
+@import '../utils/variables.css';
+@import '../utils/mixins.css';
+
+.carousel {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.inner {
+	padding: 0 70px;
+
+	.slick-list {
+		display: flex;
+	}
+}
+
+.arrowleft,
+.arrowright {
+	cursor: pointer;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 50px;
+	z-index: 1;
+}
+
+.arrowleft {
+	left: 0;
+
+	&:hover {
+		.iconleft {
+			opacity: 0.8;
+		}
+	}
+}
+
+.arrowright {
+	right: 0;
+
+	&:hover {
+		.iconright {
+			opacity: 0.8;
+		}
+	}
+}
+
+.iconleft,
+.iconright {
+	composes: fa from '../vendor/fontawesome-all.css';
+	@include fontSize(36, 36);
+	color: $white;
+	margin-top: -18px;
+	opacity: 0.5;
+	position: absolute;
+	top: 50%;
+	transition: opacity 0.3s;
+}
+
+.iconleft {
+	composes: fa-chevron-left from '../vendor/fontawesome-all.css';
+}
+
+.iconright {
+	composes: fa-chevron-right from '../vendor/fontawesome-all.css';
+}

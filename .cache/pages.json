@@ -19,5 +19,19 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "index.json",
         "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-photos-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "photos.json",
+        "path": "/photos/"
+    },
+    {
+        "componentChunkName": "component---src-pages-videos-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "videos.json",
+        "path": "/videos/"
     }
 ]

@@ -5,8 +5,8 @@ $sm     : 768px;
 $md     : 992px;
 $sm-max : 991px;
 $lg     : 1200px;
-$xs-max : ($sm - 1);
-$md-max : ($lg - 1);
+$xs-max : 767px;
+$md-max : 1199px;
 
 @mixin widescreen{
 	@media (min-width: $lg){
@@ -26,6 +26,7 @@ $md-max : ($lg - 1);
 	}
 }
 
+@custom-media --mobile(max-width: $xs-max);
 @custom-media --collapseDown (max-width: $sm-max);
 
 @custom-media --smallUp (min-width: $xs);
@@ -78,4 +79,11 @@ $md-max : ($lg - 1);
 @mixin icon {
 	font-family: $fontIcon;
 	font-weight: 900;
+}
+
+@mixin noList {
+	list-style: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }

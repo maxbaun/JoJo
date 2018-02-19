@@ -1,0 +1,49 @@
+@import '../utils/variables.css';
+@import '../utils/mixins.css';
+
+.gallery {
+	display: block;
+}
+
+.galleryInner {
+	@include noList;
+	display: flex;
+
+	&:hover {
+		.item {
+			opacity: 0.5;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.item {
+	cursor: pointer;
+	transition: opacity 0.3s;
+	width: 50%;
+
+	@media (--tabletUp) {
+		max-width: none;
+		width: calc(100% / 4);
+	}
+
+	img {
+		height: auto;
+		width: 100%;
+	}
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.galleryCarousel {
+	img {
+		height: auto;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+}

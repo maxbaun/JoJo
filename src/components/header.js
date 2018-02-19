@@ -7,14 +7,14 @@ import Navbar from './navbar';
 
 import headerImage from '../img/header.jpg';
 
-const Header = ({title, subtitle}) => {
+const Header = ({brand, title, subtitle}) => {
 	return (
 		<header className={CSS.header}>
 			<div className={CSS.imageDesktop}>
 				<Link to="/"><h1 className={CSS.title}>{title}</h1></Link>
 			</div>
 			<div className={CSS.navWrap}>
-				<Navbar brand={title}/>
+				<Navbar brand={brand}/>
 			</div>
 
 			<div className={CSS.imageMobile}>
@@ -28,11 +28,13 @@ const Header = ({title, subtitle}) => {
 };
 
 Header.propTypes = {
+	brand: PropTypes.string,
 	title: PropTypes.string,
 	subtitle: PropTypes.string
 };
 
 Header.defaultProps = {
+	brand: '',
 	title: '',
 	subtitle: ''
 };

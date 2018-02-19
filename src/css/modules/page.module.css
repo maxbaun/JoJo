@@ -1,0 +1,14 @@
+@import '../utils/variables.css';
+@import '../utils/mixins.css';
+
+.page {
+	padding: 1rem 0;
+}
+
+.title {
+	@include fontSize(30, 30);
+	font-family: $heading;
+	letter-spacing: 3px;
+	margin: 0.25rem 0 1rem;
+	text-align: center;
+}

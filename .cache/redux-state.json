@@ -8,7 +8,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519004626191,
+      "updatedAt": 1519070079195,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5ee65313be360eb2310739db6c857e90",
+        "contentDigest": "ee66cf7dc99c5366bc63bbbe791394e3",
         "owner": "internal-data-bridge"
       }
     },
@@ -245,11 +245,13 @@
       "resolve": "/Users/maxbaun/Projects/JoJo",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d41d8cd98f00b204e9800998ecf8427e",
+      "version": "24743c682126876f2a69fedbeccce8a8",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/maxbaun/Projects/JoJo",
@@ -305,6 +307,10 @@
             "version": "4.5.0"
           },
           {
+            "name": "masonry-layout",
+            "version": "^4.2.1"
+          },
+          {
             "name": "moment",
             "version": "2.20.1"
           },
@@ -337,6 +343,10 @@
             "version": "^3.2.0"
           },
           {
+            "name": "react-masonry-component",
+            "version": "^6.0.2"
+          },
+          {
             "name": "react-motion",
             "version": "0.5.2"
           },
@@ -351,6 +361,10 @@
           {
             "name": "react-router-redux",
             "version": "4.0.8"
+          },
+          {
+            "name": "react-slick",
+            "version": "^0.18.1"
           },
           {
             "name": "react-visibility-sensor",
@@ -666,7 +680,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "941390be32826e5d26e10f68257bb7cc",
+        "contentDigest": "c1844993c8861a662f2b0ebdd3939ecb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -677,12 +691,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-19T01:43:43.815Z",
+      "buildTime": "2018-02-19T19:54:36.606Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cf8b5a785b2954b893cf6465de0df614",
+        "contentDigest": "1c5c9d00d9a0b05a3ea563cab4db7b1f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -695,7 +709,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
-      "updatedAt": 1519004626197,
+      "updatedAt": 1519070079209,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
@@ -704,7 +718,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "046a2b7b04f18b09965c9f7a5c821d74",
+        "contentDigest": "c98afeb708b714deb73127302c1169a7",
         "owner": "internal-data-bridge"
       }
     },
@@ -716,7 +730,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1519004626198,
+      "updatedAt": 1519070079211,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
@@ -725,14 +739,56 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1c187a4d319c5e6e52d13c0c7a8f7144",
+        "contentDigest": "ff2a342217d0365d330ad77df8f9765f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /photos/": {
+      "layout": "index",
+      "jsonName": "photos.json",
+      "internalComponentName": "ComponentPhotos",
+      "path": "/photos/",
+      "component": "/Users/maxbaun/Projects/JoJo/src/pages/photos.js",
+      "componentChunkName": "component---src-pages-photos-js",
+      "context": {},
+      "updatedAt": 1519070079212,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/photos.js",
+      "id": "SitePage /photos/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "41443d459810d1f824dcee0b31e86314",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /videos/": {
+      "layout": "index",
+      "jsonName": "videos.json",
+      "internalComponentName": "ComponentVideos",
+      "path": "/videos/",
+      "component": "/Users/maxbaun/Projects/JoJo/src/pages/videos.js",
+      "componentChunkName": "component---src-pages-videos-js",
+      "context": {},
+      "updatedAt": 1519070079214,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/videos.js",
+      "id": "SitePage /videos/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "85efeb7023668088731deb22553d761e",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "d5b4e4d0fda538eeffbbe1e4e5d49f62"
+    "PLUGINS_HASH": "756bd7d95a28ebbcecb2d436c972b6a5"
   },
   "componentDataDependencies": {
     "nodes": {},
