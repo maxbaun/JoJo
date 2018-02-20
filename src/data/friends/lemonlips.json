@@ -13,23 +13,23 @@
 	],
 	"videos" : [
 		{
-			"src": "https://player.vimeo.com/video/149924029",
+			"src": "//player.vimeo.com/video/149924029",
 			"source": "vimeo"
 		},
 		{
-			"src": "https://player.vimeo.com/video/149958729",
+			"src": "//player.vimeo.com/video/149958729",
 			"source": "vimeo"
 		},
 		{
-			"src": "https://player.vimeo.com/video/139253537",
+			"src": "//player.vimeo.com/video/139253537",
 			"source": "vimeo"
 		},
 		{
-			"src": "http://www.youtube.com/embed/fn25FTgPyFo?rel=0&fs=1&showinfo=1",
+			"src": "//www.youtube.com/embed/fn25FTgPyFo?rel=0&fs=1&showinfo=1",
 			"source": "youtube"
 		},
 		{
-			"src": "http://www.youtube.com/embed/cW9yjwN3wCs?rel=0&fs=1&showinfo=1",
+			"src": "//www.youtube.com/embed/cW9yjwN3wCs?rel=0&fs=1&showinfo=1",
 			"source": "youtube"
 		}
 	]

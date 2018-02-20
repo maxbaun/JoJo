@@ -1,0 +1,20 @@
+{
+	"public" : "true",
+	"path": "/behavior/fishing",
+	"name" : "Fishing",
+	"description": "<p>Crater fishing is when a dolphin uses echolocation to find fish under the sand. They plunge their rostrum into the sand and bring up a fish.</p>",
+	"sections" : [
+		{
+			"videos" : [
+				{
+					"src": "//player.vimeo.com/video/250134938",
+					"source": "vimeo"
+				},
+				{
+					"src": "//player.vimeo.com/video/250134953",
+					"source": "vimeo"
+				}
+			]
+		}
+	]
+}

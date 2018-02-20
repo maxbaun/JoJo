@@ -1,0 +1,16 @@
+{
+	"public" : "true",
+	"path": "/behavior/nursing",
+	"name" : "Nursing",
+	"description": "<p>Calves nurse from their moms by pressing their rostrums into their mother’s mammillary slit. The mom squirts some rich milk into their mouth.</p>",
+	"sections" : [
+		{
+			"videos" : [
+				{
+					"src": "//player.vimeo.com/video/250136555",
+					"source": "vimeo"
+				}
+			]
+		}
+	]
+}

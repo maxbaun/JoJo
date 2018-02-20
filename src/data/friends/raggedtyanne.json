@@ -18,11 +18,11 @@
 	],
 	"videos" : [
 		{
-			"src": "https://player.vimeo.com/video/139251411",
+			"src": "//player.vimeo.com/video/139251411",
 			"source": "vimeo"
 		},
 		{
-			"src": "http://www.youtube.com/embed/wGateJRZTjI?rel=0&fs=1&showinfo=1",
+			"src": "//www.youtube.com/embed/wGateJRZTjI?rel=0&fs=1&showinfo=1",
 			"source": "youtube"
 		}
 	]

@@ -1,0 +1,20 @@
+@import '../utils/mixins.css';
+@import '../utils/variables.css';
+
+.description,
+.section {
+	padding: 0.5rem 0;
+}
+
+.header {
+	margin: 0 auto;
+	max-width: 475px;
+}
+
+.featuredImage {
+	margin-bottom: 0.5rem;
+}
+
+.sectionTitle {
+	composes: subtitle from './dolphin.module.css';
+}

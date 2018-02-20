@@ -75,7 +75,41 @@ export const primaryNavItems = fromJS([
 	},
 	{
 		name: 'Dolphin Behavior',
-		link: '/dolphin-behavior'
+		link: '#',
+		dropdown: [
+			{
+				name: 'Affection',
+				link: '/behavior/affection'
+			},
+			{
+				name: 'Bubbles',
+				link: '/behavior/bubbles'
+			},
+			{
+				name: 'Fishing',
+				link: '/behavior/fishing'
+			},
+			{
+				name: 'Harassing Nurse Sharks',
+				link: '/behavior/harassing-nurse-sharks'
+			},
+			{
+				name: 'Nursing',
+				link: '/behavior/nursing'
+			},
+			{
+				name: 'Playing',
+				link: '/behavior/playing'
+			},
+			{
+				name: 'Sex',
+				link: '/behavior/sex'
+			},
+			{
+				name: 'Signature Whistle',
+				link: '/behavior/signature-whistle'
+			}
+		]
 	},
 	{
 		name: 'Shop',

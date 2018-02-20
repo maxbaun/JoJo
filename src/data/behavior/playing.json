@@ -1,0 +1,71 @@
+{
+	"public" : "true",
+	"path": "/behavior/playing",
+	"name" : "Playing",
+	"description": "<p>Dolphins love to play. They are creative and opportunistic with their play!</p>",
+	"sections": [
+		{
+			"title": "Bow Wave Riding",
+			"videos" : [
+				{
+					"src": "//player.vimeo.com/video/250137559",
+					"source": "vimeo"
+				}
+			]
+		},
+		{
+			"title": "Wake Surfing",
+			"videos": [
+				{
+					"src": "//player.vimeo.com/video/251853391",
+					"source": "vimeo"
+				}
+			]
+		},
+		{
+			"title": "Fish Throwing",
+			"videos": [
+				{
+					"src": "//player.vimeo.com/video/250137547",
+					"source": "vimeo"
+				}
+			]
+		},
+		{
+			"title": "Dolphin Jewelry",
+			"description": "<p>Dolphins like to drape seaweed over their pectoral fins (pecs), flukes and rostrums in play. I call it accessorizing!</p>",
+			"videos": [
+				{
+					"src" : "//player.vimeo.com/video/250133795",
+					"source": "vimeo"
+				},
+				{
+					"src" : "//player.vimeo.com/video/251862973",
+					"source": "vimeo"
+				}
+			]
+		},
+		{
+			"title": "Porpoising for Fun",
+			"videos": [
+				{
+					"src" : "//player.vimeo.com/video/250137839",
+					"source": "vimeo"
+				},
+				{
+					"src" : "//player.vimeo.com/video/250137550",
+					"source": "vimeo"
+				}
+			]
+		},
+		{
+			"title": "Soccer With Fish",
+			"videos": [
+				{
+					"src" : "//player.vimeo.com/video/250137497",
+					"source": "vimeo"
+				}
+			]
+		}
+	]
+}

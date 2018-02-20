@@ -8,15 +8,15 @@
 	},
 	"videos" : [
 		{
-			"src": "http://www.youtube.com/embed/vy-ismXo4yQ?rel=0&fs=1&showinfo=1",
+			"src": "//www.youtube.com/embed/vy-ismXo4yQ?rel=0&fs=1&showinfo=1",
 			"source": "youtube"
 		},
 		{
-			"src": "http://www.youtube.com/embed/NRhVetrD4cs?rel=0&fs=1&showinfo=1",
+			"src": "//www.youtube.com/embed/NRhVetrD4cs?rel=0&fs=1&showinfo=1",
 			"source": "youtube"
 		},
 		{
-			"src": "http://www.youtube.com/embed/BadbcaaDWk8?rel=0&fs=1&showinfo=1",
+			"src": "//www.youtube.com/embed/BadbcaaDWk8?rel=0&fs=1&showinfo=1",
 			"source": "youtube"
 		}
 	]

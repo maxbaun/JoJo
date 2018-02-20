@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import CSS from '../css/modules/video.module.css';
 
-const Video = ({src, maxWidth}) => {
+const Video = ({src, maxWidth, caption}) => {
 	const style = {
 		maxWidth
 	};
@@ -19,6 +19,7 @@ const Video = ({src, maxWidth}) => {
 					allowFullScreen
 				/>
 			</div>
+			{caption && caption !== '' ? <small className={CSS.caption}>{caption}</small> : null}
 		</div>
 	);
 };
@@ -26,11 +27,13 @@ const Video = ({src, maxWidth}) => {
 Video.propTypes = {
 	src: PropTypes.string.isRequired,
 	source: PropTypes.string.isRequired,
-	maxWidth: PropTypes.string
+	maxWidth: PropTypes.string,
+	caption: PropTypes.string
 };
 
 Video.defaultProps = {
-	maxWidth: 'none'
+	maxWidth: 'none',
+	caption: ''
 };
 
 export default Video;

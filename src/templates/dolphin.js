@@ -12,7 +12,6 @@ import Image from '../components/image';
 import Gallery from '../components/gallery';
 
 const Dolphin = ({data: d}) => {
-	console.log(d);
 	const data = fromJS(d.friendsJson);
 
 	return (

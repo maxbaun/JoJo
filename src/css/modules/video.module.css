@@ -1,6 +1,11 @@
+@import '../utils/mixins.css';
+
+.videoWrap {
+	margin-bottom: 1rem;
+}
+
 .video {
 	height: 0;
-	margin-bottom: 1rem;
 	padding-bottom: 56.25%;
 	padding-top: 25px;
 	position: relative;
@@ -12,4 +17,8 @@
 		top: 0;
 		width: 100%;
 	}
+}
+
+.caption {
+	@include fontSize(12, 12);
 }

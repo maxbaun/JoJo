@@ -17,15 +17,15 @@
         "componentChunkName": "component---src-templates-dolphin-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "julia-frisky.json",
-        "path": "/julia-frisky"
+        "jsonName": "lemonlips.json",
+        "path": "/lemonlips"
     },
     {
         "componentChunkName": "component---src-templates-dolphin-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "lemonlips.json",
-        "path": "/lemonlips"
+        "jsonName": "julia-frisky.json",
+        "path": "/julia-frisky"
     },
     {
         "componentChunkName": "component---src-templates-dolphin-js",
@@ -40,20 +40,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "piney.json",
         "path": "/piney"
-    },
-    {
-        "componentChunkName": "component---src-templates-dolphin-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "raggedyanne.json",
-        "path": "/raggedyanne"
-    },
-    {
-        "componentChunkName": "component---src-templates-dolphin-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "scarside.json",
-        "path": "/scarside"
     },
     {
         "componentChunkName": "component---src-templates-dolphin-js",
@@ -75,6 +61,76 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "whizzer.json",
         "path": "/whizzer"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "raggedyanne.json",
+        "path": "/raggedyanne"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "scarside.json",
+        "path": "/scarside"
+    },
+    {
+        "componentChunkName": "component---src-templates-behavior-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "behavior-affection.json",
+        "path": "/behavior/affection"
+    },
+    {
+        "componentChunkName": "component---src-templates-behavior-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "behavior-playing.json",
+        "path": "/behavior/playing"
+    },
+    {
+        "componentChunkName": "component---src-templates-behavior-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "behavior-fishing.json",
+        "path": "/behavior/fishing"
+    },
+    {
+        "componentChunkName": "component---src-templates-behavior-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "behavior-sex.json",
+        "path": "/behavior/sex"
+    },
+    {
+        "componentChunkName": "component---src-templates-behavior-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "behavior-signature-whistle.json",
+        "path": "/behavior/signature-whistle"
+    },
+    {
+        "componentChunkName": "component---src-templates-behavior-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "behavior-bubbles.json",
+        "path": "/behavior/bubbles"
+    },
+    {
+        "componentChunkName": "component---src-templates-behavior-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "behavior-harassing-nurse-sharks.json",
+        "path": "/behavior/harassing-nurse-sharks"
+    },
+    {
+        "componentChunkName": "component---src-templates-behavior-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "behavior-nursing.json",
+        "path": "/behavior/nursing"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",

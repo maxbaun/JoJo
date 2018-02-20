@@ -1,0 +1,23 @@
+{
+	"public" : "true",
+	"path": "/behavior/harassing-nurse-sharks",
+	"name" : "Harassing Nurse Sharks",
+	"description": "<p>It appears bottlenose dolphins like to pester nurse sharks! I have seen it many times. They seem to take great sport in poking them with their rostrum or just closely following them. The nurse sharks instigated none of the dolphin behavior. On one occasion a dolphin really harassed a nurse shark by poking him with his rostrum. The nurse shark and dolphin were whirling in circles under me. The dolphin abruptly left and the nurse shark came after me. I returned to my boat and got out of the water. The nurse shark followed me right to the boat.</p>",
+	"featuredImage" : {
+		"src" : "./img/julia-nurse-shark.png"
+	},
+	"sections": [
+		{
+			"videos" : [
+				{
+					"src": "//player.vimeo.com/video/251323813",
+					"source": "vimeo"
+				},
+				{
+					"src": "//player.vimeo.com/video/251958368",
+					"source": "vimeo"
+				}
+			]
+		}
+	]
+}

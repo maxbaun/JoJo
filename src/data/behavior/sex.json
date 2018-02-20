@@ -1,0 +1,20 @@
+{
+	"public" : "true",
+	"path": "/behavior/sex",
+	"name" : "Sex",
+	"description": "<p>It’s hard to distinguish the sex of dolphins unless they have a calf by their side or a male displays. Dolphins clearly enjoy sex and have no stigmas attached to any arrangement of partners.</p>",
+	"sections" : [
+		{
+			"images" : [
+				{
+					"src" : "./img/male.jpg",
+					"caption" : "Male Anatomy"
+				},
+				{
+					"src" : "./img/female.jpg",
+					"caption" : "Female Anatomy"
+				}
+			]
+		}
+	]
+}

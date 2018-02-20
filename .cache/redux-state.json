@@ -8,7 +8,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519153688262,
+      "updatedAt": 1519160963257,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "448f5d15551db6d9b5e162020bbab02e",
+        "contentDigest": "71e243cbe483443692d0d6cac94746b6",
         "owner": "internal-data-bridge"
       }
     },
@@ -393,7 +393,7 @@
       "resolve": "/Users/maxbaun/Projects/JoJo",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "09248ad3afb91ee5dca40e3dfe0128eb",
+      "version": "a718879994d2e4f749aa815c3702da03",
       "pluginOptions": {
         "plugins": []
       },
@@ -856,7 +856,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8591e5c1bec7cad9ca314ff1fc704084",
+        "contentDigest": "6a5fe7cd3d947852041a15f112df18d5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -869,12 +869,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-20T19:08:05.558Z",
+      "buildTime": "2018-02-20T21:09:20.293Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "07bff2657d6ba1e362d54bcd73589013",
+        "contentDigest": "e0adb499eda4a837ef2426a00b465567",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -884,7 +884,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "6abe8cb963b28ae18e86973f77f7aea9",
+        "contentDigest": "6142d5b1e41408e14653a255f340b14e",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -892,11 +892,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data",
       "relativePath": "",
       "extension": "",
-      "size": 136,
-      "prettySize": "136 B",
-      "modifiedTime": "2018-02-20T18:11:29.000Z",
-      "accessTime": "2018-02-20T19:08:07.000Z",
-      "changeTime": "2018-02-20T18:11:29.000Z",
+      "size": 170,
+      "prettySize": "170 B",
+      "modifiedTime": "2018-02-20T20:03:11.000Z",
+      "accessTime": "2018-02-20T21:09:22.000Z",
+      "changeTime": "2018-02-20T20:03:11.000Z",
       "birthTime": "2018-02-19T21:32:34.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src",
@@ -906,28 +906,71 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 5,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 44489221,
       "blocks": 0,
-      "atimeMs": 1519153687000,
-      "mtimeMs": 1519150289000,
-      "ctimeMs": 1519150289000,
+      "atimeMs": 1519160962000,
+      "mtimeMs": 1519156991000,
+      "ctimeMs": 1519156991000,
       "birthtimeMs": 1519075954000,
-      "atime": "2018-02-20T19:08:07.000Z",
-      "mtime": "2018-02-20T18:11:29.000Z",
-      "ctime": "2018-02-20T18:11:29.000Z",
+      "atime": "2018-02-20T21:09:22.000Z",
+      "mtime": "2018-02-20T20:03:11.000Z",
+      "ctime": "2018-02-20T20:03:11.000Z",
       "birthtime": "2018-02-19T21:32:34.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "907aa9574c72d43506b08d2c2277127e",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "relativePath": "behavior",
+      "extension": "",
+      "size": 442,
+      "prettySize": "442 B",
+      "modifiedTime": "2018-02-20T21:08:00.000Z",
+      "accessTime": "2018-02-20T21:09:22.000Z",
+      "changeTime": "2018-02-20T21:08:00.000Z",
+      "birthTime": "2018-02-20T20:03:11.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data",
+      "base": "behavior",
+      "ext": "",
+      "name": "behavior",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 13,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531356,
+      "blocks": 0,
+      "atimeMs": 1519160962000,
+      "mtimeMs": 1519160880000,
+      "ctimeMs": 1519160880000,
+      "birthtimeMs": 1519156991000,
+      "atime": "2018-02-20T21:09:22.000Z",
+      "mtime": "2018-02-20T21:08:00.000Z",
+      "ctime": "2018-02-20T21:08:00.000Z",
+      "birthtime": "2018-02-20T20:03:11.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1bfb22077e389dd45f314c7c5057dfc3",
+        "contentDigest": "a69f6932bfc7ddda5644c437a5df50b9",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -938,7 +981,7 @@
       "size": 544,
       "prettySize": "544 B",
       "modifiedTime": "2018-02-20T18:52:18.000Z",
-      "accessTime": "2018-02-20T19:08:07.000Z",
+      "accessTime": "2018-02-20T21:09:22.000Z",
       "changeTime": "2018-02-20T18:52:18.000Z",
       "birthTime": "2018-02-19T22:50:16.000Z",
       "root": "/",
@@ -956,21 +999,64 @@
       "blksize": 4096,
       "ino": 44502920,
       "blocks": 0,
-      "atimeMs": 1519153687000,
+      "atimeMs": 1519160962000,
       "mtimeMs": 1519152738000,
       "ctimeMs": 1519152738000,
       "birthtimeMs": 1519080616000,
-      "atime": "2018-02-20T19:08:07.000Z",
+      "atime": "2018-02-20T21:09:22.000Z",
       "mtime": "2018-02-20T18:52:18.000Z",
       "ctime": "2018-02-20T18:52:18.000Z",
       "birthtime": "2018-02-19T22:50:16.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/img absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bc14c78a7de4d87ba598eb38df4179a4",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img",
+      "relativePath": "behavior/img",
+      "extension": "",
+      "size": 170,
+      "prettySize": "170 B",
+      "modifiedTime": "2018-02-20T20:30:22.000Z",
+      "accessTime": "2018-02-20T21:09:22.000Z",
+      "changeTime": "2018-02-20T20:30:22.000Z",
+      "birthTime": "2018-02-20T20:07:12.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "img",
+      "ext": "",
+      "name": "img",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531448,
+      "blocks": 0,
+      "atimeMs": 1519160962000,
+      "mtimeMs": 1519158622000,
+      "ctimeMs": 1519158622000,
+      "birthtimeMs": 1519157232000,
+      "atime": "2018-02-20T21:09:22.000Z",
+      "mtime": "2018-02-20T20:30:22.000Z",
+      "ctime": "2018-02-20T20:30:22.000Z",
+      "birthtime": "2018-02-20T20:07:12.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/img absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b5c34b82bbadacf2769e3047dc4a91e2",
+        "contentDigest": "6b9e967cfedb50104e20eb9c732503cb",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -978,11 +1064,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
       "relativePath": "friends/img",
       "extension": "",
-      "size": 714,
-      "prettySize": "714 B",
-      "modifiedTime": "2018-02-20T18:52:40.000Z",
-      "accessTime": "2018-02-20T19:08:07.000Z",
-      "changeTime": "2018-02-20T18:52:40.000Z",
+      "size": 748,
+      "prettySize": "748 B",
+      "modifiedTime": "2018-02-20T20:06:57.000Z",
+      "accessTime": "2018-02-20T21:09:22.000Z",
+      "changeTime": "2018-02-20T20:06:57.000Z",
       "birthTime": "2018-02-20T18:15:27.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
@@ -992,21 +1078,523 @@
       "relativeDirectory": "friends",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 21,
+      "nlink": 22,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 44524046,
       "blocks": 0,
-      "atimeMs": 1519153687000,
-      "mtimeMs": 1519152760000,
-      "ctimeMs": 1519152760000,
+      "atimeMs": 1519160962000,
+      "mtimeMs": 1519157217000,
+      "ctimeMs": 1519157217000,
       "birthtimeMs": 1519150527000,
-      "atime": "2018-02-20T19:08:07.000Z",
-      "mtime": "2018-02-20T18:52:40.000Z",
-      "ctime": "2018-02-20T18:52:40.000Z",
+      "atime": "2018-02-20T21:09:22.000Z",
+      "mtime": "2018-02-20T20:06:57.000Z",
+      "ctime": "2018-02-20T20:06:57.000Z",
       "birthtime": "2018-02-20T18:15:27.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/affection.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/affection.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/affection.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b23b7247bf9f5913a14e56b7e877a406",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/affection.json",
+      "relativePath": "behavior/affection.json",
+      "extension": "json",
+      "size": 614,
+      "prettySize": "614 B",
+      "modifiedTime": "2018-02-20T21:03:39.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:39.000Z",
+      "birthTime": "2018-02-20T20:05:53.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "affection.json",
+      "ext": ".json",
+      "name": "affection",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531403,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160619000,
+      "ctimeMs": 1519160619000,
+      "birthtimeMs": 1519157153000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:39.000Z",
+      "ctime": "2018-02-20T21:03:39.000Z",
+      "birthtime": "2018-02-20T20:05:53.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/.DS_Store absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8cca922bac53237870d2c74451d7066d",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-20T20:07:13.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T20:07:13.000Z",
+      "birthTime": "2018-02-20T18:11:29.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44523934,
+      "blocks": 16,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519157233000,
+      "ctimeMs": 1519157233000,
+      "birthtimeMs": 1519150289000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T20:07:13.000Z",
+      "ctime": "2018-02-20T20:07:13.000Z",
+      "birthtime": "2018-02-20T18:11:29.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/.DS_Store absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b0d87e8c5fd9b9eef7cd8449da023319",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/.DS_Store",
+      "relativePath": "behavior/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-20T20:30:27.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T20:30:27.000Z",
+      "birthTime": "2018-02-20T20:07:13.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531450,
+      "blocks": 16,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519158627000,
+      "ctimeMs": 1519158627000,
+      "birthtimeMs": 1519157233000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T20:30:27.000Z",
+      "ctime": "2018-02-20T20:30:27.000Z",
+      "birthtime": "2018-02-20T20:07:13.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/fishing.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/fishing.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/fishing.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7bb009b4be07d12c1a5f9b25407a7f9a",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/fishing.json",
+      "relativePath": "behavior/fishing.json",
+      "extension": "json",
+      "size": 461,
+      "prettySize": "461 B",
+      "modifiedTime": "2018-02-20T21:03:39.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:39.000Z",
+      "birthTime": "2018-02-20T20:10:31.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "fishing.json",
+      "ext": ".json",
+      "name": "fishing",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531528,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160619000,
+      "ctimeMs": 1519160619000,
+      "birthtimeMs": 1519157431000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:39.000Z",
+      "ctime": "2018-02-20T21:03:39.000Z",
+      "birthtime": "2018-02-20T20:10:31.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/index.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/index.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/index.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0a579bb9cf6a63fdc95b9117b68e222a",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/index.json",
+      "relativePath": "behavior/index.json",
+      "extension": "json",
+      "size": 1389,
+      "prettySize": "1.39 kB",
+      "modifiedTime": "2018-02-20T21:03:51.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:51.000Z",
+      "birthTime": "2018-02-20T20:03:11.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "index.json",
+      "ext": ".json",
+      "name": "index",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531357,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160631000,
+      "ctimeMs": 1519160631000,
+      "birthtimeMs": 1519156991000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:51.000Z",
+      "ctime": "2018-02-20T21:03:51.000Z",
+      "birthtime": "2018-02-20T20:03:11.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/playing.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/playing.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/playing.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7bc1f353f926c11c0ab3b747143970b1",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/playing.json",
+      "relativePath": "behavior/playing.json",
+      "extension": "json",
+      "size": 1387,
+      "prettySize": "1.39 kB",
+      "modifiedTime": "2018-02-20T21:05:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:05:52.000Z",
+      "birthTime": "2018-02-20T20:13:26.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "playing.json",
+      "ext": ".json",
+      "name": "playing",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531641,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160752000,
+      "ctimeMs": 1519160752000,
+      "birthtimeMs": 1519157606000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:05:52.000Z",
+      "ctime": "2018-02-20T21:05:52.000Z",
+      "birthtime": "2018-02-20T20:13:26.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/sex.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/sex.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/sex.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "13a0f8948b1d886bd9e71ddd2499071a",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/sex.json",
+      "relativePath": "behavior/sex.json",
+      "extension": "json",
+      "size": 489,
+      "prettySize": "489 B",
+      "modifiedTime": "2018-02-20T20:42:28.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T20:42:28.000Z",
+      "birthTime": "2018-02-20T20:28:45.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "sex.json",
+      "ext": ".json",
+      "name": "sex",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44532049,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519159348000,
+      "ctimeMs": 1519159348000,
+      "birthtimeMs": 1519158525000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T20:42:28.000Z",
+      "ctime": "2018-02-20T20:42:28.000Z",
+      "birthtime": "2018-02-20T20:28:45.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/signatureWhistle.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/signatureWhistle.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/signatureWhistle.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bee55f5c5ebc08e9afd1bbaa38643a8a",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/signatureWhistle.json",
+      "relativePath": "behavior/signatureWhistle.json",
+      "extension": "json",
+      "size": 349,
+      "prettySize": "349 B",
+      "modifiedTime": "2018-02-20T21:08:34.000Z",
+      "accessTime": "2018-02-20T21:08:35.000Z",
+      "changeTime": "2018-02-20T21:08:34.000Z",
+      "birthTime": "2018-02-20T21:08:00.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "signatureWhistle.json",
+      "ext": ".json",
+      "name": "signatureWhistle",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44533722,
+      "blocks": 8,
+      "atimeMs": 1519160915000,
+      "mtimeMs": 1519160914000,
+      "ctimeMs": 1519160914000,
+      "birthtimeMs": 1519160880000,
+      "atime": "2018-02-20T21:08:35.000Z",
+      "mtime": "2018-02-20T21:08:34.000Z",
+      "ctime": "2018-02-20T21:08:34.000Z",
+      "birthtime": "2018-02-20T21:08:00.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/bubbles.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/bubbles.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/bubbles.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e5b0a936980cb01a879244404c162528",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/bubbles.json",
+      "relativePath": "behavior/bubbles.json",
+      "extension": "json",
+      "size": 780,
+      "prettySize": "780 B",
+      "modifiedTime": "2018-02-20T21:03:39.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:39.000Z",
+      "birthTime": "2018-02-20T20:08:39.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "bubbles.json",
+      "ext": ".json",
+      "name": "bubbles",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531482,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160619000,
+      "ctimeMs": 1519160619000,
+      "birthtimeMs": 1519157319000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:39.000Z",
+      "ctime": "2018-02-20T21:03:39.000Z",
+      "birthtime": "2018-02-20T20:08:39.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/harassingNurseSharks.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/harassingNurseSharks.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/harassingNurseSharks.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "933e9cea60c806d2d126f492d5806478",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/harassingNurseSharks.json",
+      "relativePath": "behavior/harassingNurseSharks.json",
+      "extension": "json",
+      "size": 962,
+      "prettySize": "962 B",
+      "modifiedTime": "2018-02-20T21:03:39.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:39.000Z",
+      "birthTime": "2018-02-20T20:11:27.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "harassingNurseSharks.json",
+      "ext": ".json",
+      "name": "harassingNurseSharks",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531565,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160619000,
+      "ctimeMs": 1519160619000,
+      "birthtimeMs": 1519157487000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:39.000Z",
+      "ctime": "2018-02-20T21:03:39.000Z",
+      "birthtime": "2018-02-20T20:11:27.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/nursing.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/nursing.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/behavior/nursing.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a22ffcb3127030932cee54fbe475ab69",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/nursing.json",
+      "relativePath": "behavior/nursing.json",
+      "extension": "json",
+      "size": 378,
+      "prettySize": "378 B",
+      "modifiedTime": "2018-02-20T21:03:39.000Z",
+      "accessTime": "2018-02-20T21:08:00.000Z",
+      "changeTime": "2018-02-20T21:03:39.000Z",
+      "birthTime": "2018-02-20T20:12:47.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior",
+      "base": "nursing.json",
+      "ext": ".json",
+      "name": "nursing",
+      "relativeDirectory": "behavior",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531618,
+      "blocks": 8,
+      "atimeMs": 1519160880000,
+      "mtimeMs": 1519160619000,
+      "ctimeMs": 1519160619000,
+      "birthtimeMs": 1519157567000,
+      "atime": "2018-02-20T21:08:00.000Z",
+      "mtime": "2018-02-20T21:03:39.000Z",
+      "ctime": "2018-02-20T21:03:39.000Z",
+      "birthtime": "2018-02-20T20:12:47.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/bo.json absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/bo.json absPath of file",
@@ -1015,7 +1603,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e9053d19ec7a243423b0ea41fa1804ca",
+        "contentDigest": "e092aa535f96e0f0d7a83f2abfbb4996",
         "mediaType": "application/json",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1024,11 +1612,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/bo.json",
       "relativePath": "friends/bo.json",
       "extension": "json",
-      "size": 646,
-      "prettySize": "646 B",
-      "modifiedTime": "2018-02-20T18:19:56.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:19:56.000Z",
+      "size": 641,
+      "prettySize": "641 B",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
       "birthTime": "2018-02-20T18:18:49.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
@@ -1045,14 +1633,58 @@
       "blksize": 4096,
       "ino": 44524179,
       "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519150796000,
-      "ctimeMs": 1519150796000,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
       "birthtimeMs": 1519150729000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:19:56.000Z",
-      "ctime": "2018-02-20T18:19:56.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
       "birthtime": "2018-02-20T18:18:49.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/.DS_Store absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4fce598583e607252c7104a494596ba4",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/.DS_Store",
+      "relativePath": "friends/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-20T20:07:02.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T20:07:02.000Z",
+      "birthTime": "2018-02-20T18:15:27.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "friends",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524047,
+      "blocks": 16,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519157222000,
+      "ctimeMs": 1519157222000,
+      "birthtimeMs": 1519150527000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T20:07:02.000Z",
+      "ctime": "2018-02-20T20:07:02.000Z",
+      "birthtime": "2018-02-20T18:15:27.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/index.json absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/index.json absPath of file",
@@ -1061,7 +1693,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5e34c82d98797dd352898c8c3d4a5a82",
+        "contentDigest": "f3d616bd054d3d0c9967419734c4eb34",
         "mediaType": "application/json",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1070,11 +1702,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/index.json",
       "relativePath": "friends/index.json",
       "extension": "json",
-      "size": 1215,
-      "prettySize": "1.22 kB",
-      "modifiedTime": "2018-02-20T18:38:09.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:38:09.000Z",
+      "size": 1210,
+      "prettySize": "1.21 kB",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
       "birthTime": "2018-02-20T15:58:35.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
@@ -1091,13 +1723,13 @@
       "blksize": 4096,
       "ino": 44516562,
       "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519151889000,
-      "ctimeMs": 1519151889000,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
       "birthtimeMs": 1519142315000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:38:09.000Z",
-      "ctime": "2018-02-20T18:38:09.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
       "birthtime": "2018-02-20T15:58:35.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/jojo.json absPath of file": {
@@ -1107,7 +1739,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f38cc7723f87665854cffc07c77a205b",
+        "contentDigest": "6df696cfd59248be861068516dd06708",
         "mediaType": "application/json",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1116,11 +1748,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/jojo.json",
       "relativePath": "friends/jojo.json",
       "extension": "json",
-      "size": 973,
-      "prettySize": "973 B",
-      "modifiedTime": "2018-02-20T18:15:49.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:15:49.000Z",
+      "size": 968,
+      "prettySize": "968 B",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
       "birthTime": "2018-02-20T15:26:10.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
@@ -1137,60 +1769,14 @@
       "blksize": 4096,
       "ino": 44514147,
       "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519150549000,
-      "ctimeMs": 1519150549000,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
       "birthtimeMs": 1519140370000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:15:49.000Z",
-      "ctime": "2018-02-20T18:15:49.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
       "birthtime": "2018-02-20T15:26:10.000Z"
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file",
-      "children": [
-        "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file >>> JSON"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "655899119bb1225c700056f0560cd5e9",
-        "mediaType": "application/json",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json",
-      "relativePath": "friends/juliafrisky.json",
-      "extension": "json",
-      "size": 825,
-      "prettySize": "825 B",
-      "modifiedTime": "2018-02-20T18:43:39.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:43:39.000Z",
-      "birthTime": "2018-02-20T18:25:05.000Z",
-      "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
-      "base": "juliafrisky.json",
-      "ext": ".json",
-      "name": "juliafrisky",
-      "relativeDirectory": "friends",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 44524370,
-      "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519152219000,
-      "ctimeMs": 1519152219000,
-      "birthtimeMs": 1519151105000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:43:39.000Z",
-      "ctime": "2018-02-20T18:43:39.000Z",
-      "birthtime": "2018-02-20T18:25:05.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/lemonlips.json absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/lemonlips.json absPath of file",
@@ -1199,7 +1785,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "73dd4fc5131a1d58c7a3e5142f52d2a7",
+        "contentDigest": "0370aabe72d312ab336a10abf743de33",
         "mediaType": "application/json",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1208,11 +1794,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/lemonlips.json",
       "relativePath": "friends/lemonlips.json",
       "extension": "json",
-      "size": 1045,
-      "prettySize": "1.04 kB",
-      "modifiedTime": "2018-02-20T18:55:44.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:55:44.000Z",
+      "size": 1017,
+      "prettySize": "1.02 kB",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
       "birthTime": "2018-02-20T18:20:18.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
@@ -1229,14 +1815,60 @@
       "blksize": 4096,
       "ino": 44524243,
       "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519152944000,
-      "ctimeMs": 1519152944000,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
       "birthtimeMs": 1519150818000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:55:44.000Z",
-      "ctime": "2018-02-20T18:55:44.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
       "birthtime": "2018-02-20T18:20:18.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "41ff69add5ef1387171b9f05d767487c",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json",
+      "relativePath": "friends/juliafrisky.json",
+      "extension": "json",
+      "size": 820,
+      "prettySize": "820 B",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
+      "birthTime": "2018-02-20T18:25:05.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
+      "base": "juliafrisky.json",
+      "ext": ".json",
+      "name": "juliafrisky",
+      "relativeDirectory": "friends",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524370,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
+      "birthtimeMs": 1519151105000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
+      "birthtime": "2018-02-20T18:25:05.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/mojo.json absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/mojo.json absPath of file",
@@ -1245,7 +1877,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "50138021513da7aba8b5ff37673b6d78",
+        "contentDigest": "3baa63eae2d5303e52fc2cc104facf5f",
         "mediaType": "application/json",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1254,11 +1886,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/mojo.json",
       "relativePath": "friends/mojo.json",
       "extension": "json",
-      "size": 831,
-      "prettySize": "831 B",
-      "modifiedTime": "2018-02-20T18:15:43.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:15:43.000Z",
+      "size": 816,
+      "prettySize": "816 B",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
       "birthTime": "2018-02-20T17:26:35.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
@@ -1275,13 +1907,13 @@
       "blksize": 4096,
       "ino": 44520920,
       "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519150543000,
-      "ctimeMs": 1519150543000,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
       "birthtimeMs": 1519147595000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:15:43.000Z",
-      "ctime": "2018-02-20T18:15:43.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
       "birthtime": "2018-02-20T17:26:35.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/piney.json absPath of file": {
@@ -1291,7 +1923,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "039400f3d0fcdfe88cb08526fb9e5286",
+        "contentDigest": "8455f0df4a85289e3992d5e021c98abd",
         "mediaType": "application/json",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1300,11 +1932,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/piney.json",
       "relativePath": "friends/piney.json",
       "extension": "json",
-      "size": 732,
-      "prettySize": "732 B",
-      "modifiedTime": "2018-02-20T18:23:35.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:23:35.000Z",
+      "size": 727,
+      "prettySize": "727 B",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
       "birthTime": "2018-02-20T18:22:59.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
@@ -1321,14 +1953,152 @@
       "blksize": 4096,
       "ino": 44524303,
       "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519151015000,
-      "ctimeMs": 1519151015000,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
       "birthtimeMs": 1519150979000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:23:35.000Z",
-      "ctime": "2018-02-20T18:23:35.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
       "birthtime": "2018-02-20T18:22:59.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "92155ea7e58147f2cf2f819ec3f4ae10",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json",
+      "relativePath": "friends/snipper.json",
+      "extension": "json",
+      "size": 778,
+      "prettySize": "778 B",
+      "modifiedTime": "2018-02-20T21:03:39.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:39.000Z",
+      "birthTime": "2018-02-20T18:32:26.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
+      "base": "snipper.json",
+      "ext": ".json",
+      "name": "snipper",
+      "relativeDirectory": "friends",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524640,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160619000,
+      "ctimeMs": 1519160619000,
+      "birthtimeMs": 1519151546000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:39.000Z",
+      "ctime": "2018-02-20T21:03:39.000Z",
+      "birthtime": "2018-02-20T18:32:26.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "963a3c6c5987e2527d3d92ba564011bb",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json",
+      "relativePath": "friends/whitey.json",
+      "extension": "json",
+      "size": 1029,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
+      "birthTime": "2018-02-20T18:27:45.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
+      "base": "whitey.json",
+      "ext": ".json",
+      "name": "whitey",
+      "relativeDirectory": "friends",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524436,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
+      "birthtimeMs": 1519151265000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
+      "birthtime": "2018-02-20T18:27:45.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json absPath of file",
+      "children": [
+        "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b61142b8292126a92bacdf56266c378a",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json",
+      "relativePath": "friends/whizzer.json",
+      "extension": "json",
+      "size": 960,
+      "prettySize": "960 B",
+      "modifiedTime": "2018-02-20T21:03:39.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:39.000Z",
+      "birthTime": "2018-02-20T18:30:11.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
+      "base": "whizzer.json",
+      "ext": ".json",
+      "name": "whizzer",
+      "relativeDirectory": "friends",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524547,
+      "blocks": 8,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160619000,
+      "ctimeMs": 1519160619000,
+      "birthtimeMs": 1519151411000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:39.000Z",
+      "ctime": "2018-02-20T21:03:39.000Z",
+      "birthtime": "2018-02-20T18:30:11.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file",
@@ -1337,7 +2107,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "00fdad2a4bc207686c8a05f48ed10844",
+        "contentDigest": "093ad599b6e10501384d253ae34b9fed",
         "mediaType": "application/json",
         "type": "File",
         "owner": "gatsby-source-filesystem"
@@ -1346,11 +2116,11 @@
       "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json",
       "relativePath": "friends/raggedtyanne.json",
       "extension": "json",
-      "size": 983,
-      "prettySize": "983 B",
-      "modifiedTime": "2018-02-20T18:17:10.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:17:10.000Z",
+      "size": 972,
+      "prettySize": "972 B",
+      "modifiedTime": "2018-02-20T21:03:52.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T21:03:52.000Z",
       "birthTime": "2018-02-20T18:12:10.000Z",
       "root": "/",
       "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
@@ -1367,13 +2137,13 @@
       "blksize": 4096,
       "ino": 44523977,
       "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519150630000,
-      "ctimeMs": 1519150630000,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519160632000,
+      "ctimeMs": 1519160632000,
       "birthtimeMs": 1519150330000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:17:10.000Z",
-      "ctime": "2018-02-20T18:17:10.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T21:03:52.000Z",
+      "ctime": "2018-02-20T21:03:52.000Z",
       "birthtime": "2018-02-20T18:12:10.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file": {
@@ -1395,7 +2165,7 @@
       "size": 363,
       "prettySize": "363 B",
       "modifiedTime": "2018-02-20T18:56:48.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:56:48.000Z",
       "birthTime": "2018-02-20T18:23:56.000Z",
       "root": "/",
@@ -1413,179 +2183,85 @@
       "blksize": 4096,
       "ino": 44524333,
       "blocks": 8,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1519153008000,
       "ctimeMs": 1519153008000,
       "birthtimeMs": 1519151036000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-20T18:56:48.000Z",
       "ctime": "2018-02-20T18:56:48.000Z",
       "birthtime": "2018-02-20T18:23:56.000Z"
     },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json absPath of file",
-      "children": [
-        "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json absPath of file >>> JSON"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "71f39bf4da2d8fe881ec5f6106372544",
-        "mediaType": "application/json",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json",
-      "relativePath": "friends/snipper.json",
-      "extension": "json",
-      "size": 784,
-      "prettySize": "784 B",
-      "modifiedTime": "2018-02-20T19:00:27.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T19:00:27.000Z",
-      "birthTime": "2018-02-20T18:32:26.000Z",
-      "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
-      "base": "snipper.json",
-      "ext": ".json",
-      "name": "snipper",
-      "relativeDirectory": "friends",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 44524640,
-      "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519153227000,
-      "ctimeMs": 1519153227000,
-      "birthtimeMs": 1519151546000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T19:00:27.000Z",
-      "ctime": "2018-02-20T19:00:27.000Z",
-      "birthtime": "2018-02-20T18:32:26.000Z"
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json absPath of file",
-      "children": [
-        "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json absPath of file >>> JSON"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "fe4dae521937b8f88dd8551208e9610b",
-        "mediaType": "application/json",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json",
-      "relativePath": "friends/whitey.json",
-      "extension": "json",
-      "size": 1034,
-      "prettySize": "1.03 kB",
-      "modifiedTime": "2018-02-20T18:32:02.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:32:02.000Z",
-      "birthTime": "2018-02-20T18:27:45.000Z",
-      "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
-      "base": "whitey.json",
-      "ext": ".json",
-      "name": "whitey",
-      "relativeDirectory": "friends",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 44524436,
-      "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519151522000,
-      "ctimeMs": 1519151522000,
-      "birthtimeMs": 1519151265000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:32:02.000Z",
-      "ctime": "2018-02-20T18:32:02.000Z",
-      "birthtime": "2018-02-20T18:27:45.000Z"
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json absPath of file",
-      "children": [
-        "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json absPath of file >>> JSON"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "e891310239e0925a941ea665da3e68a6",
-        "mediaType": "application/json",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json",
-      "relativePath": "friends/whizzer.json",
-      "extension": "json",
-      "size": 990,
-      "prettySize": "990 B",
-      "modifiedTime": "2018-02-20T18:59:53.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:59:53.000Z",
-      "birthTime": "2018-02-20T18:30:11.000Z",
-      "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
-      "base": "whizzer.json",
-      "ext": ".json",
-      "name": "whizzer",
-      "relativeDirectory": "friends",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 44524547,
-      "blocks": 8,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519153193000,
-      "ctimeMs": 1519153193000,
-      "birthtimeMs": 1519151411000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:59:53.000Z",
-      "ctime": "2018-02-20T18:59:53.000Z",
-      "birthtime": "2018-02-20T18:30:11.000Z"
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/.DS_Store absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/.DS_Store absPath of file",
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/female.jpg absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/female.jpg absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9d63c5b5bc50c49fd69916893f95f0f3",
+        "contentDigest": "0711a48908266c2fb9f318bfe2dee424",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/female.jpg",
+      "relativePath": "behavior/img/female.jpg",
+      "extension": "jpg",
+      "size": 18117,
+      "prettySize": "18.1 kB",
+      "modifiedTime": "2018-02-02T06:41:48.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T20:30:22.000Z",
+      "birthTime": "2018-02-02T06:41:48.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img",
+      "base": "female.jpg",
+      "ext": ".jpg",
+      "name": "female",
+      "relativeDirectory": "behavior/img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44532089,
+      "blocks": 40,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1517553708000,
+      "ctimeMs": 1519158622000,
+      "birthtimeMs": 1517553708000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-02T06:41:48.000Z",
+      "ctime": "2018-02-20T20:30:22.000Z",
+      "birthtime": "2018-02-02T06:41:48.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/.DS_Store absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
         "mediaType": "application/octet-stream",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/.DS_Store",
-      "relativePath": ".DS_Store",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/.DS_Store",
+      "relativePath": "friends/img/.DS_Store",
       "extension": "",
       "size": 6148,
       "prettySize": "6.15 kB",
-      "modifiedTime": "2018-02-20T18:52:23.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:52:23.000Z",
-      "birthTime": "2018-02-20T18:11:29.000Z",
+      "modifiedTime": "2018-02-20T20:06:57.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T20:06:57.000Z",
+      "birthTime": "2018-02-20T20:06:57.000Z",
       "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
       "base": ".DS_Store",
       "ext": "",
       "name": ".DS_Store",
-      "relativeDirectory": "",
+      "relativeDirectory": "friends/img",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1593,43 +2269,43 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 44523934,
+      "ino": 44531445,
       "blocks": 16,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519152743000,
-      "ctimeMs": 1519152743000,
-      "birthtimeMs": 1519150289000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:52:23.000Z",
-      "ctime": "2018-02-20T18:52:23.000Z",
-      "birthtime": "2018-02-20T18:11:29.000Z"
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1519157217000,
+      "ctimeMs": 1519157217000,
+      "birthtimeMs": 1519157217000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-20T20:06:57.000Z",
+      "ctime": "2018-02-20T20:06:57.000Z",
+      "birthtime": "2018-02-20T20:06:57.000Z"
     },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/.DS_Store absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/.DS_Store absPath of file",
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/male.jpg absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/male.jpg absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3a7a87f077c558f3292e81b0af11b53d",
-        "mediaType": "application/octet-stream",
+        "contentDigest": "134e430532ddac52d0d562e73f08a549",
+        "mediaType": "image/jpeg",
         "type": "File",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/.DS_Store",
-      "relativePath": "friends/.DS_Store",
-      "extension": "",
-      "size": 6148,
-      "prettySize": "6.15 kB",
-      "modifiedTime": "2018-02-20T18:52:35.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:52:35.000Z",
-      "birthTime": "2018-02-20T18:15:27.000Z",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/male.jpg",
+      "relativePath": "behavior/img/male.jpg",
+      "extension": "jpg",
+      "size": 29311,
+      "prettySize": "29.3 kB",
+      "modifiedTime": "2018-02-02T06:41:42.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T20:30:22.000Z",
+      "birthTime": "2018-02-02T06:41:42.000Z",
       "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends",
-      "base": ".DS_Store",
-      "ext": "",
-      "name": ".DS_Store",
-      "relativeDirectory": "friends",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img",
+      "base": "male.jpg",
+      "ext": ".jpg",
+      "name": "male",
+      "relativeDirectory": "behavior/img",
       "dev": 16777220,
       "mode": 33188,
       "nlink": 1,
@@ -1637,16 +2313,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 44524047,
-      "blocks": 16,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1519152755000,
-      "ctimeMs": 1519152755000,
-      "birthtimeMs": 1519150527000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-20T18:52:35.000Z",
-      "ctime": "2018-02-20T18:52:35.000Z",
-      "birthtime": "2018-02-20T18:15:27.000Z"
+      "ino": 44532090,
+      "blocks": 64,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1517553702000,
+      "ctimeMs": 1519158622000,
+      "birthtimeMs": 1517553702000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-02T06:41:42.000Z",
+      "ctime": "2018-02-20T20:30:22.000Z",
+      "birthtime": "2018-02-02T06:41:42.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-bo.jpg absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-bo.jpg absPath of file",
@@ -1665,7 +2341,7 @@
       "size": 6828,
       "prettySize": "6.83 kB",
       "modifiedTime": "2018-02-02T06:41:48.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:47.000Z",
       "root": "/",
@@ -1683,55 +2359,11 @@
       "blksize": 4096,
       "ino": 44524197,
       "blocks": 16,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553708000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553707000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-02T06:41:48.000Z",
-      "ctime": "2018-02-20T18:19:41.000Z",
-      "birthtime": "2018-02-02T06:41:47.000Z"
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-jojo.jpg absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-jojo.jpg absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "affa3478af73affeddcfae7d0e2fb93a",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-jojo.jpg",
-      "relativePath": "friends/img/friend-pic-jojo.jpg",
-      "extension": "jpg",
-      "size": 11222,
-      "prettySize": "11.2 kB",
-      "modifiedTime": "2018-02-02T06:41:48.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:19:41.000Z",
-      "birthTime": "2018-02-02T06:41:47.000Z",
-      "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
-      "base": "friend-pic-jojo.jpg",
-      "ext": ".jpg",
-      "name": "friend-pic-jojo",
-      "relativeDirectory": "friends/img",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 44524217,
-      "blocks": 24,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1517553708000,
-      "ctimeMs": 1519150781000,
-      "birthtimeMs": 1517553707000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:48.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:47.000Z"
@@ -1753,7 +2385,7 @@
       "size": 5367,
       "prettySize": "5.37 kB",
       "modifiedTime": "2018-02-02T06:41:47.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:47.000Z",
       "root": "/",
@@ -1771,12 +2403,56 @@
       "blksize": 4096,
       "ino": 44524198,
       "blocks": 16,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553707000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553707000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:47.000Z",
+      "ctime": "2018-02-20T18:19:41.000Z",
+      "birthtime": "2018-02-02T06:41:47.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-jojo.jpg absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-jojo.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "affa3478af73affeddcfae7d0e2fb93a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-jojo.jpg",
+      "relativePath": "friends/img/friend-pic-jojo.jpg",
+      "extension": "jpg",
+      "size": 11222,
+      "prettySize": "11.2 kB",
+      "modifiedTime": "2018-02-02T06:41:48.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T18:19:41.000Z",
+      "birthTime": "2018-02-02T06:41:47.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
+      "base": "friend-pic-jojo.jpg",
+      "ext": ".jpg",
+      "name": "friend-pic-jojo",
+      "relativeDirectory": "friends/img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524217,
+      "blocks": 24,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1517553708000,
+      "ctimeMs": 1519150781000,
+      "birthtimeMs": 1517553707000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-02T06:41:48.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:47.000Z"
     },
@@ -1797,7 +2473,7 @@
       "size": 5302,
       "prettySize": "5.3 kB",
       "modifiedTime": "2018-02-02T06:41:47.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:46.000Z",
       "root": "/",
@@ -1815,11 +2491,11 @@
       "blksize": 4096,
       "ino": 44524199,
       "blocks": 16,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553707000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553706000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:47.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:46.000Z"
@@ -1841,7 +2517,7 @@
       "size": 6498,
       "prettySize": "6.5 kB",
       "modifiedTime": "2018-02-02T06:41:47.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:46.000Z",
       "root": "/",
@@ -1859,58 +2535,14 @@
       "blksize": 4096,
       "ino": 44524200,
       "blocks": 16,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553707000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553706000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:47.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:46.000Z"
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-piney.jpg absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-piney.jpg absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "adffa10486be534dbf35e298e5269375",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-piney.jpg",
-      "relativePath": "friends/img/friend-pic-piney.jpg",
-      "extension": "jpg",
-      "size": 9288,
-      "prettySize": "9.29 kB",
-      "modifiedTime": "2018-02-02T06:41:46.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:19:41.000Z",
-      "birthTime": "2018-02-02T06:41:45.000Z",
-      "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
-      "base": "friend-pic-piney.jpg",
-      "ext": ".jpg",
-      "name": "friend-pic-piney",
-      "relativeDirectory": "friends/img",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 44524202,
-      "blocks": 24,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1517553706000,
-      "ctimeMs": 1519150781000,
-      "birthtimeMs": 1517553705000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-02T06:41:46.000Z",
-      "ctime": "2018-02-20T18:19:41.000Z",
-      "birthtime": "2018-02-02T06:41:45.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-lemon.jpg absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-lemon.jpg absPath of file",
@@ -1929,7 +2561,7 @@
       "size": 5992,
       "prettySize": "5.99 kB",
       "modifiedTime": "2018-02-02T06:41:46.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:46.000Z",
       "root": "/",
@@ -1947,11 +2579,11 @@
       "blksize": 4096,
       "ino": 44524201,
       "blocks": 16,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553706000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553706000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:46.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:46.000Z"
@@ -1973,7 +2605,7 @@
       "size": 9732,
       "prettySize": "9.73 kB",
       "modifiedTime": "2018-02-02T06:41:46.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:46.000Z",
       "root": "/",
@@ -1991,14 +2623,58 @@
       "blksize": 4096,
       "ino": 44524218,
       "blocks": 24,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553706000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553706000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:46.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:46.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-piney.jpg absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-piney.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "adffa10486be534dbf35e298e5269375",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-piney.jpg",
+      "relativePath": "friends/img/friend-pic-piney.jpg",
+      "extension": "jpg",
+      "size": 9288,
+      "prettySize": "9.29 kB",
+      "modifiedTime": "2018-02-02T06:41:46.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T18:19:41.000Z",
+      "birthTime": "2018-02-02T06:41:45.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
+      "base": "friend-pic-piney.jpg",
+      "ext": ".jpg",
+      "name": "friend-pic-piney",
+      "relativeDirectory": "friends/img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524202,
+      "blocks": 24,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1517553706000,
+      "ctimeMs": 1519150781000,
+      "birthtimeMs": 1517553705000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-02T06:41:46.000Z",
+      "ctime": "2018-02-20T18:19:41.000Z",
+      "birthtime": "2018-02-02T06:41:45.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-raggedy.jpg absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-raggedy.jpg absPath of file",
@@ -2017,7 +2693,7 @@
       "size": 9049,
       "prettySize": "9.05 kB",
       "modifiedTime": "2018-02-02T06:41:46.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:45.000Z",
       "root": "/",
@@ -2035,58 +2711,14 @@
       "blksize": 4096,
       "ino": 44524219,
       "blocks": 24,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553706000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553705000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:46.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:45.000Z"
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-white.jpg absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-white.jpg absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "9f18ea8fc72e757ee1c4b1dda8f6b1b7",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-white.jpg",
-      "relativePath": "friends/img/friend-pic-white.jpg",
-      "extension": "jpg",
-      "size": 5779,
-      "prettySize": "5.78 kB",
-      "modifiedTime": "2018-02-02T06:41:44.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:19:41.000Z",
-      "birthTime": "2018-02-02T06:41:44.000Z",
-      "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
-      "base": "friend-pic-white.jpg",
-      "ext": ".jpg",
-      "name": "friend-pic-white",
-      "relativeDirectory": "friends/img",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 44524206,
-      "blocks": 16,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1517553704000,
-      "ctimeMs": 1519150781000,
-      "birthtimeMs": 1517553704000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-02T06:41:44.000Z",
-      "ctime": "2018-02-20T18:19:41.000Z",
-      "birthtime": "2018-02-02T06:41:44.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-snipper.jpg absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-snipper.jpg absPath of file",
@@ -2105,7 +2737,7 @@
       "size": 34428,
       "prettySize": "34.4 kB",
       "modifiedTime": "2018-02-02T06:41:45.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:45.000Z",
       "root": "/",
@@ -2123,11 +2755,11 @@
       "blksize": 4096,
       "ino": 44524203,
       "blocks": 72,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553705000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553705000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:45.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:45.000Z"
@@ -2149,7 +2781,7 @@
       "size": 6263,
       "prettySize": "6.26 kB",
       "modifiedTime": "2018-02-02T06:41:45.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:44.000Z",
       "root": "/",
@@ -2167,11 +2799,11 @@
       "blksize": 4096,
       "ino": 44524205,
       "blocks": 16,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553705000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553704000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:45.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:44.000Z"
@@ -2193,7 +2825,7 @@
       "size": 49894,
       "prettySize": "49.9 kB",
       "modifiedTime": "2018-02-02T06:41:45.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:44.000Z",
       "root": "/",
@@ -2211,12 +2843,56 @@
       "blksize": 4096,
       "ino": 44524204,
       "blocks": 104,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553705000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553704000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:45.000Z",
+      "ctime": "2018-02-20T18:19:41.000Z",
+      "birthtime": "2018-02-02T06:41:44.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-white.jpg absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-white.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9f18ea8fc72e757ee1c4b1dda8f6b1b7",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-white.jpg",
+      "relativePath": "friends/img/friend-pic-white.jpg",
+      "extension": "jpg",
+      "size": 5779,
+      "prettySize": "5.78 kB",
+      "modifiedTime": "2018-02-02T06:41:44.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T18:19:41.000Z",
+      "birthTime": "2018-02-02T06:41:44.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
+      "base": "friend-pic-white.jpg",
+      "ext": ".jpg",
+      "name": "friend-pic-white",
+      "relativeDirectory": "friends/img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524206,
+      "blocks": 16,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1517553704000,
+      "ctimeMs": 1519150781000,
+      "birthtimeMs": 1517553704000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-02T06:41:44.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:44.000Z"
     },
@@ -2237,7 +2913,7 @@
       "size": 10667,
       "prettySize": "10.7 kB",
       "modifiedTime": "2018-02-02T06:41:44.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:19:41.000Z",
       "birthTime": "2018-02-02T06:41:44.000Z",
       "root": "/",
@@ -2255,14 +2931,58 @@
       "blksize": 4096,
       "ino": 44524207,
       "blocks": 24,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553704000,
       "ctimeMs": 1519150781000,
       "birthtimeMs": 1517553704000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:44.000Z",
       "ctime": "2018-02-20T18:19:41.000Z",
       "birthtime": "2018-02-02T06:41:44.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra2.jpg absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra2.jpg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c777aab5fe50030fcb1842fb747738f7",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra2.jpg",
+      "relativePath": "friends/img/ra2.jpg",
+      "extension": "jpg",
+      "size": 8729,
+      "prettySize": "8.73 kB",
+      "modifiedTime": "2018-02-02T06:41:40.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T18:15:30.000Z",
+      "birthTime": "2018-02-02T06:41:39.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
+      "base": "ra2.jpg",
+      "ext": ".jpg",
+      "name": "ra2",
+      "relativeDirectory": "friends/img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44524053,
+      "blocks": 24,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1517553700000,
+      "ctimeMs": 1519150530000,
+      "birthtimeMs": 1517553699000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-02T06:41:40.000Z",
+      "ctime": "2018-02-20T18:15:30.000Z",
+      "birthtime": "2018-02-02T06:41:39.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra1.jpg absPath of file": {
       "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra1.jpg absPath of file",
@@ -2281,7 +3001,7 @@
       "size": 20981,
       "prettySize": "21 kB",
       "modifiedTime": "2018-02-02T06:41:40.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:15:30.000Z",
       "birthTime": "2018-02-02T06:41:40.000Z",
       "root": "/",
@@ -2299,11 +3019,11 @@
       "blksize": 4096,
       "ino": 44524052,
       "blocks": 48,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553700000,
       "ctimeMs": 1519150530000,
       "birthtimeMs": 1517553700000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:40.000Z",
       "ctime": "2018-02-20T18:15:30.000Z",
       "birthtime": "2018-02-02T06:41:40.000Z"
@@ -2325,7 +3045,7 @@
       "size": 13277,
       "prettySize": "13.3 kB",
       "modifiedTime": "2018-02-02T06:41:40.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:15:31.000Z",
       "birthTime": "2018-02-02T06:41:39.000Z",
       "root": "/",
@@ -2343,57 +3063,13 @@
       "blksize": 4096,
       "ino": 44524054,
       "blocks": 32,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553700000,
       "ctimeMs": 1519150531000,
       "birthtimeMs": 1517553699000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:40.000Z",
       "ctime": "2018-02-20T18:15:31.000Z",
-      "birthtime": "2018-02-02T06:41:39.000Z"
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra2.jpg absPath of file": {
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra2.jpg absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c777aab5fe50030fcb1842fb747738f7",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "data",
-      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra2.jpg",
-      "relativePath": "friends/img/ra2.jpg",
-      "extension": "jpg",
-      "size": 8729,
-      "prettySize": "8.73 kB",
-      "modifiedTime": "2018-02-02T06:41:40.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
-      "changeTime": "2018-02-20T18:15:30.000Z",
-      "birthTime": "2018-02-02T06:41:39.000Z",
-      "root": "/",
-      "dir": "/Users/maxbaun/Projects/JoJo/src/data/friends/img",
-      "base": "ra2.jpg",
-      "ext": ".jpg",
-      "name": "ra2",
-      "relativeDirectory": "friends/img",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 44524053,
-      "blocks": 24,
-      "atimeMs": 1519153260000,
-      "mtimeMs": 1517553700000,
-      "ctimeMs": 1519150530000,
-      "birthtimeMs": 1517553699000,
-      "atime": "2018-02-20T19:01:00.000Z",
-      "mtime": "2018-02-02T06:41:40.000Z",
-      "ctime": "2018-02-20T18:15:30.000Z",
       "birthtime": "2018-02-02T06:41:39.000Z"
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/img/whitey.jpg absPath of file": {
@@ -2413,7 +3089,7 @@
       "size": 18234,
       "prettySize": "18.2 kB",
       "modifiedTime": "2018-02-02T06:41:37.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:28:45.000Z",
       "birthTime": "2018-02-02T06:41:36.000Z",
       "root": "/",
@@ -2431,11 +3107,11 @@
       "blksize": 4096,
       "ino": 44524478,
       "blocks": 40,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553697000,
       "ctimeMs": 1519151325000,
       "birthtimeMs": 1517553696000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:37.000Z",
       "ctime": "2018-02-20T18:28:45.000Z",
       "birthtime": "2018-02-02T06:41:36.000Z"
@@ -2457,7 +3133,7 @@
       "size": 22837,
       "prettySize": "22.8 kB",
       "modifiedTime": "2018-02-02T06:41:53.000Z",
-      "accessTime": "2018-02-20T19:01:00.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
       "changeTime": "2018-02-20T18:28:45.000Z",
       "birthTime": "2018-02-02T06:41:52.000Z",
       "root": "/",
@@ -2475,14 +3151,380 @@
       "blksize": 4096,
       "ino": 44524479,
       "blocks": 48,
-      "atimeMs": 1519153260000,
+      "atimeMs": 1519160775000,
       "mtimeMs": 1517553713000,
       "ctimeMs": 1519151325000,
       "birthtimeMs": 1517553712000,
-      "atime": "2018-02-20T19:01:00.000Z",
+      "atime": "2018-02-20T21:06:15.000Z",
       "mtime": "2018-02-02T06:41:53.000Z",
       "ctime": "2018-02-20T18:28:45.000Z",
       "birthtime": "2018-02-02T06:41:52.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/julia-nurse-shark.png absPath of file": {
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/julia-nurse-shark.png absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a1bd22ef4097e75ccee6181f37ce42ff",
+        "mediaType": "image/png",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/julia-nurse-shark.png",
+      "relativePath": "behavior/img/julia-nurse-shark.png",
+      "extension": "png",
+      "size": 127022,
+      "prettySize": "127 kB",
+      "modifiedTime": "2018-02-02T06:41:43.000Z",
+      "accessTime": "2018-02-20T21:06:15.000Z",
+      "changeTime": "2018-02-20T20:07:15.000Z",
+      "birthTime": "2018-02-02T06:41:42.000Z",
+      "root": "/",
+      "dir": "/Users/maxbaun/Projects/JoJo/src/data/behavior/img",
+      "base": "julia-nurse-shark.png",
+      "ext": ".png",
+      "name": "julia-nurse-shark",
+      "relativeDirectory": "behavior/img",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 44531451,
+      "blocks": 256,
+      "atimeMs": 1519160775000,
+      "mtimeMs": 1517553703000,
+      "ctimeMs": 1519157235000,
+      "birthtimeMs": 1517553702000,
+      "atime": "2018-02-20T21:06:15.000Z",
+      "mtime": "2018-02-02T06:41:43.000Z",
+      "ctime": "2018-02-20T20:07:15.000Z",
+      "birthtime": "2018-02-02T06:41:42.000Z"
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/affection.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/behavior/affection",
+      "name": "Affection",
+      "description": "<p>Dolphins are very affectionate with one another. There is a lot of stroking between mothers and calves; females and females; males and males as well as females and males.</p>",
+      "sections": [
+        {
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/249842519",
+              "source": "vimeo"
+            },
+            {
+              "src": "//player.vimeo.com/video/249842508",
+              "source": "vimeo",
+              "caption": "Flipper Footsie is a phrase I have coined to describe their rubbing their pecs against each other."
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/affection.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/affection.json absPath of file",
+      "internal": {
+        "contentDigest": "5b52f2fad7de68682fa0e7fa8a47e0a2",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/index.json absPath of file >>> JSON": {
+      "public": "false",
+      "path": "/behavior",
+      "name": "Behavior",
+      "description": "<p>I’ve been swimming with JoJo for over twelve years. JoJo is a wild bottlenose dolphin that has made his home around the Turks and Caicos Islands. He is an ambassador dolphin which means he interacts with humans. My friendship with JoJo has grown over the years. I feel he trusts me enough to not only spend hours swimming with me but to bring me to meet many of his friends and perhaps family. He is very deliberate about coming over to our boat where I get in the water with him and he slowly brings me to meet mothers and calves.</p><p>Description: seven feet long, tip of his left flipper missing, left eye partially closed, slight nick on his dorsal and missing a small piece at the very end.</p>",
+      "featuredImage": {
+        "src": "./img/julia-nurse-shark.png",
+        "caption": "Image Caption"
+      },
+      "sections": [
+        {
+          "title": "Section title",
+          "description": "<p>Section Description</p>",
+          "videos": [
+            {
+              "src": "//www.youtube.com/embed/GEXVj-tKa-k?rel=0&fs=1&showinfo=1",
+              "source": "youtube",
+              "caption": "video caption",
+              "title": "Video Title"
+            }
+          ],
+          "images": [
+            {
+              "src": "./img/julia-nurse-shark.png",
+              "caption": "Image Caption"
+            },
+            {
+              "src": "./img/julia-nurse-shark.png",
+              "caption": "Image Caption"
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/index.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/index.json absPath of file",
+      "internal": {
+        "contentDigest": "3c0ed8df37c47b8ba0f90287ac7de003",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/playing.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/behavior/playing",
+      "name": "Playing",
+      "description": "<p>Dolphins love to play. They are creative and opportunistic with their play!</p>",
+      "sections": [
+        {
+          "title": "Bow Wave Riding",
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250137559",
+              "source": "vimeo"
+            }
+          ]
+        },
+        {
+          "title": "Wake Surfing",
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/251853391",
+              "source": "vimeo"
+            }
+          ]
+        },
+        {
+          "title": "Fish Throwing",
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250137547",
+              "source": "vimeo"
+            }
+          ]
+        },
+        {
+          "title": "Dolphin Jewelry",
+          "description": "<p>Dolphins like to drape seaweed over their pectoral fins (pecs), flukes and rostrums in play. I call it accessorizing!</p>",
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250133795",
+              "source": "vimeo"
+            },
+            {
+              "src": "//player.vimeo.com/video/251862973",
+              "source": "vimeo"
+            }
+          ]
+        },
+        {
+          "title": "Porpoising for Fun",
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250137839",
+              "source": "vimeo"
+            },
+            {
+              "src": "//player.vimeo.com/video/250137550",
+              "source": "vimeo"
+            }
+          ]
+        },
+        {
+          "title": "Soccer With Fish",
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250137497",
+              "source": "vimeo"
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/playing.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/playing.json absPath of file",
+      "internal": {
+        "contentDigest": "81c27801d461136b8ee14faff883dad6",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/fishing.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/behavior/fishing",
+      "name": "Fishing",
+      "description": "<p>Crater fishing is when a dolphin uses echolocation to find fish under the sand. They plunge their rostrum into the sand and bring up a fish.</p>",
+      "sections": [
+        {
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250134938",
+              "source": "vimeo"
+            },
+            {
+              "src": "//player.vimeo.com/video/250134953",
+              "source": "vimeo"
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/fishing.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/fishing.json absPath of file",
+      "internal": {
+        "contentDigest": "d9259f27fd1d723f5e72f303bda38e58",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/sex.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/behavior/sex",
+      "name": "Sex",
+      "description": "<p>It’s hard to distinguish the sex of dolphins unless they have a calf by their side or a male displays. Dolphins clearly enjoy sex and have no stigmas attached to any arrangement of partners.</p>",
+      "sections": [
+        {
+          "images": [
+            {
+              "src": "./img/male.jpg",
+              "caption": "Male Anatomy"
+            },
+            {
+              "src": "./img/female.jpg",
+              "caption": "Female Anatomy"
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/sex.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/sex.json absPath of file",
+      "internal": {
+        "contentDigest": "73134d3283b91ad02200d3934208d37f",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/signatureWhistle.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/behavior/signature-whistle",
+      "name": "Signature Whistle",
+      "description": "<p>Dolphins greet each other with their own signature whistle, which is thought to be their name.</p>",
+      "sections": [
+        {
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250139385",
+              "source": "vimeo"
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/signatureWhistle.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/signatureWhistle.json absPath of file",
+      "internal": {
+        "contentDigest": "fcc126faf902979ac590b0ce4ca80fa0",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/bubbles.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/behavior/bubbles",
+      "name": "Bubbles",
+      "description": "<p>Some bubbles appear to be in play. Others appear to be a warning.</p>",
+      "sections": [
+        {
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250131024",
+              "source": "vimeo"
+            },
+            {
+              "src": "//player.vimeo.com/video/250130845",
+              "source": "vimeo"
+            },
+            {
+              "src": "//player.vimeo.com/video/250129455",
+              "source": "vimeo"
+            },
+            {
+              "src": "//player.vimeo.com/video/250129433",
+              "source": "vimeo",
+              "caption": "The female dolphin in this clip blows what could be interpreted as a warning bubble toward JoJo the male dolphin. Her lying on the bottom is very unusual behavior perhaps she was rejecting his advances."
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/bubbles.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/bubbles.json absPath of file",
+      "internal": {
+        "contentDigest": "28da4e7b0d83ca36f808eeace9a89d5a",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/harassingNurseSharks.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/behavior/harassing-nurse-sharks",
+      "name": "Harassing Nurse Sharks",
+      "description": "<p>It appears bottlenose dolphins like to pester nurse sharks! I have seen it many times. They seem to take great sport in poking them with their rostrum or just closely following them. The nurse sharks instigated none of the dolphin behavior. On one occasion a dolphin really harassed a nurse shark by poking him with his rostrum. The nurse shark and dolphin were whirling in circles under me. The dolphin abruptly left and the nurse shark came after me. I returned to my boat and got out of the water. The nurse shark followed me right to the boat.</p>",
+      "featuredImage": {
+        "src": "./img/julia-nurse-shark.png"
+      },
+      "sections": [
+        {
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/251323813",
+              "source": "vimeo"
+            },
+            {
+              "src": "//player.vimeo.com/video/251958368",
+              "source": "vimeo"
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/harassingNurseSharks.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/harassingNurseSharks.json absPath of file",
+      "internal": {
+        "contentDigest": "7d7c71fe4e65226c1aabf094ee5d20d8",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/behavior/nursing.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/behavior/nursing",
+      "name": "Nursing",
+      "description": "<p>Calves nurse from their moms by pressing their rostrums into their mother’s mammillary slit. The mom squirts some rich milk into their mouth.</p>",
+      "sections": [
+        {
+          "videos": [
+            {
+              "src": "//player.vimeo.com/video/250136555",
+              "source": "vimeo"
+            }
+          ]
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/behavior/nursing.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/behavior/nursing.json absPath of file",
+      "internal": {
+        "contentDigest": "e224bd02b50cb153d4d89e1e40f9b5b5",
+        "type": "BehaviorJson",
+        "owner": "gatsby-transformer-json"
+      }
     },
     "/Users/maxbaun/Projects/JoJo/src/data/friends/bo.json absPath of file >>> JSON": {
       "public": "true",
@@ -2494,7 +3536,7 @@
       },
       "videos": [
         {
-          "src": "http://www.youtube.com/embed/uAYaj_RrbHM?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/uAYaj_RrbHM?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         }
       ],
@@ -2502,7 +3544,7 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/bo.json absPath of file",
       "internal": {
-        "contentDigest": "d94b40a958b641cb46e3a3142ab0ce4f",
+        "contentDigest": "17d941c4f2d066e791ec022e62668c28",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2528,7 +3570,7 @@
       ],
       "videos": [
         {
-          "src": "http://www.youtube.com/embed/GEXVj-tKa-k?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/GEXVj-tKa-k?rel=0&fs=1&showinfo=1",
           "source": "youtube",
           "caption": "video caption"
         }
@@ -2537,7 +3579,7 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/index.json absPath of file",
       "internal": {
-        "contentDigest": "b7350c0ffe3a17985792e358199ff9fc",
+        "contentDigest": "7f0e4ba833cdd726be205989c8ad88fe",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2552,7 +3594,7 @@
       },
       "videos": [
         {
-          "src": "http://www.youtube.com/embed/GEXVj-tKa-k?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/GEXVj-tKa-k?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         }
       ],
@@ -2560,36 +3602,7 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/jojo.json absPath of file",
       "internal": {
-        "contentDigest": "4a5564a2104d5aa59a02e2977ceca8fd",
-        "type": "FriendsJson",
-        "owner": "gatsby-transformer-json"
-      }
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file >>> JSON": {
-      "public": "true",
-      "path": "/julia-frisky",
-      "name": "Julia & Frisky",
-      "description": "<p>Julia is a smaller mother she has an old scar on her left side below her dorsal. She is friendly with Raggedy Ann and of course JoJo. I think Frisky is in his second year. He just got a tear where is left pec attaches to his body. I don't know if that will create a scar. I have seen them numerous times this winter 2013-14 and been able to swim with them all but once.</p>",
-      "featuredImage": {
-        "src": "./img/friend-pic-julia3.jpg"
-      },
-      "images": [
-        {
-          "src": "./img/friend-pic-julia2.jpg"
-        }
-      ],
-      "videos": [
-        {
-          "src": "http://www.youtube.com/embed/AnQsuEWcdig?rel=0&fs=1&showinfo=1",
-          "caption": "JoJo is bringing me to Julia and Frisky. He is the biggest of the dolphins.",
-          "source": "youtube"
-        }
-      ],
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file >>> JSON",
-      "children": [],
-      "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file",
-      "internal": {
-        "contentDigest": "ea22a70a51b73bd13bc6c734977a9bc3",
+        "contentDigest": "46cd3f4de94093677f978aa1be45eedc",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2609,23 +3622,23 @@
       ],
       "videos": [
         {
-          "src": "https://player.vimeo.com/video/149924029",
+          "src": "//player.vimeo.com/video/149924029",
           "source": "vimeo"
         },
         {
-          "src": "https://player.vimeo.com/video/149958729",
+          "src": "//player.vimeo.com/video/149958729",
           "source": "vimeo"
         },
         {
-          "src": "https://player.vimeo.com/video/139253537",
+          "src": "//player.vimeo.com/video/139253537",
           "source": "vimeo"
         },
         {
-          "src": "http://www.youtube.com/embed/fn25FTgPyFo?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/fn25FTgPyFo?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         },
         {
-          "src": "http://www.youtube.com/embed/cW9yjwN3wCs?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/cW9yjwN3wCs?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         }
       ],
@@ -2633,7 +3646,36 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/lemonlips.json absPath of file",
       "internal": {
-        "contentDigest": "88f1e8b5aed08105e10387d302a3ccd5",
+        "contentDigest": "945d407777540cd93ee88f2d09ed0f66",
+        "type": "FriendsJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/julia-frisky",
+      "name": "Julia & Frisky",
+      "description": "<p>Julia is a smaller mother she has an old scar on her left side below her dorsal. She is friendly with Raggedy Ann and of course JoJo. I think Frisky is in his second year. He just got a tear where is left pec attaches to his body. I don't know if that will create a scar. I have seen them numerous times this winter 2013-14 and been able to swim with them all but once.</p>",
+      "featuredImage": {
+        "src": "./img/friend-pic-julia3.jpg"
+      },
+      "images": [
+        {
+          "src": "./img/friend-pic-julia2.jpg"
+        }
+      ],
+      "videos": [
+        {
+          "src": "//www.youtube.com/embed/AnQsuEWcdig?rel=0&fs=1&showinfo=1",
+          "caption": "JoJo is bringing me to Julia and Frisky. He is the biggest of the dolphins.",
+          "source": "youtube"
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file",
+      "internal": {
+        "contentDigest": "28e2cf98ea2be4c16a31233dc4e32af6",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2648,15 +3690,15 @@
       },
       "videos": [
         {
-          "src": "http://www.youtube.com/embed/vy-ismXo4yQ?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/vy-ismXo4yQ?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         },
         {
-          "src": "http://www.youtube.com/embed/NRhVetrD4cs?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/NRhVetrD4cs?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         },
         {
-          "src": "http://www.youtube.com/embed/BadbcaaDWk8?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/BadbcaaDWk8?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         }
       ],
@@ -2664,7 +3706,7 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/mojo.json absPath of file",
       "internal": {
-        "contentDigest": "410e4ebe01459599452b01160bc62cd0",
+        "contentDigest": "40da6016c11946290becb302ccce44a1",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2679,7 +3721,7 @@
       },
       "videos": [
         {
-          "src": "http://www.youtube.com/embed/zma6qgbN2PY?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/zma6qgbN2PY?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         }
       ],
@@ -2687,58 +3729,7 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/piney.json absPath of file",
       "internal": {
-        "contentDigest": "a8d9fab36e32403748bfd36a44dc980a",
-        "type": "FriendsJson",
-        "owner": "gatsby-transformer-json"
-      }
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file >>> JSON": {
-      "public": "true",
-      "path": "/raggedyanne",
-      "name": "Raggedy Anne",
-      "description": "<p>JoJo introduced me to her and her calf Baby Black Tip in 2012. The left side of her fluke is ragged along the edge. Her calf was fairly large, maybe two years old. His dorsal is black on the very end. BB Tip is somewhat interested in me and on occasion will swim up to me. Raggedy Anne keeps her distance unless Bo and Lemon Lips are around.  I have been able to observe BB Tip nursing. He is also learning to crater fish.</p>",
-      "featuredImage": {
-        "src": "./img/friend-pic-raggedy.jpg"
-      },
-      "images": [
-        {
-          "src": "./img/ra2.jpg",
-          "caption": "Raggedy Anne in estrus."
-        },
-        {
-          "src": "./img/ra3.jpg",
-          "caption": "Raggedy Anne and Bo Pregnant 6/15."
-        }
-      ],
-      "videos": [
-        {
-          "src": "https://player.vimeo.com/video/139251411",
-          "source": "vimeo"
-        },
-        {
-          "src": "http://www.youtube.com/embed/wGateJRZTjI?rel=0&fs=1&showinfo=1",
-          "source": "youtube"
-        }
-      ],
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file >>> JSON",
-      "children": [],
-      "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file",
-      "internal": {
-        "contentDigest": "769922d44067ca3ed08b05abf8cf39ce",
-        "type": "FriendsJson",
-        "owner": "gatsby-transformer-json"
-      }
-    },
-    "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file >>> JSON": {
-      "public": "true",
-      "path": "/scarside",
-      "name": "Scarside",
-      "description": "<p>Met Scarside and her calf in the summer of 2012. They were swimming with JoJo and Raggedy Anne and B.B. Tip. She had a long gash behind her pec on the right side. Her calf swam right up to me and made his signature whistle. He had slightly yellow lips like Lemon Lips!</p>",
-      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file >>> JSON",
-      "children": [],
-      "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file",
-      "internal": {
-        "contentDigest": "6103675bed55d73e0ab377930415f10e",
+        "contentDigest": "56e052417ab493ffad7c480f9b2eaeda",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2758,7 +3749,7 @@
       ],
       "videos": [
         {
-          "src": "https://player.vimeo.com/video/244487980",
+          "src": "//player.vimeo.com/video/244487980",
           "source": "vimeo"
         }
       ],
@@ -2766,7 +3757,7 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json absPath of file",
       "internal": {
-        "contentDigest": "ab875d3d19c05632cb969b688422975a",
+        "contentDigest": "f9c9376b03ef261f10ec7357412565f7",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2791,7 +3782,7 @@
       ],
       "videos": [
         {
-          "src": "http://www.youtube.com/embed/10KdpT6UGdw?rel=0&fs=1&showinfo=1",
+          "src": "//www.youtube.com/embed/10KdpT6UGdw?rel=0&fs=1&showinfo=1",
           "source": "youtube"
         }
       ],
@@ -2799,7 +3790,7 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json absPath of file",
       "internal": {
-        "contentDigest": "3b79746ea8eabedaf0cd2c6c75c5a809",
+        "contentDigest": "3d39759e9711bb49bdc12f1f5cdb6341",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2811,23 +3802,23 @@
       "description": "<p>Whizzer is Bo's calf born somewhere between July 2015 and October 2015. He would be Lemon Lips younger brother. He acts just like Lemon Lips and even has a yellow tinge to his lips. I think Bo produces very energetic calves and she seems to like my interacting with them. She has let me calf sit for both calves while she's off fishing or hanging with either JoJo or Raggedy Ann. This summer Raggedy Ann lost her calf and she has been helping Bo raise Whizzer.</p>",
       "videos": [
         {
-          "src": "https://player.vimeo.com/video/244912825",
+          "src": "//player.vimeo.com/video/244912825",
           "source": "vimeo"
         },
         {
-          "src": "https://player.vimeo.com/video/244929994",
+          "src": "//player.vimeo.com/video/244929994",
           "source": "vimeo"
         },
         {
-          "src": "https://player.vimeo.com/video/148948836",
+          "src": "//player.vimeo.com/video/148948836",
           "source": "vimeo"
         },
         {
-          "src": "https://player.vimeo.com/video/148760188",
+          "src": "//player.vimeo.com/video/148760188",
           "source": "vimeo"
         },
         {
-          "src": "https://player.vimeo.com/video/148774540",
+          "src": "//player.vimeo.com/video/148774540",
           "source": "vimeo"
         }
       ],
@@ -2835,7 +3826,58 @@
       "children": [],
       "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json absPath of file",
       "internal": {
-        "contentDigest": "678334b87df610ec47832c77c0062311",
+        "contentDigest": "e2ba29ca8613eba920f05e05dfce4c9b",
+        "type": "FriendsJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/raggedyanne",
+      "name": "Raggedy Anne",
+      "description": "<p>JoJo introduced me to her and her calf Baby Black Tip in 2012. The left side of her fluke is ragged along the edge. Her calf was fairly large, maybe two years old. His dorsal is black on the very end. BB Tip is somewhat interested in me and on occasion will swim up to me. Raggedy Anne keeps her distance unless Bo and Lemon Lips are around.  I have been able to observe BB Tip nursing. He is also learning to crater fish.</p>",
+      "featuredImage": {
+        "src": "./img/friend-pic-raggedy.jpg"
+      },
+      "images": [
+        {
+          "src": "./img/ra2.jpg",
+          "caption": "Raggedy Anne in estrus."
+        },
+        {
+          "src": "./img/ra3.jpg",
+          "caption": "Raggedy Anne and Bo Pregnant 6/15."
+        }
+      ],
+      "videos": [
+        {
+          "src": "//player.vimeo.com/video/139251411",
+          "source": "vimeo"
+        },
+        {
+          "src": "//www.youtube.com/embed/wGateJRZTjI?rel=0&fs=1&showinfo=1",
+          "source": "youtube"
+        }
+      ],
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file",
+      "internal": {
+        "contentDigest": "8b81d4e8363effc9d7c29975a77710de",
+        "type": "FriendsJson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file >>> JSON": {
+      "public": "true",
+      "path": "/scarside",
+      "name": "Scarside",
+      "description": "<p>Met Scarside and her calf in the summer of 2012. They were swimming with JoJo and Raggedy Anne and B.B. Tip. She had a long gash behind her pec on the right side. Her calf swam right up to me and made his signature whistle. He had slightly yellow lips like Lemon Lips!</p>",
+      "id": "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file",
+      "internal": {
+        "contentDigest": "6103675bed55d73e0ab377930415f10e",
         "type": "FriendsJson",
         "owner": "gatsby-transformer-json"
       }
@@ -2848,7 +3890,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519153688231,
+      "updatedAt": 1519160963164,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -2857,7 +3899,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d317a01d467d5f053dd380202e8a419e",
+        "contentDigest": "6256c7c1af0e79f6c1dd527c2e7ae8b0",
         "owner": "internal-data-bridge"
       }
     },
@@ -2869,7 +3911,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519153688232,
+      "updatedAt": 1519160963165,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -2878,28 +3920,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7a3c870ec0fbabde71a011dcc01b3d15",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /julia-frisky": {
-      "layout": "index",
-      "jsonName": "julia-frisky.json",
-      "internalComponentName": "ComponentJuliaFrisky",
-      "path": "/julia-frisky",
-      "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
-      "componentChunkName": "component---src-templates-dolphin-js",
-      "context": {},
-      "updatedAt": 1519153688233,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
-      "id": "SitePage /julia-frisky",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "de652b43221fd12c0e1e04e7e83c7126",
+        "contentDigest": "d64e4416f9c140caab72a0ff9f2a86bd",
         "owner": "internal-data-bridge"
       }
     },
@@ -2911,7 +3932,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519153688234,
+      "updatedAt": 1519160963166,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -2920,7 +3941,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a193af94eaf6400fdd0a244bab33d0df",
+        "contentDigest": "fdeb82fdffffade65fdc44b19ec0fe0c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /julia-frisky": {
+      "layout": "index",
+      "jsonName": "julia-frisky.json",
+      "internalComponentName": "ComponentJuliaFrisky",
+      "path": "/julia-frisky",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
+      "componentChunkName": "component---src-templates-dolphin-js",
+      "context": {},
+      "updatedAt": 1519160963167,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
+      "id": "SitePage /julia-frisky",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f43a1a45954cff96060e01bfd38bf58f",
         "owner": "internal-data-bridge"
       }
     },
@@ -2932,7 +3974,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519153688234,
+      "updatedAt": 1519160963167,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -2941,7 +3983,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5ed940e86aafac45c99f42c2ef76d8b4",
+        "contentDigest": "f3793794032b842107165955ac7ee412",
         "owner": "internal-data-bridge"
       }
     },
@@ -2953,7 +3995,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519153688235,
+      "updatedAt": 1519160963169,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -2962,49 +4004,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "069668e049ca11c3dc5b34216ed3dc4d",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /raggedyanne": {
-      "layout": "index",
-      "jsonName": "raggedyanne.json",
-      "internalComponentName": "ComponentRaggedyanne",
-      "path": "/raggedyanne",
-      "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
-      "componentChunkName": "component---src-templates-dolphin-js",
-      "context": {},
-      "updatedAt": 1519153688236,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
-      "id": "SitePage /raggedyanne",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c9bb46a4c356b2751eea9061d1930561",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /scarside": {
-      "layout": "index",
-      "jsonName": "scarside.json",
-      "internalComponentName": "ComponentScarside",
-      "path": "/scarside",
-      "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
-      "componentChunkName": "component---src-templates-dolphin-js",
-      "context": {},
-      "updatedAt": 1519153688237,
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
-      "id": "SitePage /scarside",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "494b0c6e036f7d6751aee10873c80d90",
+        "contentDigest": "aea3514e0003dcab58c45703f5904663",
         "owner": "internal-data-bridge"
       }
     },
@@ -3016,7 +4016,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519153688238,
+      "updatedAt": 1519160963170,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -3025,7 +4025,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1963abf5ef39aa6428d45feade39ffbc",
+        "contentDigest": "4dc454af3f3e7740b42b990c1072ec71",
         "owner": "internal-data-bridge"
       }
     },
@@ -3037,7 +4037,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519153688239,
+      "updatedAt": 1519160963170,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -3046,7 +4046,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "99a898819b231086addfffa7d44c20ba",
+        "contentDigest": "d73319549499306cc6dc5bac7baa43b1",
         "owner": "internal-data-bridge"
       }
     },
@@ -3058,7 +4058,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519153688240,
+      "updatedAt": 1519160963171,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -3067,7 +4067,217 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "59105c5f0388e26fc1200b8305b59029",
+        "contentDigest": "a1f2fbacdecb023329fe70e60ce82214",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /raggedyanne": {
+      "layout": "index",
+      "jsonName": "raggedyanne.json",
+      "internalComponentName": "ComponentRaggedyanne",
+      "path": "/raggedyanne",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
+      "componentChunkName": "component---src-templates-dolphin-js",
+      "context": {},
+      "updatedAt": 1519160963173,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
+      "id": "SitePage /raggedyanne",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6258cdb8a04efcb613b075fb18645351",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /scarside": {
+      "layout": "index",
+      "jsonName": "scarside.json",
+      "internalComponentName": "ComponentScarside",
+      "path": "/scarside",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
+      "componentChunkName": "component---src-templates-dolphin-js",
+      "context": {},
+      "updatedAt": 1519160963173,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
+      "id": "SitePage /scarside",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5b497c8fb842de5250a83ce708e58523",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /behavior/affection": {
+      "layout": "index",
+      "jsonName": "behavior-affection.json",
+      "internalComponentName": "ComponentBehaviorAffection",
+      "path": "/behavior/affection",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "componentChunkName": "component---src-templates-behavior-js",
+      "context": {},
+      "updatedAt": 1519160963189,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "id": "SitePage /behavior/affection",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7024d56409ea2ddcd737e9cd07f58dee",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /behavior/playing": {
+      "layout": "index",
+      "jsonName": "behavior-playing.json",
+      "internalComponentName": "ComponentBehaviorPlaying",
+      "path": "/behavior/playing",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "componentChunkName": "component---src-templates-behavior-js",
+      "context": {},
+      "updatedAt": 1519160963189,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "id": "SitePage /behavior/playing",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c376af9de88c0f4841732a406ab045a7",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /behavior/fishing": {
+      "layout": "index",
+      "jsonName": "behavior-fishing.json",
+      "internalComponentName": "ComponentBehaviorFishing",
+      "path": "/behavior/fishing",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "componentChunkName": "component---src-templates-behavior-js",
+      "context": {},
+      "updatedAt": 1519160963190,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "id": "SitePage /behavior/fishing",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "912355f9a6c96ce1af031e48ccc6f2cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /behavior/sex": {
+      "layout": "index",
+      "jsonName": "behavior-sex.json",
+      "internalComponentName": "ComponentBehaviorSex",
+      "path": "/behavior/sex",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "componentChunkName": "component---src-templates-behavior-js",
+      "context": {},
+      "updatedAt": 1519160963191,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "id": "SitePage /behavior/sex",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ae82baa56f8db2939ebb3da833cc7811",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /behavior/signature-whistle": {
+      "layout": "index",
+      "jsonName": "behavior-signature-whistle.json",
+      "internalComponentName": "ComponentBehaviorSignatureWhistle",
+      "path": "/behavior/signature-whistle",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "componentChunkName": "component---src-templates-behavior-js",
+      "context": {},
+      "updatedAt": 1519160963191,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "id": "SitePage /behavior/signature-whistle",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fab564dc7b18a467091a03f8e86b724d",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /behavior/bubbles": {
+      "layout": "index",
+      "jsonName": "behavior-bubbles.json",
+      "internalComponentName": "ComponentBehaviorBubbles",
+      "path": "/behavior/bubbles",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "componentChunkName": "component---src-templates-behavior-js",
+      "context": {},
+      "updatedAt": 1519160963192,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "id": "SitePage /behavior/bubbles",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "da94260496966d370f1de6b7d721bba9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /behavior/harassing-nurse-sharks": {
+      "layout": "index",
+      "jsonName": "behavior-harassing-nurse-sharks.json",
+      "internalComponentName": "ComponentBehaviorHarassingNurseSharks",
+      "path": "/behavior/harassing-nurse-sharks",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "componentChunkName": "component---src-templates-behavior-js",
+      "context": {},
+      "updatedAt": 1519160963193,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "id": "SitePage /behavior/harassing-nurse-sharks",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b9a6dd427c851e0d98e7c467c3b72ec0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /behavior/nursing": {
+      "layout": "index",
+      "jsonName": "behavior-nursing.json",
+      "internalComponentName": "ComponentBehaviorNursing",
+      "path": "/behavior/nursing",
+      "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "componentChunkName": "component---src-templates-behavior-js",
+      "context": {},
+      "updatedAt": 1519160963197,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
+      "id": "SitePage /behavior/nursing",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f14e217491f8dad698de1af32820e6e2",
         "owner": "internal-data-bridge"
       }
     },
@@ -3079,7 +4289,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1519153688270,
+      "updatedAt": 1519160963264,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/404.js",
@@ -3088,7 +4298,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "075cc2f50cca60a5558c3fee8ad205ac",
+        "contentDigest": "25add69229d841b380e80ee2d0f68012",
         "owner": "internal-data-bridge"
       }
     },
@@ -3100,7 +4310,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
-      "updatedAt": 1519153688272,
+      "updatedAt": 1519160963268,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
@@ -3109,7 +4319,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7241f3f1ee7700e0a2a679033114c50a",
+        "contentDigest": "2ab73c3ed0dc279bed3950e8050c4fcf",
         "owner": "internal-data-bridge"
       }
     },
@@ -3121,7 +4331,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1519153688274,
+      "updatedAt": 1519160963274,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
@@ -3130,7 +4340,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "42cda9c79b3958a87f7071b70fe0bfe5",
+        "contentDigest": "b2e4752814921af47a7c7a92ecea5f09",
         "owner": "internal-data-bridge"
       }
     },
@@ -3142,7 +4352,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/photos.js",
       "componentChunkName": "component---src-pages-photos-js",
       "context": {},
-      "updatedAt": 1519153688275,
+      "updatedAt": 1519160963276,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/photos.js",
@@ -3151,7 +4361,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c7af9afe0c03cabdb07adfd4bc5e935b",
+        "contentDigest": "2ae65689749a69c910ff9fc4512e4bbc",
         "owner": "internal-data-bridge"
       }
     },
@@ -3163,7 +4373,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/videos.js",
       "componentChunkName": "component---src-pages-videos-js",
       "context": {},
-      "updatedAt": 1519153688279,
+      "updatedAt": 1519160963277,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/videos.js",
@@ -3172,7 +4382,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e2ba2f1e0a60fda4dc66005d17064c7f",
+        "contentDigest": "d40a346f229cc4a603478421fe81db74",
         "owner": "internal-data-bridge"
       }
     },
@@ -3184,7 +4394,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1519153688287,
+      "updatedAt": 1519160963281,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/404.js",
@@ -3193,25 +4403,25 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fa9c187ae5d41015c91d574a5abd4110",
+        "contentDigest": "ccb6af9affe4064c8748225c9a86fc9a",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9a6941eb8714b4cd597e9872fd3dd628"
+    "PLUGINS_HASH": "3aca7ae1c49bcf1fc57fbe11849b73c6"
   },
   "componentDataDependencies": {
     "nodes": {
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file >>> JSON": [
-        "/julia-frisky"
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/lemonlips.json absPath of file >>> JSON": [
+        "/lemonlips"
       ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-julia3.jpg absPath of file": [
-        "/julia-frisky"
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-lemon.jpg absPath of file": [
+        "/lemonlips"
       ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-julia2.jpg absPath of file": [
-        "/julia-frisky"
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra1.jpg absPath of file": [
+        "/lemonlips"
       ],
       "/Users/maxbaun/Projects/JoJo/src/data/friends/jojo.json absPath of file >>> JSON": [
         "/jojo"
@@ -3225,20 +4435,14 @@
       "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-bo.jpg absPath of file": [
         "/bo"
       ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/lemonlips.json absPath of file >>> JSON": [
-        "/lemonlips"
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/juliafrisky.json absPath of file >>> JSON": [
+        "/julia-frisky"
       ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-lemon.jpg absPath of file": [
-        "/lemonlips"
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-julia3.jpg absPath of file": [
+        "/julia-frisky"
       ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra1.jpg absPath of file": [
-        "/lemonlips"
-      ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/mojo.json absPath of file >>> JSON": [
-        "/mojo"
-      ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-mojo.jpg absPath of file": [
-        "/mojo"
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-julia2.jpg absPath of file": [
+        "/julia-frisky"
       ],
       "/Users/maxbaun/Projects/JoJo/src/data/friends/piney.json absPath of file >>> JSON": [
         "/piney"
@@ -3246,32 +4450,20 @@
       "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-piney.jpg absPath of file": [
         "/piney"
       ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file >>> JSON": [
-        "/raggedyanne"
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/mojo.json absPath of file >>> JSON": [
+        "/mojo"
       ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-raggedy.jpg absPath of file": [
-        "/raggedyanne"
-      ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra2.jpg absPath of file": [
-        "/raggedyanne"
-      ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra3.jpg absPath of file": [
-        "/raggedyanne"
-      ],
-      "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file >>> JSON": [
-        "/scarside"
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-mojo.jpg absPath of file": [
+        "/mojo"
       ],
       "/Users/maxbaun/Projects/JoJo/src/data/friends/snipper.json absPath of file >>> JSON": [
-        "/snipper",
-        "/"
+        "/snipper"
       ],
       "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-snipper.jpg absPath of file": [
-        "/snipper",
-        "/"
+        "/snipper"
       ],
       "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-snipper2.jpg absPath of file": [
-        "/snipper",
-        "/"
+        "/snipper"
       ],
       "/Users/maxbaun/Projects/JoJo/src/data/friends/whitey.json absPath of file >>> JSON": [
         "/whitey"
@@ -3285,8 +4477,56 @@
       "/Users/maxbaun/Projects/JoJo/src/data/friends/img/whitey2.jpg absPath of file": [
         "/whitey"
       ],
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/raggedtyanne.json absPath of file >>> JSON": [
+        "/raggedyanne"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/friend-pic-raggedy.jpg absPath of file": [
+        "/raggedyanne"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra2.jpg absPath of file": [
+        "/raggedyanne"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/img/ra3.jpg absPath of file": [
+        "/raggedyanne"
+      ],
       "/Users/maxbaun/Projects/JoJo/src/data/friends/whizzer.json absPath of file >>> JSON": [
         "/whizzer"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/friends/scarside.json absPath of file >>> JSON": [
+        "/scarside"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/affection.json absPath of file >>> JSON": [
+        "/behavior/affection"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/fishing.json absPath of file >>> JSON": [
+        "/behavior/fishing"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/playing.json absPath of file >>> JSON": [
+        "/behavior/playing"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/sex.json absPath of file >>> JSON": [
+        "/behavior/sex"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/male.jpg absPath of file": [
+        "/behavior/sex"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/female.jpg absPath of file": [
+        "/behavior/sex"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/signatureWhistle.json absPath of file >>> JSON": [
+        "/behavior/signature-whistle"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/harassingNurseSharks.json absPath of file >>> JSON": [
+        "/behavior/harassing-nurse-sharks"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/img/julia-nurse-shark.png absPath of file": [
+        "/behavior/harassing-nurse-sharks"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/bubbles.json absPath of file >>> JSON": [
+        "/behavior/bubbles"
+      ],
+      "/Users/maxbaun/Projects/JoJo/src/data/behavior/nursing.json absPath of file >>> JSON": [
+        "/behavior/nursing"
       ]
     },
     "connections": {
