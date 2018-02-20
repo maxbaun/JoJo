@@ -168,6 +168,13 @@
         "path": "/photos/"
     },
     {
+        "componentChunkName": "component---src-pages-shop-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "shop.json",
+        "path": "/shop/"
+    },
+    {
         "componentChunkName": "component---src-pages-videos-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",

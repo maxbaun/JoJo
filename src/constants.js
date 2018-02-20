@@ -320,3 +320,86 @@ export const videos = fromJS([
 		source: 'youtube'
 	}
 ]);
+
+import book from './img/book.jpg';
+import book2 from './img/book2.jpg';
+import dvd from './img/dvd.jpg';
+import dvd2 from './img/dvd2.jpg';
+import jojoFriends from './img/jojo-friends.jpg';
+import dvdLabel from './img/dvd-label.jpg';
+
+export const shop = fromJS([
+	{
+		title: 'Books',
+		products: [
+			{
+				paypal: {
+					item: 'JoJo and Me book',
+					amount: 20.50
+				},
+				image: {
+					src: book
+				},
+				description: `<p>Jay has documented her trips to Turks and Caicos Islands to visit her dolphin friends. Now you can read all about Jay's adventures with JoJo in her new book!</p>`,
+				amazon: `https://www.amazon.com/JoJo-Me-Jay-Sargent/dp/0615433138/ref=sr_1_fkmr2_2?ie=UTF8&qid=1519162739&sr=8-2-fkmr2&keywords=jojo%27s+world+jay+sargent`
+			},
+			{
+				paypal: {
+					item: 'JoJo and Me II book',
+					amount: 20.50
+				},
+				image: {
+					src: book2
+				},
+				description: `<p>In the sequel to her first book Jay shares her experiences in the waters off of Turks and Caicos Islands with her dolphin friends JoJo, Lemon Lips and others.</p>`,
+				amazon: `https://www.amazon.com/JoJo-Me-II-Introducing-Lemon/dp/1490443193/ref=sr_1_fkmr2_3?ie=UTF8&qid=1519162739&sr=8-3-fkmr2&keywords=jojo%27s+world+jay+sargent`
+			},
+			{
+				paypal: {
+					item: `JoJo Saves His Friends book`,
+					amount: 12.50
+				},
+				image: {
+					src: jojoFriends
+				},
+				description: `<p>In JoJo's latest book, some of JoJo’s friends have been taken from their families and put in captivity. JoJo must figure a way to find them and get them out of jail.</p>`,
+				amazon: `//www.amazon.com/JoJo-Saves-His-Friends-Sargent/dp/1500739286/ref=sr_1_fkmr2_1?ie=UTF8&qid=1519162739&sr=8-1-fkmr2&keywords=jojo%27s+world+jay+sargent`
+			}
+		]
+	},
+	{
+		title: 'DVDs',
+		products: [
+			{
+				paypal: {
+					item: 'JoJo & Friends DVD',
+					amount: 12.50
+				},
+				image: {
+					src: dvd
+				},
+				description: `<p>This new DVD is narrated and put to music. It has some interesting dolphin behavior and some good clips of Lemon Lips and other dolphins that Jay has met.</p>`
+			},
+			{
+				paypal: {
+					item: `JoJo's World DVD`,
+					amount: 12.50
+				},
+				image: {
+					src: dvd2
+				},
+				description: `<p>This new DVD includes more underwater video of JoJo and other dolphins in his pod with added dolphin and Humpback Whale behavior.</p>`
+			},
+			{
+				paypal: {
+					item: `JoJo DVD`,
+					amount: 12.50
+				},
+				image: {
+					src: dvdLabel
+				},
+				description: `<p>JoJo is the name of the new DVD. It has many of JoJo's daily activities, many of which are unique to JoJo. It also includes some spotted dolphins video with aerial jumps.</p>`
+			}
+		]
+	}
+]);

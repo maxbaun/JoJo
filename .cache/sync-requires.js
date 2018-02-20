@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-about-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/pages/about.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/pages/index.js")),
   "component---src-pages-photos-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/pages/photos.js")),
+  "component---src-pages-shop-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/pages/shop.js")),
   "component---src-pages-videos-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/pages/videos.js"))
 }
 
@@ -66,6 +67,8 @@ exports.json = {
   "index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/index.json"),
   "layout-index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
   "photos.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/photos.json"),
+  "layout-index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
+  "shop.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/shop.json"),
   "layout-index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
   "videos.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/videos.json"),
   "layout-index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),

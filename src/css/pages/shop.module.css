@@ -1,0 +1,32 @@
+@import '../utils/mixins.css';
+@import '../utils/variables.css';
+
+.product {
+	border: 1px solid $grey;
+	border-radius: 2px;
+	height: 650px;
+	margin-bottom: 1rem;
+	padding: 0.3rem 0.5rem;
+	position: relative;
+	text-align: center;
+}
+
+.productImage {
+	margin-bottom: 0.5rem;
+}
+
+.productPrice {
+	font-weight: 700;
+}
+
+.productContent {
+	height: 540px;
+}
+
+.productFooter {
+	bottom: 0;
+	height: 110px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
