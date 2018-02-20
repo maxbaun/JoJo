@@ -1,0 +1,15 @@
+{
+	"public" : "true",
+	"path" : "/bo",
+	"name" : "Bo",
+	"description": "<p>Lemon Lip's Mom. She seems to be good friends with Raggedy Anne. I met Bo and Lemon Lips in 2012. No distinguishing marks except for a slight white spot on the front of her dorsal. Very friendly, seems to like it when Lemon Lips swims with me. Maybe gives her a rest! B.B.Tip and Raggedy Anne will swim close to me when all of them are together. Bo seems to want me in the pod.</p>",
+	"featuredImage" : {
+		"src" : "./img/friend-pic-bo.jpg"
+	},
+	"videos" : [
+		{
+			"src": "http://www.youtube.com/embed/uAYaj_RrbHM?rel=0&fs=1&showinfo=1",
+			"source": "youtube"
+		}
+	]
+}

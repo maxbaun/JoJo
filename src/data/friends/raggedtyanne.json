@@ -1,0 +1,29 @@
+{
+	"public" : "true",
+	"path": "/raggedyanne",
+	"name" : "Raggedy Anne",
+	"description" : "<p>JoJo introduced me to her and her calf Baby Black Tip in 2012. The left side of her fluke is ragged along the edge. Her calf was fairly large, maybe two years old. His dorsal is black on the very end. BB Tip is somewhat interested in me and on occasion will swim up to me. Raggedy Anne keeps her distance unless Bo and Lemon Lips are around.  I have been able to observe BB Tip nursing. He is also learning to crater fish.</p>",
+	"featuredImage" : {
+		"src" : "./img/friend-pic-raggedy.jpg"
+	},
+	"images" : [
+		{
+			"src" : "./img/ra2.jpg",
+			"caption" : "Raggedy Anne in estrus."
+		},
+		{
+			"src" : "./img/ra3.jpg",
+			"caption" : "Raggedy Anne and Bo Pregnant 6/15."
+		}
+	],
+	"videos" : [
+		{
+			"src": "https://player.vimeo.com/video/139251411",
+			"source": "vimeo"
+		},
+		{
+			"src": "http://www.youtube.com/embed/wGateJRZTjI?rel=0&fs=1&showinfo=1",
+			"source": "youtube"
+		}
+	]
+}

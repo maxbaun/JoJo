@@ -3,8 +3,29 @@
         "componentChunkName": "component---src-templates-dolphin-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "bo.json",
+        "path": "/bo"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "jojo.json",
         "path": "/jojo"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "julia-frisky.json",
+        "path": "/julia-frisky"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "lemonlips.json",
+        "path": "/lemonlips"
     },
     {
         "componentChunkName": "component---src-templates-dolphin-js",
@@ -14,11 +35,60 @@
         "path": "/mojo"
     },
     {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "piney.json",
+        "path": "/piney"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "raggedyanne.json",
+        "path": "/raggedyanne"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "scarside.json",
+        "path": "/scarside"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "snipper.json",
+        "path": "/snipper"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "whitey.json",
+        "path": "/whitey"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "whizzer.json",
+        "path": "/whizzer"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "dev-404-page.json",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404.json",
+        "path": "/404/"
     },
     {
         "componentChunkName": "component---src-pages-about-js",
@@ -47,13 +117,6 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "videos.json",
         "path": "/videos/"
-    },
-    {
-        "componentChunkName": "component---src-pages-404-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "404.json",
-        "path": "/404/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

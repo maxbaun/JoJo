@@ -12,6 +12,7 @@ import Image from '../components/image';
 import Gallery from '../components/gallery';
 
 const Dolphin = ({data: d}) => {
+	console.log(d);
 	const data = fromJS(d.friendsJson);
 
 	return (
@@ -19,16 +20,18 @@ const Dolphin = ({data: d}) => {
 			<div className={CSS.dolphin}>
 				<div className={CSS.content}>
 					<div className="row">
-						<div className="col col-12 col-sm-6">
-							<div className={CSS.featuredImage}>
-								<Image
-									src={data.getIn(['featuredImage', 'src', 'publicURL'])}
-									caption={data.getIn(['featuredImage', 'caption'])}
-									align="left"
-								/>
-							</div>
-						</div>
-						<div className="col col-12 col-sm-6">
+						{data.get('featuredImage') ?
+							<div className="col col-12 col-sm-6">
+								<div className={CSS.featuredImage}>
+									<Image
+										src={data.getIn(['featuredImage', 'src', 'publicURL'])}
+										caption={data.getIn(['featuredImage', 'caption'])}
+										align="left"
+									/>
+								</div>
+							</div> : null
+						}
+						<div className={data.get('featuredImage') ? 'col col-12 col-sm-6' : 'col col-sm-6 offset-sm-3'}>
 							<div className={CSS.description}>
 								{Parser(data.get('description') || '')}
 							</div>

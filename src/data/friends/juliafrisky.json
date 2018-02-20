@@ -1,0 +1,21 @@
+{
+	"public" : "true",
+	"path": "/julia-frisky",
+	"name" : "Julia & Frisky",
+	"description" : "<p>Julia is a smaller mother she has an old scar on her left side below her dorsal. She is friendly with Raggedy Ann and of course JoJo. I think Frisky is in his second year. He just got a tear where is left pec attaches to his body. I don't know if that will create a scar. I have seen them numerous times this winter 2013-14 and been able to swim with them all but once.</p>",
+	"featuredImage" : {
+		"src" : "./img/friend-pic-julia3.jpg"
+	},
+	"images" : [
+		{
+			"src" : "./img/friend-pic-julia2.jpg"
+		}
+	],
+	"videos" : [
+		{
+			"src": "http://www.youtube.com/embed/AnQsuEWcdig?rel=0&fs=1&showinfo=1",
+			"caption" : "JoJo is bringing me to Julia and Frisky. He is the biggest of the dolphins.",
+			"source": "youtube"
+		}
+	]
+}

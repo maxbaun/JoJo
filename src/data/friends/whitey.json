@@ -1,0 +1,25 @@
+{
+	"public" : "true",
+	"path": "/whitey",
+	"name" : "Whitey",
+	"description" : "<p>Whitey is a seven foot dolphin with white on her dorsal and on the right end of her fluke. The left side of her fluke has a small snip off the end and both sides are ragged. Both fins are also ragged. I met her Dec 26th 2013 she appeared to know me. She didn't want anything to do with tour boats and left immediately upon their arrival. This happened on both encounters that day. I don't actually know the sex and would guess maybe female because Whitey was visiting Julia and Frisky. She clearly came from outside the reef when we saw her the second time.</p>",
+	"featuredImage" : {
+		"src" : "./img/friend-pic-whitey.jpg"
+	},
+	"images" : [
+		{
+			"src" : "./img/whitey.jpg",
+			"caption" : "Whitey's distinctive dorsal."
+		},
+		{
+			"src" : "./img/whitey2.jpg",
+			"caption" : "JoJo and Whitey swimming together."
+		}
+	],
+	"videos" : [
+		{
+			"src": "http://www.youtube.com/embed/10KdpT6UGdw?rel=0&fs=1&showinfo=1",
+			"source": "youtube"
+		}
+	]
+}

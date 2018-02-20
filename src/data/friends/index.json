@@ -20,7 +20,8 @@
 	"videos" : [
 		{
 			"src": "http://www.youtube.com/embed/GEXVj-tKa-k?rel=0&fs=1&showinfo=1",
-			"source": "youtube"
+			"source": "youtube",
+			"caption" : "video caption"
 		}
 	]
 }

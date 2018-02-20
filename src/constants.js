@@ -57,7 +57,7 @@ export const primaryNavItems = fromJS([
 			},
 			{
 				name: 'Julia & Friskey',
-				link: '/julia'
+				link: '/julia-frisky'
 			},
 			{
 				name: 'Whitey',
@@ -70,10 +70,6 @@ export const primaryNavItems = fromJS([
 			{
 				name: 'Snipper',
 				link: '/snipper'
-			},
-			{
-				name: 'White Tip',
-				link: '/whitetip'
 			}
 		]
 	},
