@@ -1,13 +1,34 @@
-exports.onCreatePage = async ({page, boundActionCreators}) => {
+const path = require('path');
+
+exports.createPages = ({boundActionCreators, graphql}) => {
 	const {createPage} = boundActionCreators;
 
-	return new Promise((resolve, reject) => {
-		console.log(page);
+	const dolphinTemplate = path.resolve(`src/templates/dolphin.js`);
 
-		page.context = {
-			test: 'tesastast'
-		};
+	return graphql(
+		`
+		  {
+			allFriendsJson (filter: {public: {eq: "true"}}) {
+			  edges {
+				node {
+				  path
+				}
+			  }
+			}
+		  }
+		`
+	)
+		.then(res => {
+			if (res.errors) {
+				console.log(JSON.stringify(res, null, 4));
+				return Promise.reject(res.errors);
+			}
 
-		resolve();
-	});
+			res.data.allFriendsJson.edges.forEach(({node}) => {
+				createPage({
+					path: node.path,
+					component: dolphinTemplate
+				});
+			});
+		});
 };

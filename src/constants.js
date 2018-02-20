@@ -130,38 +130,102 @@ import i31 from './img/31.jpg';
 import i32 from './img/32.jpg';
 
 export const images = fromJS([
-	i29,
-	i1,
-	i2,
-	i3,
-	i4,
-	i5,
-	i6,
-	i7,
-	i8,
-	i9,
-	i10,
-	i11,
-	i12,
-	i13,
-	i14,
-	i15,
-	i16,
-	i17,
-	i18,
-	i19,
-	i20,
-	i21,
-	i22,
-	i23,
-	i24,
-	i25,
-	i26,
-	i27,
-	i28,
-	i30,
-	i31,
-	i32
+	{
+		src: i29
+	},
+	{
+		src: i1
+	},
+	{
+		src: i2
+	},
+	{
+		src: i3
+	},
+	{
+		src: i4
+	},
+	{
+		src: i5
+	},
+	{
+		src: i6
+	},
+	{
+		src: i7
+	},
+	{
+		src: i8
+	},
+	{
+		src: i9
+	},
+	{
+		src: i10
+	},
+	{
+		src: i11
+	},
+	{
+		src: i12
+	},
+	{
+		src: i13
+	},
+	{
+		src: i14
+	},
+	{
+		src: i15
+	},
+	{
+		src: i16
+	},
+	{
+		src: i17
+	},
+	{
+		src: i18
+	},
+	{
+		src: i19
+	},
+	{
+		src: i20
+	},
+	{
+		src: i21
+	},
+	{
+		src: i22
+	},
+	{
+		src: i23
+	},
+	{
+		src: i24
+	},
+	{
+		src: i25
+	},
+	{
+		src: i26
+	},
+	{
+		src: i27
+	},
+	{
+		src: i28
+	},
+	{
+		src: i30
+	},
+	{
+		src: i31
+	},
+	{
+		src: i32
+	}
 ]);
 
 export const videos = fromJS([

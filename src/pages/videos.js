@@ -14,7 +14,7 @@ const Videos = () => {
 			<div className="row">
 				{videos.map(video => {
 					return (
-						<div key={video.get('src')} className="col col-xs-12 col-sm-6">
+						<div key={video.get('src')} className="col col-12 col-sm-6">
 							<Video
 								src={video.get('src')}
 								source={video.get('source')}

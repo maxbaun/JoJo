@@ -1,0 +1,36 @@
+@import '../utils/variables.css';
+@import '../utils/mixins.css';
+
+.image {
+	display: block;
+
+	&[data-align="center"] {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	small {
+		@include fontSize(12, 12);
+		display: block;
+		margin: 0.5rem 0 0.75rem;
+
+		&[data-color="white"] {
+			color: $white;
+		}
+
+		&[data-color="black"] {
+			color: $black;
+		}
+
+		&[data-size="md"] {
+			@include fontSize(14, 14);
+		}
+	}
+}

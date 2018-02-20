@@ -1,5 +1,5 @@
 import uuid from 'uuid/v4';
-import {List, Map} from 'immutable';
+import {List, Map, fromJS} from 'immutable';
 import {compact} from 'lodash';
 
 import {easeInOutQuad} from './easingHelpers';
@@ -176,3 +176,16 @@ export class ScrollTo {
 		this.timeStart = null;
 	}
 }
+
+export const graphImages = images => {
+	if (!images || images.count() === 0) {
+		return List();
+	}
+
+	return images.map(i => {
+		return fromJS({
+			src: i.getIn(['src', 'publicURL']),
+			caption: i.get('caption')
+		});
+	});
+};

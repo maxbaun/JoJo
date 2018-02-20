@@ -1,13 +1,13 @@
 import React, {Fragment} from 'react';
-import Link from 'gatsby-link';
 import * as ImmutablePropTypes from 'react-immutable-proptypes';
 import {List} from 'immutable';
 import Masonry from 'react-masonry-component';
 import {bind} from 'lodash-decorators';
 
-import {click, ref} from '../utils/componentHelpers';
+import {click} from '../utils/componentHelpers';
 import Modal from './modal';
 import Carousel from './carousel';
+import Image from './image';
 import CSS from '../css/modules/gallery.module.css';
 
 const masonryOptions = {
@@ -33,15 +33,6 @@ export default class Gallery extends React.Component {
 	static defaultProps = {
 		images: List()
 	};
-
-	// componentDidMount() {
-	// 	console.log(Masonry);
-	// 	new Masonry(this.wrap, {
-	// 		itemSelector: '[data-item]',
-	// 		columnWidth: 200,
-	// 		gutter: 0
-	// 	});
-	// }
 
 	@bind()
 	handleClick(image) {
@@ -74,8 +65,8 @@ export default class Gallery extends React.Component {
 				>
 					{images.map(image => {
 						return (
-							<li key={image} data-item className={CSS.item} onClick={click(this.handleClick, image)}>
-								<img src={image}/>
+							<li key={image.get('src')} data-item className={CSS.item} onClick={click(this.handleClick, image.get('src'))}>
+								<Image {...image.toJS()} align="left"/>
 							</li>
 						);
 					})}
@@ -87,13 +78,13 @@ export default class Gallery extends React.Component {
 					<div className={CSS.galleryCarousel}>
 						<Carousel
 							slideCount={images.count()}
-							initialSlide={images.indexOf(activeImage)}
+							initialSlide={images.findIndex(i => i.get('src') === activeImage)}
 						>
 							<Fragment>
 								{images.map(image => {
 									return (
-										<div key={image} data-item className={CSS.carouselItem}>
-											<img src={image}/>
+										<div key={image.get('src')} data-item className={CSS.carouselItem}>
+											<Image {...image.toJS()} align="center" captionColor="white" captionSize="md"/>
 										</div>
 									);
 								})}

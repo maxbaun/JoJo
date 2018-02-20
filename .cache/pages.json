@@ -1,5 +1,19 @@
 [
     {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "jojo.json",
+        "path": "/jojo"
+    },
+    {
+        "componentChunkName": "component---src-templates-dolphin-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "mojo.json",
+        "path": "/mojo"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -33,5 +47,19 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "videos.json",
         "path": "/videos/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
     }
 ]

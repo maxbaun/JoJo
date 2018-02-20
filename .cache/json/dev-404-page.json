@@ -1,1 +1,1 @@
-{"data":{"allSitePage":{"totalCount":4,"edges":[{"node":{"path":"/about/"}},{"node":{"path":"/"}},{"node":{"path":"/photos/"}},{"node":{"path":"/videos/"}}]}},"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":8,"edges":[{"node":{"path":"/jojo"}},{"node":{"path":"/mojo"}},{"node":{"path":"/about/"}},{"node":{"path":"/"}},{"node":{"path":"/photos/"}},{"node":{"path":"/videos/"}},{"node":{"path":"/404/"}},{"node":{"path":"/404.html"}}]}},"pathContext":{}}

@@ -1,0 +1,27 @@
+@import '../utils/mixins.css';
+@import '../utils/variables.css';
+
+.content,
+.images,
+.videos {
+	padding: 0.5rem 0;
+}
+
+/* .content {
+	text-align: center;
+}
+
+.featuredImage {
+	margin-bottom: 1rem;
+}
+
+.description {
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: left;
+} */
+
+.subtitle {
+	@include fontSize(24, 24);
+	margin-bottom: 0.75rem;
+}
