@@ -34,7 +34,7 @@ const Meta = ({title, description, keywords}) => {
 			/>
 			<meta
 				name="og:image"
-				content={headerImage}
+				content={`//jojoandjay.com${headerImage}`}
 			/>
 		</Helmet>
 	);
