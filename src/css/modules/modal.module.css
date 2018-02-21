@@ -19,11 +19,16 @@
 
 .wrap {
 	border-radius: 2px;
-	margin: 5% auto;
+	margin: 20% auto;
 	max-height: 80%;
 	overflow-x: hidden;
 	overflow-y: auto;
-	width: 90%;
+	width: 95%;
+
+	@media (--tabletUp) {
+		margin: 10% auto;
+		width: 90%;
+	}
 }
 
 .close {

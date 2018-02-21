@@ -3,6 +3,23 @@
 	"path": "/whizzer",
 	"name" : "Whizzer",
 	"description" : "<p>Whizzer is Bo's calf born somewhere between July 2015 and October 2015. He would be Lemon Lips younger brother. He acts just like Lemon Lips and even has a yellow tinge to his lips. I think Bo produces very energetic calves and she seems to like my interacting with them. She has let me calf sit for both calves while she's off fishing or hanging with either JoJo or Raggedy Ann. This summer Raggedy Ann lost her calf and she has been helping Bo raise Whizzer.</p>",
+	"featuredImage" : {
+		"src" : "./img/friend-pic-whizzer.jpg"
+	},
+	"images" : [
+		{
+			"src" : "./img/whizzer.jpg"
+		},
+		{
+			"src" : "./img/whizzer2.jpg"
+		},
+		{
+			"src" : "./img/whizzer3.jpg"
+		},
+		{
+			"src" : "./img/whizzer4.jpg"
+		}
+	],
 	"videos" : [
 		{
 			"src": "//player.vimeo.com/video/244912825",

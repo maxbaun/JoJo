@@ -7,7 +7,9 @@
 }
 
 .inner {
-	padding: 0 70px;
+	@media (--tabletUp) {
+		padding: 0 70px;
+	}
 
 	.slick-list {
 		display: flex;
