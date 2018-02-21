@@ -1,0 +1,45 @@
+@import '../utils/variables.css';
+@import '../utils/mixins.css';
+
+.dropdown {
+	composes: dropdown from '../vendor/bootstrap.css';
+/*
+	@include desktopUp {
+		&:hover {
+			.menu {
+				display: block;
+			}
+		}
+	} */
+}
+
+.dropdownActive {
+	composes: dropdown;
+
+	.menu {
+		display: block;
+	}
+}
+
+.menu {
+	composes: dropdown-menu from '../vendor/bootstrap.css';
+	padding: 0.5rem 0.75rem;
+}
+
+.toggle {
+	composes: dropdown-toggle from '../vendor/bootstrap.css';
+
+	&::after {
+		@include icon;
+		@include fontSize(12, 12);
+		border: none;
+		content: '\f078';
+		margin-left: 5px;
+		margin-top: 1px;
+		vertical-align: top;
+	}
+}
+
+.item {
+	composes: dropdown-item from '../vendor/bootstrap.css';
+}

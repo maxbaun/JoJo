@@ -12,10 +12,6 @@ $toggleColor: color-mod($white alpha(0.8));
 		background-color: $blue;
 	}
 
-	.dropdownItem {
-		padding: 0.4rem 0.5rem;
-	}
-
 	.navLink {
 		@media (--desktopUp) {
 			padding-left: 1.25rem !important;
@@ -64,6 +60,7 @@ $toggleColor: color-mod($white alpha(0.8));
 		margin-left: -1rem;
 		margin-right: -1rem;
 		margin-top: 0;
+		overflow: hidden;
 		padding: 1rem;
 		position: fixed;
 		width: 320px;
@@ -124,6 +121,11 @@ $toggleColor: color-mod($white alpha(0.8));
 	composes: navbar-nav from '../vendor/bootstrap.css';
 	composes: mr-auto from '../vendor/bootstrap.css';
 	composes: ml-auto from '../vendor/bootstrap.css';
+
+	@media (--collapseDown) {
+		height: 100%;
+		overflow: auto;
+	}
 }
 
 .navItem {
@@ -146,22 +148,7 @@ $toggleColor: color-mod($white alpha(0.8));
 	}
 }
 
-.navDropdown {
-	composes: nav-item from '../vendor/bootstrap.css';
-	composes: dropdown from '../vendor/bootstrap.css';
-	composes: navItem;
-
-	@include desktopUp {
-		&:hover {
-			.dropdownMenu {
-				display: block;
-			}
-		}
-	}
-}
-
 .dropdownMenu {
-	composes: dropdown-menu from '../vendor/bootstrap.css';
 	background-color: transparent;
 	border: none;
 	margin: 0;
@@ -169,19 +156,18 @@ $toggleColor: color-mod($white alpha(0.8));
 	@media (--desktopUp) {
 		background-color: $blue;
 	}
-
+/*
 	@media (--collapseDown) {
-		display: block;
 		padding: 0;
-	}
+	} */
 }
 
-.dropdownItem {
+/* .dropdownItem {
 	composes: dropdown-item from '../vendor/bootstrap.css';
 	composes: navLink;
-}
+} */
 
-.toggle {
+/* .toggle {
 	composes: navLink;
 	composes: dropdown-toggle from '../vendor/bootstrap.css';
 
@@ -191,4 +177,4 @@ $toggleColor: color-mod($white alpha(0.8));
 		content: '\f078';
 		vertical-align: top;
 	}
-}
+} */

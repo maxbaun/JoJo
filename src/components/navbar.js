@@ -5,6 +5,7 @@ import {bind} from 'lodash-decorators';
 
 import {click} from '../utils/componentHelpers';
 import CSS from '../css/modules/navbar.module.css';
+import Dropdown from './dropdown';
 import {primaryNavItems} from '../constants';
 
 export default class Navbar extends React.Component {
@@ -77,21 +78,32 @@ export default class Navbar extends React.Component {
 	@bind()
 	renderDropdown(item) {
 		return (
-			<li key={item.get('name')} className={CSS.navDropdown}>
-				<span className={CSS.toggle}>
-					{item.get('name')}
-				</span>
-				<div className={CSS.dropdownMenu} aria-labelledby="navbarDropdown">
-					{item.get('dropdown').map(child => {
-						return (
-							<Fragment key={child.get('name')}>
-								{this.renderBaseLink(child.get('link'), child.get('name'), CSS.dropdownItem)}
-							</Fragment>
-						);
-					})}
-				</div>
-			</li>
+			<Dropdown
+				key={item.get('name')}
+				title={item}
+				items={item.get('dropdown')}
+				className={CSS.navItem}
+				linkClass={CSS.navLink}
+				toggleClass={CSS.navLink}
+				menuClass={CSS.dropdownMenu}
+			/>
 		);
+		// return (
+		// 	<li key={item.get('name')} className={CSS.navDropdown}>
+		// 		<span className={CSS.toggle}>
+		// 			{item.get('name')}
+		// 		</span>
+		// 		<div className={CSS.dropdownMenu} aria-labelledby="navbarDropdown">
+		// 			{item.get('dropdown').map(child => {
+		// 				return (
+		// 					<Fragment key={child.get('name')}>
+		// 						{this.renderBaseLink(child.get('link'), child.get('name'), CSS.dropdownItem)}
+		// 					</Fragment>
+		// 				);
+		// 			})}
+		// 		</div>
+		// 	</li>
+		// );
 	}
 
 	@bind()

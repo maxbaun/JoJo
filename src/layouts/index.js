@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import '../css/vendor/bootstrap-grid.css';
-import '../css/vendor/fontawesome-all.css';
 import '../css/vendor/slick.css';
 import '../css/utils/fonts.css';
 import '../css/utils/global.css';
