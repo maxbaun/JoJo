@@ -4,7 +4,6 @@ const preferDefault = m => m && m.default || m
 exports.components = {
   "component---src-templates-dolphin-js": require("gatsby-module-loader?name=component---src-templates-dolphin-js!/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js"),
   "component---src-templates-behavior-js": require("gatsby-module-loader?name=component---src-templates-behavior-js!/Users/maxbaun/Projects/JoJo/src/templates/behavior.js"),
-  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/maxbaun/Projects/JoJo/src/pages/404.js"),
   "component---src-pages-about-js": require("gatsby-module-loader?name=component---src-pages-about-js!/Users/maxbaun/Projects/JoJo/src/pages/about.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/maxbaun/Projects/JoJo/src/pages/index.js"),
@@ -52,8 +51,6 @@ exports.json = {
   "behavior-sex.json": require("gatsby-module-loader?name=path---behavior-sex!/Users/maxbaun/Projects/JoJo/.cache/json/behavior-sex.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
   "behavior-signature-whistle.json": require("gatsby-module-loader?name=path---behavior-signature-whistle!/Users/maxbaun/Projects/JoJo/.cache/json/behavior-signature-whistle.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/maxbaun/Projects/JoJo/.cache/json/dev-404-page.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/maxbaun/Projects/JoJo/.cache/json/404.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),

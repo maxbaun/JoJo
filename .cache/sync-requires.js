@@ -9,7 +9,6 @@ exports.layouts = {
 exports.components = {
   "component---src-templates-dolphin-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js")),
   "component---src-templates-behavior-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/templates/behavior.js")),
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/pages/404.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/pages/about.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/maxbaun/Projects/JoJo/src/pages/index.js")),
@@ -57,8 +56,6 @@ exports.json = {
   "behavior-sex.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/behavior-sex.json"),
   "layout-index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
   "behavior-signature-whistle.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/behavior-signature-whistle.json"),
-  "layout-index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
   "404.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/404.json"),
   "layout-index.json": require("/Users/maxbaun/Projects/JoJo/.cache/json/layout-index.json"),
