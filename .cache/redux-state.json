@@ -8,7 +8,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1519162118429,
+      "updatedAt": 1519176860862,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/maxbaun/Projects/JoJo/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f7ae59f6490221680ea2baa0d80b2f39",
+        "contentDigest": "c3f7ced2e9a5066af8d3949d9a61b45e",
         "owner": "internal-data-bridge"
       }
     },
@@ -869,12 +869,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-20T21:28:35.336Z",
+      "buildTime": "2018-02-21T01:34:17.636Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ffb19a9686f15395e48c0b452c25f4a9",
+        "contentDigest": "e70ff243af28130383ebbc5465c0df20",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -884,7 +884,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "82aaa291d5592449c0d068138bdad1f3",
+        "contentDigest": "8cc44333ff08dc69f3c22e459f27a381",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -895,7 +895,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2018-02-20T20:03:11.000Z",
-      "accessTime": "2018-02-20T21:28:38.000Z",
+      "accessTime": "2018-02-21T01:34:20.000Z",
       "changeTime": "2018-02-20T20:03:11.000Z",
       "birthTime": "2018-02-19T21:32:34.000Z",
       "root": "/",
@@ -913,11 +913,11 @@
       "blksize": 4096,
       "ino": 44489221,
       "blocks": 0,
-      "atimeMs": 1519162118000,
+      "atimeMs": 1519176860000,
       "mtimeMs": 1519156991000,
       "ctimeMs": 1519156991000,
       "birthtimeMs": 1519075954000,
-      "atime": "2018-02-20T21:28:38.000Z",
+      "atime": "2018-02-21T01:34:20.000Z",
       "mtime": "2018-02-20T20:03:11.000Z",
       "ctime": "2018-02-20T20:03:11.000Z",
       "birthtime": "2018-02-19T21:32:34.000Z"
@@ -927,7 +927,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ab9ab73f8a227c5609ae68c6a4082db0",
+        "contentDigest": "3261be56f769e3e1df672d723e3f3308",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -938,7 +938,7 @@
       "size": 442,
       "prettySize": "442 B",
       "modifiedTime": "2018-02-20T21:08:00.000Z",
-      "accessTime": "2018-02-20T21:28:38.000Z",
+      "accessTime": "2018-02-21T01:34:20.000Z",
       "changeTime": "2018-02-20T21:08:00.000Z",
       "birthTime": "2018-02-20T20:03:11.000Z",
       "root": "/",
@@ -956,11 +956,11 @@
       "blksize": 4096,
       "ino": 44531356,
       "blocks": 0,
-      "atimeMs": 1519162118000,
+      "atimeMs": 1519176860000,
       "mtimeMs": 1519160880000,
       "ctimeMs": 1519160880000,
       "birthtimeMs": 1519156991000,
-      "atime": "2018-02-20T21:28:38.000Z",
+      "atime": "2018-02-21T01:34:20.000Z",
       "mtime": "2018-02-20T21:08:00.000Z",
       "ctime": "2018-02-20T21:08:00.000Z",
       "birthtime": "2018-02-20T20:03:11.000Z"
@@ -970,7 +970,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "314b82c6a06b7f561a3ceb92c36de032",
+        "contentDigest": "9337112c6132ed4c7b0675e8c6dbed94",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -981,7 +981,7 @@
       "size": 544,
       "prettySize": "544 B",
       "modifiedTime": "2018-02-20T18:52:18.000Z",
-      "accessTime": "2018-02-20T21:28:38.000Z",
+      "accessTime": "2018-02-21T01:34:20.000Z",
       "changeTime": "2018-02-20T18:52:18.000Z",
       "birthTime": "2018-02-19T22:50:16.000Z",
       "root": "/",
@@ -999,11 +999,11 @@
       "blksize": 4096,
       "ino": 44502920,
       "blocks": 0,
-      "atimeMs": 1519162118000,
+      "atimeMs": 1519176860000,
       "mtimeMs": 1519152738000,
       "ctimeMs": 1519152738000,
       "birthtimeMs": 1519080616000,
-      "atime": "2018-02-20T21:28:38.000Z",
+      "atime": "2018-02-21T01:34:20.000Z",
       "mtime": "2018-02-20T18:52:18.000Z",
       "ctime": "2018-02-20T18:52:18.000Z",
       "birthtime": "2018-02-19T22:50:16.000Z"
@@ -1013,7 +1013,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "983cb0da125e0377753b7bb8b47a6131",
+        "contentDigest": "0ed8f8bdf442b885244380f5b940b881",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1024,7 +1024,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2018-02-20T20:30:22.000Z",
-      "accessTime": "2018-02-20T21:28:38.000Z",
+      "accessTime": "2018-02-21T01:34:20.000Z",
       "changeTime": "2018-02-20T20:30:22.000Z",
       "birthTime": "2018-02-20T20:07:12.000Z",
       "root": "/",
@@ -1042,11 +1042,11 @@
       "blksize": 4096,
       "ino": 44531448,
       "blocks": 0,
-      "atimeMs": 1519162118000,
+      "atimeMs": 1519176860000,
       "mtimeMs": 1519158622000,
       "ctimeMs": 1519158622000,
       "birthtimeMs": 1519157232000,
-      "atime": "2018-02-20T21:28:38.000Z",
+      "atime": "2018-02-21T01:34:20.000Z",
       "mtime": "2018-02-20T20:30:22.000Z",
       "ctime": "2018-02-20T20:30:22.000Z",
       "birthtime": "2018-02-20T20:07:12.000Z"
@@ -1056,7 +1056,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ea35d2028c58da2cda7b6bea58f0925c",
+        "contentDigest": "d4c6d15a527061cccddae72edb30b2dd",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1067,7 +1067,7 @@
       "size": 748,
       "prettySize": "748 B",
       "modifiedTime": "2018-02-20T20:06:57.000Z",
-      "accessTime": "2018-02-20T21:28:38.000Z",
+      "accessTime": "2018-02-21T01:34:20.000Z",
       "changeTime": "2018-02-20T20:06:57.000Z",
       "birthTime": "2018-02-20T18:15:27.000Z",
       "root": "/",
@@ -1085,11 +1085,11 @@
       "blksize": 4096,
       "ino": 44524046,
       "blocks": 0,
-      "atimeMs": 1519162118000,
+      "atimeMs": 1519176860000,
       "mtimeMs": 1519157217000,
       "ctimeMs": 1519157217000,
       "birthtimeMs": 1519150527000,
-      "atime": "2018-02-20T21:28:38.000Z",
+      "atime": "2018-02-21T01:34:20.000Z",
       "mtime": "2018-02-20T20:06:57.000Z",
       "ctime": "2018-02-20T20:06:57.000Z",
       "birthtime": "2018-02-20T18:15:27.000Z"
@@ -3890,7 +3890,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118350,
+      "updatedAt": 1519176860807,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -3899,7 +3899,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "984533291665929b40090a581a1a7e09",
+        "contentDigest": "4c4affdd649170734e102a26fa669314",
         "owner": "internal-data-bridge"
       }
     },
@@ -3911,7 +3911,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118352,
+      "updatedAt": 1519176860808,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -3920,7 +3920,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e1b5c0c7e8c5b60b347f0f7550a849f1",
+        "contentDigest": "dfd2afa9e98355aac340037908ec398d",
         "owner": "internal-data-bridge"
       }
     },
@@ -3932,7 +3932,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118353,
+      "updatedAt": 1519176860809,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -3941,7 +3941,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c0edd98f22a6dc805a7d25d111b7cbaa",
+        "contentDigest": "508b1214cb6b9c8ff401fa92402bda16",
         "owner": "internal-data-bridge"
       }
     },
@@ -3953,7 +3953,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118354,
+      "updatedAt": 1519176860810,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -3962,7 +3962,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "15354e728ea1402d548dcc594e963b88",
+        "contentDigest": "22c1a19dc1ae1ccac278cd7b4821f715",
         "owner": "internal-data-bridge"
       }
     },
@@ -3974,7 +3974,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118355,
+      "updatedAt": 1519176860811,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -3983,7 +3983,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "25c7b50257536c011b6d1471a13f3c46",
+        "contentDigest": "b888016d01b78698303b5c3a9d2ff738",
         "owner": "internal-data-bridge"
       }
     },
@@ -3995,7 +3995,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118356,
+      "updatedAt": 1519176860811,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -4004,7 +4004,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "229e502f0b3cab442256d64daef0a201",
+        "contentDigest": "459c3e0664ae6eca5cdd13307632f999",
         "owner": "internal-data-bridge"
       }
     },
@@ -4016,7 +4016,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118358,
+      "updatedAt": 1519176860812,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -4025,7 +4025,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a4961fdbb4519d169f87ff4bd6183196",
+        "contentDigest": "820a8bee12b281208c49ea51accd801c",
         "owner": "internal-data-bridge"
       }
     },
@@ -4037,7 +4037,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118359,
+      "updatedAt": 1519176860813,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -4046,7 +4046,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6c81d982e303dd508cdc0a417259dd5b",
+        "contentDigest": "fcd74e13c541c615549aec5671892963",
         "owner": "internal-data-bridge"
       }
     },
@@ -4058,7 +4058,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118362,
+      "updatedAt": 1519176860813,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -4067,7 +4067,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "200a054a91f1e5a86711926fe151c80e",
+        "contentDigest": "39e05473806e75a6ee361121548fbfc5",
         "owner": "internal-data-bridge"
       }
     },
@@ -4079,7 +4079,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118363,
+      "updatedAt": 1519176860814,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -4088,7 +4088,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3cf3e8da60abc2934a068e79b5942f1d",
+        "contentDigest": "12424b7a6103cd8923463c9ba2188450",
         "owner": "internal-data-bridge"
       }
     },
@@ -4100,7 +4100,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
       "componentChunkName": "component---src-templates-dolphin-js",
       "context": {},
-      "updatedAt": 1519162118366,
+      "updatedAt": 1519176860815,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/dolphin.js",
@@ -4109,7 +4109,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d14ddb6f17d7dad4c1399ffff312dba4",
+        "contentDigest": "016bdaff7bafdfc5cccb870679856072",
         "owner": "internal-data-bridge"
       }
     },
@@ -4121,7 +4121,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
       "componentChunkName": "component---src-templates-behavior-js",
       "context": {},
-      "updatedAt": 1519162118390,
+      "updatedAt": 1519176860832,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
@@ -4130,7 +4130,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "09cff6af59c32d6a95858dad53752ae6",
+        "contentDigest": "84ec3592d4aad40a1705ef68d39e8dab",
         "owner": "internal-data-bridge"
       }
     },
@@ -4142,7 +4142,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
       "componentChunkName": "component---src-templates-behavior-js",
       "context": {},
-      "updatedAt": 1519162118391,
+      "updatedAt": 1519176860833,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
@@ -4151,7 +4151,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "db033277e4d2e1baeedc6091925ec6b8",
+        "contentDigest": "e92906e67c169fe7a7008fe11f804773",
         "owner": "internal-data-bridge"
       }
     },
@@ -4163,7 +4163,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
       "componentChunkName": "component---src-templates-behavior-js",
       "context": {},
-      "updatedAt": 1519162118392,
+      "updatedAt": 1519176860834,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
@@ -4172,7 +4172,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d30afb04d8684b99375b402e4702bfb5",
+        "contentDigest": "2ad354f29311e7c706d613639bbe6969",
         "owner": "internal-data-bridge"
       }
     },
@@ -4184,7 +4184,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
       "componentChunkName": "component---src-templates-behavior-js",
       "context": {},
-      "updatedAt": 1519162118392,
+      "updatedAt": 1519176860834,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
@@ -4193,7 +4193,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2528b1d3bfd8f88d4178bbaafb72cc08",
+        "contentDigest": "aa3c8205b66d9fed18d8bd2e1df04b6b",
         "owner": "internal-data-bridge"
       }
     },
@@ -4205,7 +4205,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
       "componentChunkName": "component---src-templates-behavior-js",
       "context": {},
-      "updatedAt": 1519162118394,
+      "updatedAt": 1519176860835,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
@@ -4214,7 +4214,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a76612f97ef551571b08f40308afaa42",
+        "contentDigest": "8f5a58a4baf8d55027d563c9dcf5ee70",
         "owner": "internal-data-bridge"
       }
     },
@@ -4226,7 +4226,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
       "componentChunkName": "component---src-templates-behavior-js",
       "context": {},
-      "updatedAt": 1519162118394,
+      "updatedAt": 1519176860836,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
@@ -4235,7 +4235,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f0f3b0ac77ab663aae81c75bcfdf4ba4",
+        "contentDigest": "63e691b70cb4174711c04b77edbcff07",
         "owner": "internal-data-bridge"
       }
     },
@@ -4247,7 +4247,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
       "componentChunkName": "component---src-templates-behavior-js",
       "context": {},
-      "updatedAt": 1519162118395,
+      "updatedAt": 1519176860837,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
@@ -4256,7 +4256,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "10bce9128bedc1d7df63a0b2560a7f29",
+        "contentDigest": "18fe90871bae61b9fb3e2fe63c40a2a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -4268,7 +4268,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
       "componentChunkName": "component---src-templates-behavior-js",
       "context": {},
-      "updatedAt": 1519162118398,
+      "updatedAt": 1519176860838,
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/templates/behavior.js",
@@ -4277,7 +4277,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bf0b28af8b6bd37092ff8496bd8d9a12",
+        "contentDigest": "425cae126241aed0898835996f2ef760",
         "owner": "internal-data-bridge"
       }
     },
@@ -4289,7 +4289,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1519162118435,
+      "updatedAt": 1519176860868,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/404.js",
@@ -4298,7 +4298,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a4251ea5dc319c768b969005ab945fc8",
+        "contentDigest": "22b6d51975919820d816887a429b2069",
         "owner": "internal-data-bridge"
       }
     },
@@ -4310,7 +4310,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
-      "updatedAt": 1519162118436,
+      "updatedAt": 1519176860870,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/about.js",
@@ -4319,7 +4319,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "908a555d5921ee576557ee9bf3d180d2",
+        "contentDigest": "6968083b232439841a28a8f1a07b63e4",
         "owner": "internal-data-bridge"
       }
     },
@@ -4331,7 +4331,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1519162118437,
+      "updatedAt": 1519176860871,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/index.js",
@@ -4340,7 +4340,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a3daba394d158023cdc1684329f6e1d2",
+        "contentDigest": "ebcc168f0bd0a92da0b2634752e3ce17",
         "owner": "internal-data-bridge"
       }
     },
@@ -4352,7 +4352,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/photos.js",
       "componentChunkName": "component---src-pages-photos-js",
       "context": {},
-      "updatedAt": 1519162118438,
+      "updatedAt": 1519176860873,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/photos.js",
@@ -4361,7 +4361,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "890a78484ac264505f67da874b939591",
+        "contentDigest": "ce1afcd0a8e581cdc406edf86cd71fa6",
         "owner": "internal-data-bridge"
       }
     },
@@ -4373,7 +4373,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/shop.js",
       "componentChunkName": "component---src-pages-shop-js",
       "context": {},
-      "updatedAt": 1519162118439,
+      "updatedAt": 1519176860874,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/shop.js",
@@ -4382,7 +4382,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91877dbe810360e2d656a751fc2bd4f",
+        "contentDigest": "d6ebbc4fcba0e2dd575b37f23dab24b3",
         "owner": "internal-data-bridge"
       }
     },
@@ -4394,7 +4394,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/videos.js",
       "componentChunkName": "component---src-pages-videos-js",
       "context": {},
-      "updatedAt": 1519162118440,
+      "updatedAt": 1519176860875,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/videos.js",
@@ -4403,7 +4403,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ecf4be1779f839e8b07f66eafb6e27fd",
+        "contentDigest": "1a736c4f85dda7a4a5d681b66ae94d69",
         "owner": "internal-data-bridge"
       }
     },
@@ -4415,7 +4415,7 @@
       "component": "/Users/maxbaun/Projects/JoJo/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1519162118445,
+      "updatedAt": 1519176860880,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/maxbaun/Projects/JoJo/src/pages/404.js",
@@ -4424,7 +4424,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9a8ec9b39482668bcda990de6b6967eb",
+        "contentDigest": "f09c82f0f37b7cd0b0c199148f24e377",
         "owner": "internal-data-bridge"
       }
     }

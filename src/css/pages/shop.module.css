@@ -1,32 +1,51 @@
 @import '../utils/mixins.css';
 @import '../utils/variables.css';
 
+.shopDescription {
+	margin: 0 auto;
+	max-width: 475px;
+}
+
+.mail {
+	@include fontSize(12, 16);
+	font-style: italic;
+	margin-bottom: 0.25rem;
+}
+
 .product {
-	border: 1px solid $grey;
-	border-radius: 2px;
-	height: 650px;
+	composes: card from '../vendor/bootstrap.css';
+	composes: bg-light from '../vendor/bootstrap.css';
 	margin-bottom: 1rem;
-	padding: 0.3rem 0.5rem;
-	position: relative;
-	text-align: center;
+	padding-bottom: 0.75rem;
 }
 
 .productImage {
-	margin-bottom: 0.5rem;
+	composes: card-img-top from '../vendor/bootstrap.css';
+	text-align: center;
+}
+
+.productContent {
+	composes: card-body from '../vendor/bootstrap.css';
 }
 
 .productPrice {
 	font-weight: 700;
+
+	small {
+		font-style: italic;
+		margin-left: 0.15rem;
+		vertical-align: middle;
+	}
 }
 
-.productContent {
-	height: 540px;
+.productPaypal {
+	margin-bottom: 1rem;
 }
 
-.productFooter {
-	bottom: 0;
-	height: 110px;
-	left: 0;
-	position: absolute;
-	width: 100%;
+.section {
+	composes: section from './behavior.module.css';
+}
+
+.sectionTitle {
+	composes: sectionTitle from './behavior.module.css';
 }

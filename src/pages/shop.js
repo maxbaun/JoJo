@@ -16,6 +16,12 @@ const Shop = () => {
 	return (
 		<Page {...PageConfig}>
 			<div className={CSS.shop}>
+				<div className={CSS.shopDescription}>
+					<p>Some 1/2 sentence description about this page or what you are selling.</p>
+					<div>
+						<p className={CSS.mail}>Order with PayPal or send a check to Jay and a book will be mailed to you.<br/>Send check, name and address to: <strong>Jay Sargent 330 Indian Ave. Middletown, RI 02842</strong></p>
+					</div>
+				</div>
 				{shop.map(section => {
 					return (
 						<section key={section.get('title')} className={CSS.section}>
@@ -24,22 +30,23 @@ const Shop = () => {
 								<div className="row">
 									{section.get('products').map(product => {
 										return (
-											<div key={product.getIn(['paypal', 'item'])} className="col-12 col-sm-4">
+											<div key={product.getIn(['paypal', 'item'])} className="col-12 col-sm-6 col-md-4">
 												<div className={CSS.product}>
+													<div className={CSS.productImage}>
+														<Image {...product.get('image').toJS()} align="left"/>
+													</div>
 													<div className={CSS.productContent}>
-														<div className={CSS.productImage}>
-															<Image {...product.get('image').toJS()} align="left"/>
-														</div>
 														<div className={CSS.productDescription}>
 															{Parser(product.get('description') || '')}
 														</div>
-														<p className={CSS.productPrice}>{price(product.getIn(['paypal', 'amount']))} includes shipping and handling</p>
-													</div>
-													<div className={CSS.productFooter}>
+														<p className={CSS.productPrice}>
+															<span>{price(product.getIn(['paypal', 'amount']))}</span>
+															<small>(includes shipping and handling)</small>
+														</p>
 														<div className={CSS.productPaypal}>
 															<Paypal {...product.get('paypal').toJS()}/>
 														</div>
-														{product.get('amazon') && product.get('amazon') !== '' ? <p className={CSS.productAmazon}>Also available on <a href={product.get('amazon')} target="_blank">Amazon.</a></p> : null}
+														{product.get('amazon') && product.get('amazon') !== '' ? <span className={CSS.productAmazon}>Also available on <a href={product.get('amazon')} target="_blank">Amazon.</a></span> : null}
 													</div>
 												</div>
 											</div>

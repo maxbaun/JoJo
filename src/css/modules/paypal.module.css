@@ -1,0 +1,6 @@
+@import '../utils/mixins.css';
+@import '../utils/variables.css';
+
+.button {
+	text-align: center;
+}

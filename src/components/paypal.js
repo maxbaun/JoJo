@@ -21,12 +21,6 @@ const Paypal = ({item, amount}) => {
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 				</form>
 			</div>
-			<div className={CSS.info}>
-				<p>Order with PayPal or send a check to Jay and a book will be mailed to you. Send check, name and address to:</p>
-				<strong>
-					Jay Sargent<br/>330 Indian Ave.<br/>Middletown, RI 02842<br/>
-				</strong>
-			</div>
 		</div>
 	);
 };
