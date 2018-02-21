@@ -1,4 +1,5 @@
 import React from 'react';
+import {List} from 'immutable';
 
 import CSS from '../css/pages/about.module.css';
 import Page from '../components/page';
@@ -7,7 +8,9 @@ import about2 from '../img/about-2.jpg';
 import about3 from '../img/about-3.jpg';
 
 const PageConfig = {
-	title: 'About JoJo'
+	title: 'About JoJo',
+	description: 'JoJo is an ambassador bottlenose dolphin that lives around the Turks and Caicos Islands.',
+	keywords: List(['jay sargent', 'about us'])
 };
 
 const About = () => {

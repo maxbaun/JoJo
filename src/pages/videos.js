@@ -1,11 +1,14 @@
 import React from 'react';
+import {List} from 'immutable';
 
 import Page from '../components/page';
 import Video from '../components/video';
 import {videos} from '../constants';
 
 const PageConfig = {
-	title: 'JoJo Videos'
+	title: 'JoJo Videos',
+	description: 'Dolphin videos of JoJo & Friends in the Turks and Caicos Islands.',
+	keywords: List(['videos', 'movies', 'vids'])
 };
 
 const Videos = () => {

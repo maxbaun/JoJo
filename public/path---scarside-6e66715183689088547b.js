@@ -1,0 +1,2 @@
+webpackJsonp([65076848442106],{792:function(e,a){e.exports={data:{friendsJson:{name:"Scarside",description:"<p>Met Scarside and her calf in the summer of 2012. They were swimming with JoJo and Raggedy Anne and B.B. Tip. She had a long gash behind her pec on the right side. Her calf swam right up to me and made his signature whistle. He had slightly yellow lips like Lemon Lips!</p>",featuredImage:null,images:null,videos:null}},pathContext:{}}}});
+//# sourceMappingURL=path---scarside-6e66715183689088547b.js.map

@@ -1,21 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import graphql from 'graphql';
-import {fromJS} from 'immutable';
+import {fromJS, List} from 'immutable';
 import Parser from 'html-react-parser';
 
 import CSS from '../css/pages/behavior.module.css';
-import {graphImages, unique} from '../utils/componentHelpers';
+import {graphImages, unique, stripHtml} from '../utils/componentHelpers';
 import Page from '../components/page';
 import Video from '../components/video';
 import Image from '../components/image';
-import Gallery from '../components/gallery';
 
 const Behavior = ({data: d}) => {
 	const data = fromJS(d.behaviorJson);
 
+	const PageConfig = {
+		title: `Dolphin Behavior: ${data.get('name')}`,
+		description: stripHtml(data.get('description')),
+		keywords: List([data.get('name'), 'behavior'])
+	};
+
 	return (
-		<Page title={data.get('name')}>
+		<Page {...PageConfig}>
 			<div className={CSS.behavior}>
 				<div className={CSS.header}>
 					{data.get('featuredImage') ?

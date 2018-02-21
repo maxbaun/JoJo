@@ -1,5 +1,9 @@
 import {fromJS} from 'immutable';
 
+export const meta = fromJS({
+	keywords: ['dolphin', 'ocean', 'fish', 'providenciales', 'turks & caicos', 'provo', 'swim']
+});
+
 export const primaryNavItems = fromJS([
 	{
 		name: 'About',

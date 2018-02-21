@@ -1,5 +1,6 @@
 import React from 'react';
 import Parser from 'html-react-parser';
+import {List} from 'immutable';
 
 import CSS from '../css/pages/shop.module.css';
 import Page from '../components/page';
@@ -9,7 +10,9 @@ import {shop} from '../constants';
 import {price} from '../utils/componentHelpers';
 
 const PageConfig = {
-	title: 'Shop'
+	title: 'Shop',
+	description: 'Dolphin books, movies, and DVDs in Turks & Caicos',
+	keywords: List(['books', 'dvds', 'dolphin books', 'dolphin dvds', 'dolphin movies', 'dolphin images'])
 };
 
 const Shop = () => {

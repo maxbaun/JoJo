@@ -1,0 +1,2 @@
+webpackJsonp([0xe937f2c23e3a],{779:function(e,i){e.exports={data:{behaviorJson:{name:"Nursing",description:"<p>Calves nurse from their moms by pressing their rostrums into their mother’s mammillary slit. The mom squirts some rich milk into their mouth.</p>",featuredImage:null,sections:[{title:null,description:null,videos:[{src:"//player.vimeo.com/video/250136555",source:"vimeo",caption:null}],images:null}]}},pathContext:{}}}});
+//# sourceMappingURL=path---behavior-nursing-e82367f94c496b829295.js.map

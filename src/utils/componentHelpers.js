@@ -197,3 +197,7 @@ export function price(price) {
 
 	return `$${price.toFixed(2)}`;
 }
+
+export function stripHtml(string) {
+	return string.replace(/<\/?[^>]+(>|$)/g, '');
+}

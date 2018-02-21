@@ -3,6 +3,7 @@ module.exports = {
 		title: 'JoJo & Jay'
 	},
 	plugins: [
+		'gatsby-plugin-react-helmet',
 		{
 			resolve: 'gatsby-source-filesystem',
 			options: {

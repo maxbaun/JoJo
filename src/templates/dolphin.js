@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import graphql from 'graphql';
-import {fromJS} from 'immutable';
+import {fromJS, List} from 'immutable';
 import Parser from 'html-react-parser';
 
 import CSS from '../css/pages/dolphin.module.css';
@@ -14,8 +14,14 @@ import Gallery from '../components/gallery';
 const Dolphin = ({data: d}) => {
 	const data = fromJS(d.friendsJson);
 
+	const PageConfig = {
+		title: `${data.get('name')} - Turks & Caicos Dolphin`,
+		description: `Videos & Pictures of ${data.get('name')}, a dolphin from Providenciales in the Turks & Caicos Islands.`,
+		keywords: List([data.get('name')])
+	};
+
 	return (
-		<Page title={data.get('name')}>
+		<Page {...PageConfig}>
 			<div className={CSS.dolphin}>
 				<div className={CSS.content}>
 					<div className="row">
