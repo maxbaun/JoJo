@@ -2,6 +2,17 @@
 
 .videoWrap {
 	margin-bottom: 1rem;
+	position: relative;
+}
+
+.videoLoading {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.videoLoaded {
+	composes: videoLoading;
+	opacity: 1;
 }
 
 .video {

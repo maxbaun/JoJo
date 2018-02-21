@@ -264,63 +264,63 @@ export const images = fromJS([
 
 export const videos = fromJS([
 	{
-		src: 'https://player.vimeo.com/video/139323117',
+		src: '//player.vimeo.com/video/139323117',
 		source: 'vimeo'
 	},
 	{
-		src: 'https://player.vimeo.com/video/132044473',
+		src: '//player.vimeo.com/video/132044473',
 		source: 'vimeo'
 	},
 	{
-		src: 'http://www.youtube.com/embed/_HsIMavl-SY?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/_HsIMavl-SY?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/jsOb_g_sUf4?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/jsOb_g_sUf4?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/DxMKyko9uls?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/DxMKyko9uls?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/gpgzFFdNUD0?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/gpgzFFdNUD0?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/ma74FuMl7Ig?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/ma74FuMl7Ig?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/paIsVP_k3QI?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/paIsVP_k3QI?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/NywL39BImIk?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/NywL39BImIk?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/XyfNkurhVxM?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/XyfNkurhVxM?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/Xqp8GNKWvmE?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/Xqp8GNKWvmE?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/47CUBTIVhDY?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/47CUBTIVhDY?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/0z8mWkDAVRM?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/0z8mWkDAVRM?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/pJ3S7IiOWw0?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/pJ3S7IiOWw0?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	},
 	{
-		src: 'http://www.youtube.com/embed/TsydUkuJsPo?rel=0&fs=1&showinfo=1',
+		src: '//www.youtube.com/embed/TsydUkuJsPo?rel=0&fs=1&showinfo=1',
 		source: 'youtube'
 	}
 ]);
@@ -345,7 +345,7 @@ export const shop = fromJS([
 					src: book
 				},
 				description: `<p>Jay has documented her trips to Turks and Caicos Islands to visit her dolphin friends. Now you can read all about Jay's adventures with JoJo in her new book!</p>`,
-				amazon: `https://www.amazon.com/JoJo-Me-Jay-Sargent/dp/0615433138/ref=sr_1_fkmr2_2?ie=UTF8&qid=1519162739&sr=8-2-fkmr2&keywords=jojo%27s+world+jay+sargent`
+				amazon: `//www.amazon.com/JoJo-Me-Jay-Sargent/dp/0615433138/ref=sr_1_fkmr2_2?ie=UTF8&qid=1519162739&sr=8-2-fkmr2&keywords=jojo%27s+world+jay+sargent`
 			},
 			{
 				paypal: {
@@ -356,7 +356,7 @@ export const shop = fromJS([
 					src: book2
 				},
 				description: `<p>In the sequel to her first book Jay shares her experiences in the waters off of Turks and Caicos Islands with her dolphin friends JoJo, Lemon Lips and others.</p>`,
-				amazon: `https://www.amazon.com/JoJo-Me-II-Introducing-Lemon/dp/1490443193/ref=sr_1_fkmr2_3?ie=UTF8&qid=1519162739&sr=8-3-fkmr2&keywords=jojo%27s+world+jay+sargent`
+				amazon: `//www.amazon.com/JoJo-Me-II-Introducing-Lemon/dp/1490443193/ref=sr_1_fkmr2_3?ie=UTF8&qid=1519162739&sr=8-3-fkmr2&keywords=jojo%27s+world+jay+sargent`
 			},
 			{
 				paypal: {

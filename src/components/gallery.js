@@ -8,10 +8,11 @@ import {click} from '../utils/componentHelpers';
 import Modal from './modal';
 import Carousel from './carousel';
 import Image from './image';
+import Placeholder from './placeholder';
 import CSS from '../css/modules/gallery.module.css';
 
 const masonryOptions = {
-	transitionDuration: 300
+	transitionDuration: 150
 };
 
 export default class Gallery extends React.Component {
@@ -22,7 +23,8 @@ export default class Gallery extends React.Component {
 
 		this.state = {
 			activeImage: '',
-			active: false
+			active: false,
+			loaded: false
 		};
 	}
 
@@ -50,23 +52,45 @@ export default class Gallery extends React.Component {
 		});
 	}
 
+	@bind()
+	handleImagesLoaded() {
+		this.setState({
+			loaded: true
+		});
+	}
+
 	render() {
-		const {active, activeImage} = this.state;
+		const {active, activeImage, loaded} = this.state;
 		const {images} = this.props;
 
 		return (
 			<div className={CSS.gallery}>
+
 				<Masonry
-					className={CSS.galleryInner}
+					className={CSS.galleryInnerLoaded}
 					elementType="ul"
+					onImagesLoaded={this.handleImagesLoaded}
 					options={masonryOptions}
 					disableImagesLoaded={false}
 					updateOnEachImageLoad={false}
 				>
-					{images.map(image => {
+					{images.map((image, index) => {
+						const style = {
+							transitionDelay: `${index / 50}s`
+						};
+
 						return (
 							<li key={image.get('src')} data-item className={CSS.item} onClick={click(this.handleClick, image.get('src'))}>
-								<Image {...image.toJS()} align="left"/>
+								<div className={CSS.itemInner}>
+									{loaded === false ?
+										<div className={CSS.placeholder}>
+											<Placeholder height={125}/>
+										</div> : null
+									}
+									<div className={loaded ? CSS.imageLoaded : CSS.image} style={style}>
+										<Image {...image.toJS()} align="left"/>
+									</div>
+								</div>
 							</li>
 						);
 					})}

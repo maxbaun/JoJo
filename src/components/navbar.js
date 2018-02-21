@@ -83,14 +83,9 @@ export default class Navbar extends React.Component {
 				</span>
 				<div className={CSS.dropdownMenu} aria-labelledby="navbarDropdown">
 					{item.get('dropdown').map(child => {
-						const external = child.get('link').indexOf('//') > -1 || child.get('link').indexOf('mailto') > -1;
-
 						return (
 							<Fragment key={child.get('name')}>
-								{external ?
-									<a className={CSS.dropdownItem} href={child.get('link')} target="_blank">{child.get('name')}</a> :
-									<Link className={CSS.dropdownItem} to={child.get('link')}>{child.get('name')}</Link>
-								}
+								{this.renderBaseLink(child.get('link'), child.get('name'), CSS.dropdownItem)}
 							</Fragment>
 						);
 					})}
@@ -101,26 +96,19 @@ export default class Navbar extends React.Component {
 
 	@bind()
 	renderLink(item) {
-		const external = item.get('link').indexOf('//') > -1 || item.get('link').indexOf('mailto') > -1;
-
-		const props = {
-			className: CSS.navLink
-		};
-
-		if (external) {
-			props.target = '_blank';
-			props.href = item.get('link');
-		} else {
-			props.to = item.get('link');
-		}
-
 		return (
 			<li key={item.get('name')} className={CSS.navItem}>
-				{external ?
-					<a className={CSS.navLink} href={item.get('link')} target="_blank">{item.get('name')}</a> :
-					<Link className={CSS.navLink} to={item.get('link')}>{item.get('name')}</Link>
-				}
+				{this.renderBaseLink(item.get('link'), item.get('name'), CSS.navLink)}
 			</li>
 		);
+	}
+
+	@bind()
+	renderBaseLink(link, name, className) {
+		const external = link.indexOf('//') > -1 || link.indexOf('mailto') > -1;
+
+		return external ?
+			<a className={className} href={link} target="_blank" onClick={click(this.handleClose)}>{name}</a> :
+			<Link className={className} to={link} onClick={click(this.handleClose)}>{name}</Link>;
 	}
 }

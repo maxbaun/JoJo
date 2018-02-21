@@ -1,0 +1,13 @@
+@import '../utils/variables.css';
+
+.placeholder {
+	composes: placeholder from '../utils/animations.css';
+	background-color: $greyLight;
+	display: block;
+	height: 100%;
+	left: 0;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
