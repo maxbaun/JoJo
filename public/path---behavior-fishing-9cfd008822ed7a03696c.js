@@ -1,2 +1,0 @@
-webpackJsonp([28079300903810],{612:function(e,i){e.exports={data:{behaviorJson:{name:"Fishing",description:"<p>Crater fishing is when a dolphin uses echolocation to find fish under the sand. They plunge their rostrum into the sand and bring up a fish.</p>",featuredImage:null,sections:[{title:null,description:null,videos:[{src:"//player.vimeo.com/video/250134938",source:"vimeo",caption:null},{src:"//player.vimeo.com/video/250134953",source:"vimeo",caption:null}],images:null}]}},pathContext:{}}}});
-//# sourceMappingURL=path---behavior-fishing-9cfd008822ed7a03696c.js.map
