@@ -344,7 +344,7 @@ export const shop = fromJS([
 				image: {
 					src: book
 				},
-				description: `<p>Jay has documented her trips to Turks and Caicos Islands to visit her dolphin friends. Now you can read all about Jay's adventures with JoJo in her new book!</p>`,
+				description: `<p>This is the true story of my love affair with a very special bottle nose dolphin named JoJo. How are bond became so strong he welcomed me into his pod.</p>`,
 				amazon: `//www.amazon.com/JoJo-Me-Jay-Sargent/dp/0615433138/ref=sr_1_fkmr2_2?ie=UTF8&qid=1519162739&sr=8-2-fkmr2&keywords=jojo%27s+world+jay+sargent`
 			},
 			{
@@ -355,7 +355,7 @@ export const shop = fromJS([
 				image: {
 					src: book2
 				},
-				description: `<p>In the sequel to her first book Jay shares her experiences in the waters off of Turks and Caicos Islands with her dolphin friends JoJo, Lemon Lips and others.</p>`,
+				description: `<p>In the sequel I meet a calf who I named Lemon Lips. His mother is one of JoJo's favorite females. She trusts me to the point of letting me baby sit her calf when she goes off to fish. Lemon Lips is very precocious. We became fast friends and still are to this day.</p>`,
 				amazon: `//www.amazon.com/JoJo-Me-II-Introducing-Lemon/dp/1490443193/ref=sr_1_fkmr2_3?ie=UTF8&qid=1519162739&sr=8-3-fkmr2&keywords=jojo%27s+world+jay+sargent`
 			},
 			{
@@ -366,13 +366,14 @@ export const shop = fromJS([
 				image: {
 					src: jojoFriends
 				},
-				description: `<p>In JoJo's latest book, some of JoJo’s friends have been taken from their families and put in captivity. JoJo must figure a way to find them and get them out of jail.</p>`,
+				description: `<p>This book is written for children. It is my protest of captive dolphins. A young dolphin is taken from his mother and placed in captivity. His mother and and the pod are frantic to find him. JoJo must gather his friends to plan the escape.</p>`,
 				amazon: `//www.amazon.com/JoJo-Saves-His-Friends-Sargent/dp/1500739286/ref=sr_1_fkmr2_1?ie=UTF8&qid=1519162739&sr=8-1-fkmr2&keywords=jojo%27s+world+jay+sargent`
 			}
 		]
 	},
 	{
 		title: 'DVDs',
+		subtitle: 'All DVD\'s are professionally produced with video and narration by Jay Sargent',
 		products: [
 			{
 				paypal: {

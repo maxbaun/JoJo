@@ -49,3 +49,9 @@
 .sectionTitle {
 	composes: sectionTitle from './behavior.module.css';
 }
+
+.sectionSubtitle {
+	composes: sectionTitle;
+	@include fontSize(16, 20);
+	font-weight: 400;
+}
