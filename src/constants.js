@@ -366,7 +366,7 @@ export const shop = fromJS([
 				image: {
 					src: jojoFriends
 				},
-				description: `<p>This book is written for children. It is my protest of captive dolphins. A young dolphin is taken from his mother and placed in captivity. His mother and and the pod are frantic to find him. JoJo must gather his friends to plan the escape.</p>`,
+				description: `<p>This book is written for children. It is my protest of captive dolphins. A young dolphin is taken from his mother and placed in captivity. His mother and the pod are frantic to find him. JoJo must gather his friends to plan the escape.</p>`,
 				amazon: `//www.amazon.com/JoJo-Saves-His-Friends-Sargent/dp/1500739286/ref=sr_1_fkmr2_1?ie=UTF8&qid=1519162739&sr=8-1-fkmr2&keywords=jojo%27s+world+jay+sargent`
 			}
 		]
@@ -393,7 +393,7 @@ export const shop = fromJS([
 				image: {
 					src: dvd2
 				},
-				description: `<p>This new DVD includes more underwater video of JoJo and other dolphins in his pod with added dolphin and Humpback Whale behavior.</p>`
+				description: `<p>This new DVD includes more underwater video of JoJo and other dolphins in his pod. Learn about dolphin behavior as you meet JoJo and his pod members. Included is video of Humpback Whales that pass by the Turks and Caicos Islands on their migration route.</p>`
 			},
 			{
 				paypal: {
@@ -403,7 +403,7 @@ export const shop = fromJS([
 				image: {
 					src: dvdLabel
 				},
-				description: `<p>JoJo is the name of the new DVD. It has many of JoJo's daily activities, many of which are unique to JoJo. It also includes some spotted dolphins video with aerial jumps.</p>`
+				description: `<p>This dvd has new footage of JoJo going about his daily activities, many of which are unique to JoJo. Included is footage of Spotted Dolphins, "party dolphins".</p>`
 			}
 		]
 	}

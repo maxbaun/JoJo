@@ -23,7 +23,7 @@ const About = () => {
 						<span>
 							<p>JoJo is an ambassador bottlenose dolphin that lives around the Turks and Caicos Islands. He is probably around 40 years old and has swum with many people over the years. I first met JoJo in 1999. Tim Ainsley the Captain and owner of Beluga told me about him and then I got to see them interact. It wasn’t until I interacted with JoJo myself that my real fascination started.</p>
 
-							<p>Animals have always been my life. I run a successful show horse business in Rhode Island and I think the reason I’ve been successful is my understanding of the horses. I never had any interest in the sea even though my brother is an oceanographer and we spent summers on Cape Cod. When I met JoJo all of that changed.</p>
+							<p>Animals have always been my life. I run a successful show horse business in Rhode Island and I think the reason I’ve been successful is my understanding of animal behavior. I never had any interest in the sea even though my brother is an oceanographer and we spent summers on Cape Cod. When I met JoJo all of that changed.</p>
 
 							<p>I learned how to snorkel and free dive. I now think nothing of spending the whole day, everyday on the water (mostly in the water!) if there is a dolphin involved. I have also become familiar with quite a bit of the other marine life.</p>
 						</span>
