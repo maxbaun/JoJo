@@ -14,8 +14,8 @@ $toggleColor: color-mod($white alpha(0.8));
 
 	.navLink {
 		@media (--desktopUp) {
-			padding-left: 1.25rem !important;
-			padding-right: 1.1rem !important;
+			padding-left: 1rem !important;
+			padding-right: 0.8rem !important;
 		}
 	}
 }
@@ -130,8 +130,7 @@ $toggleColor: color-mod($white alpha(0.8));
 
 .navItem {
 	composes: nav-item from '../vendor/bootstrap.css';
-	@include fontSize(15, 15);
-	text-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.75);
+	@include fontSize(17, 17);
 	text-transform: uppercase;
 }
 

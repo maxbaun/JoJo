@@ -66,7 +66,7 @@ function renderImages(images) {
 			<div className="row justify-content-around">
 				{images.map(image => {
 					return (
-						<div key={image.get('src')} className="col-6">
+						<div key={image.get('src')} className="col-12 col-6">
 							<Image {...image.toJS()}/>
 						</div>
 					);
@@ -78,7 +78,7 @@ function renderImages(images) {
 
 function renderVideos(videos) {
 	const compiledRow = videos && videos.count() > 1 ? ['row', 'justify-content-around'] : ['row'];
-	const compileCol = videos && videos.count() > 1 ? 'col-6' : 'col';
+	const compileCol = videos && videos.count() > 1 ? 'col-12 col-sm-6' : 'col';
 
 	return (
 		<div className={CSS.videos}>

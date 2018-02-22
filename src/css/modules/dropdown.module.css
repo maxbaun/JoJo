@@ -3,14 +3,14 @@
 
 .dropdown {
 	composes: dropdown from '../vendor/bootstrap.css';
-/*
-	@include desktopUp {
+
+	@media(--desktopUp) {
 		&:hover {
 			.menu {
 				display: block;
 			}
 		}
-	} */
+	}
 }
 
 .dropdownActive {

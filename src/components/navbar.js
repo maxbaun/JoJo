@@ -41,6 +41,11 @@ export default class Navbar extends React.Component {
 		});
 	}
 
+	@bind()
+	handleDropdownClick() {
+		this.handleClose();
+	}
+
 	render() {
 		const {active} = this.state;
 		const {brand} = this.props;
@@ -86,6 +91,7 @@ export default class Navbar extends React.Component {
 				linkClass={CSS.navLink}
 				toggleClass={CSS.navLink}
 				menuClass={CSS.dropdownMenu}
+				onClick={this.handleDropdownClick}
 			/>
 		);
 		// return (
