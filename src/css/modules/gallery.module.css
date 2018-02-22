@@ -75,9 +75,14 @@
 }
 
 .galleryCarousel {
+	margin: 0 auto;
+	max-width: 950px;
+	width: 100%;
+
 	img {
 		height: auto;
 		margin: 0 auto;
 		max-width: 100%;
+		pointer-events: none;
 	}
 }

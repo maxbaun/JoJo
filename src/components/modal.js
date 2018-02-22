@@ -70,7 +70,9 @@ export default class Modal extends React.Component {
 						transform: `translate3d(0, ${style.position}px, 0)`
 					}}
 				>
-					{children}
+					<div className={CSS.inner}>
+						{children}
+					</div>
 				</div>
 			</div>
 		);
