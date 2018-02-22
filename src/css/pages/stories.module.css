@@ -1,0 +1,25 @@
+@import '../utils/mixins.css';
+@import '../utils/variables.css';
+
+.stories {
+	display: block;
+}
+
+.story {
+	composes: card from '../vendor/bootstrap.css';
+	composes: bg-light from '../vendor/bootstrap.css';
+	margin-bottom: 1rem;
+}
+
+.storyContent {
+	composes: card-body from '../vendor/bootstrap.css';
+
+	h3 {
+		@include fontSize(24, 24);
+		margin-bottom: 0.75rem;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

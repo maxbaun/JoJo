@@ -23,7 +23,7 @@ export const primaryNavItems = fromJS([
 			},
 			{
 				name: 'Stories',
-				link: 'http://jojo-stories.blogspot.com'
+				link: '/stories'
 			}
 		]
 	},
