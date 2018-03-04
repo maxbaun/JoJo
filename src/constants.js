@@ -24,6 +24,10 @@ export const primaryNavItems = fromJS([
 			{
 				name: 'Stories',
 				link: '/stories'
+			},
+			{
+				name: 'Map',
+				link: '/map'
 			}
 		]
 	},
