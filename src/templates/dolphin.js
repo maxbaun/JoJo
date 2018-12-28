@@ -95,6 +95,11 @@ export const postQuery = graphql`
 				src
 				source
 				caption
+				video {
+					m4v
+					webm
+					poster
+				}
 			}
 		}
 	}
