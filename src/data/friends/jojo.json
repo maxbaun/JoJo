@@ -8,6 +8,14 @@
 	},
 	"videos" : [
 		{
+			"source": "local",
+			"video": {
+				"m4v": "//jojoandjay.com/uploads/jojo/jojo-jay-buoy.m4v",
+				"webm": "//jojoandjay.com/uploads/jojo/jojo-jay-buoy.webm",
+				"poster": "//jojoandjay.com/uploads/jojo/jojo-jay-buoy.jpg"
+			}
+		},
+		{
 			"src": "//www.youtube.com/embed/GEXVj-tKa-k?rel=0&fs=1&showinfo=1",
 			"source": "youtube"
 		}
