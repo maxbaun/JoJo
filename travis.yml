@@ -1,0 +1,14 @@
+language: node_js
+install:
+  - yarn
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+script:
+  - node_modules/.bin/gatsby
+
+after_success:
+  - node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
