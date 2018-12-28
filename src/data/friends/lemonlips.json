@@ -2,23 +2,23 @@
 	"public" : "true",
 	"path": "/lemonlips",
 	"name" : "Lemon Lips",
-	"description" : "<p>Bo’s calf. He was quite small in 2012. Has yellow lips. Maybe from Mom’s milk? Has lots of energy, whizzes all over. Circles me at speed then shoots off to visit others and comes back as if to tell me to hurry up! Has jumped over me, almost fallen into me. He's a real hot ticket! Seen him nurse and play with B.B.Tip. My most favorite calf.</p>",
+	"description" : "<p>Bo’s calf. He was quite small in 2012. Has yellow lips. Maybe from Mom’s milk? Has lots of energy, whizzes all over. Circles me at speed then shoots off to visit others and comes back as if to tell me to hurry up! Has jumped over me, almost fallen into me. He's a real hot ticket! Seen him nurse and play with B.B.Tip. My most favorite calf. Lemon Lips comes to visit JoJo and Bo on occasion. It's very exciting when they get together. Porpoising, flipper footsie and affectionate stroking as they excitedly swim around. Lemon Lips always remembers me and comes right over. All the dolphins welcome me in their get together. The right side of Lemon Lips's fluke has slight nicks.</p>",
 	"featuredImage" : {
 		"src" : "./img/friend-pic-lemon.jpg"
 	},
 	"images" : [
 		{
 			"src" : "./img/ra1.jpg"
+		},
+		{
+			"src": "./img/lemon-lips-fluke.png"
 		}
 	],
 	"videos" : [
 		{
-			"src": "//player.vimeo.com/video/149924029",
-			"source": "vimeo"
-		},
-		{
-			"src": "//player.vimeo.com/video/149958729",
-			"source": "vimeo"
+			"src": "//player.vimeo.com/video/303889153",
+			"source": "vimeo",
+			"caption": "JoJo and Lemon Lips get together 11/2018"
 		},
 		{
 			"src": "//player.vimeo.com/video/139253537",
