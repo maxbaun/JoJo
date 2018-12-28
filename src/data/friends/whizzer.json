@@ -26,20 +26,18 @@
 			"source": "vimeo"
 		},
 		{
-			"src": "//player.vimeo.com/video/244929994",
-			"source": "vimeo"
+			"src": "//player.vimeo.com/video/303896322",
+			"source": "vimeo",
+			"caption": "JoJo and Whizzer"
 		},
 		{
 			"src": "//player.vimeo.com/video/148948836",
 			"source": "vimeo"
 		},
 		{
-			"src": "//player.vimeo.com/video/148760188",
-			"source": "vimeo"
-		},
-		{
-			"src": "//player.vimeo.com/video/148774540",
-			"source": "vimeo"
+			"src": "//player.vimeo.com/video/303898181",
+			"source": "vimeo",
+			"caption": "Whizzer plays"
 		}
 	]
 }

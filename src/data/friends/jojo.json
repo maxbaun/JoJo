@@ -2,11 +2,19 @@
 	"public" : "true",
 	"path" : "/jojo",
 	"name" : "JoJo",
-	"description": "<p>I’ve been swimming with JoJo for over twelve years. JoJo is a wild bottlenose dolphin that has made his home around the Turks and Caicos Islands. He is an ambassador dolphin which means he interacts with humans. My friendship with JoJo has grown over the years. I feel he trusts me enough to not only spend hours swimming with me but to bring me to meet many of his friends and perhaps family. He is very deliberate about coming over to our boat where I get in the water with him and he slowly brings me to meet mothers and calves.</p><p>Description: seven feet long, tip of his left flipper missing, left eye partially closed, slight nick on his dorsal and missing a small piece at the very end.</p>",
+	"description": "<p>I've been swimming with JoJo since 1999. JoJo is a wild bottlenose dolphin that has made his home around the Turks and Caicos Islands. He is an ambassador dolphin which means he interacts with humans. My friendship with JoJo has grown over the years. I feel he trusts me enough to not only spend hours swimming with me but to bring me to meet many of his friends and perhaps family. He is very deliberate about coming over to our boat where I get in the water with him and he slowly brings me to meet mothers and calves.</p><p>Description: seven feet long, tip of his left flipper missing, left eye partially closed, slight nick on his dorsal and missing a small piece at the very end.</p>",
 	"featuredImage" : {
 		"src" : "./img/friend-pic-jojo.jpg"
 	},
 	"videos" : [
+		{
+			"source": "local",
+			"video": {
+				"m4v": "http://jojoandjay.com/uploads/jojo/jojo-jay-buoy.m4v",
+				"webm": "http://jojoandjay.com/uploads/jojo/jojo-jay-buoy.webm",
+				"poster": "http://jojoandjay.com/uploads/jojo/jojo-jay-buoy.jpg"
+			}
+		},
 		{
 			"src": "//www.youtube.com/embed/GEXVj-tKa-k?rel=0&fs=1&showinfo=1",
 			"source": "youtube"

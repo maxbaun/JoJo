@@ -78,6 +78,10 @@ export const primaryNavItems = fromJS([
 			{
 				name: 'Snipper',
 				link: '/snipper'
+			},
+			{
+				name: 'Scooter',
+				link: '/scooter'
 			}
 		]
 	},
@@ -268,12 +272,14 @@ export const images = fromJS([
 
 export const videos = fromJS([
 	{
-		src: '//player.vimeo.com/video/139323117',
-		source: 'vimeo'
+		src: '//player.vimeo.com/video/303881745',
+		source: 'vimeo',
+		caption: 'Swimming with JoJo'
 	},
 	{
-		src: '//player.vimeo.com/video/132044473',
-		source: 'vimeo'
+		src: '//player.vimeo.com/video/303883936',
+		source: 'vimeo',
+		caption: 'JoJo plays Bang The Buoy'
 	},
 	{
 		src: '//www.youtube.com/embed/_HsIMavl-SY?rel=0&fs=1&showinfo=1',

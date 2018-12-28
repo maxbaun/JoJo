@@ -20,7 +20,7 @@ const Shop = () => {
 		<Page {...PageConfig}>
 			<div className={CSS.shop}>
 				<div className={CSS.shopDescription}>
-					<p>It has been 20 years since I first met JoJo. JoJo and Me tells how it all started. The sequel is a continuation of our friendship plus my relationship with calf I called Lemon Lips.</p>
+					<p>I first met JoJo in 1999. JoJo and Me tells how it all started. The sequel is a continuation of our friendship plus my relationship with calf I called Lemon Lips.</p>
 					<div>
 						<p className={CSS.mail}>Order with PayPal or send a check to Jay and a book will be mailed to you.<br/>Send check, name and address to: <strong>Jay Sargent 330 Indian Ave. Middletown, RI 02842</strong></p>
 					</div>

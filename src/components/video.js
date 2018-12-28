@@ -21,15 +21,18 @@ export default class Video extends React.Component {
 	}
 
 	static propTypes = {
-		src: PropTypes.string.isRequired,
+		src: PropTypes.string,
 		source: PropTypes.string.isRequired,
 		maxWidth: PropTypes.string,
-		caption: PropTypes.string
+		caption: PropTypes.string,
+		video: PropTypes.object
 	}
 
 	static defaultProps = {
+		src: null,
 		maxWidth: 'none',
-		caption: ''
+		caption: '',
+		video: null
 	}
 
 	@bind()
@@ -40,12 +43,26 @@ export default class Video extends React.Component {
 	}
 
 	render() {
-		const {src, maxWidth, caption, source} = this.props;
+		const {src, maxWidth, caption, source, video} = this.props;
 		const {loaded} = this.state;
 
 		const style = {
 			maxWidth
 		};
+
+		if (source === 'local') {
+			console.log(video)
+			return (
+				<div className={CSS.videoWrap} style={style}>
+					<div className={CSS.localVideo}>
+						<video controls="controls" poster={video.poster}>
+							<source src={video.m4v} type="video/mp4" />
+							<source src={video.webm} type="video/webm" />
+						</video>
+					</div>
+				</div>
+			);
+		}
 
 		return (
 			<div className={CSS.videoWrap} style={style}>
