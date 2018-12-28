@@ -21,6 +21,7 @@ const Videos = () => {
 							<Video
 								src={video.get('src')}
 								source={video.get('source')}
+								caption={video.get('caption') || null}
 							/>
 						</div>
 					);
