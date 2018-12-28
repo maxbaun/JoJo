@@ -1,0 +1,12 @@
+{
+	"public" : "true",
+	"path": "/scooter",
+	"name" : "Scooter",
+	"description" : "<p>Bo has had another calf. I named her Scooter. She was born at the end of the summer of 2018. She is very friendly with me just like all the other calves of Bo.</p>",
+	"videos" : [
+		{
+			"src": "//player.vimeo.com/video/303839665",
+			"source": "vimeo"
+		}
+	]
+}

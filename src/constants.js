@@ -78,6 +78,10 @@ export const primaryNavItems = fromJS([
 			{
 				name: 'Snipper',
 				link: '/snipper'
+			},
+			{
+				name: 'Scooter',
+				link: '/scooter'
 			}
 		]
 	},
