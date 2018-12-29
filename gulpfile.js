@@ -10,7 +10,8 @@ gulp.task('deploy', function () {
 		host: 'jojoandjay.com',
 		user: args.user,
 		password: args.password,
-		log: gutil.log
+		secure: true,
+		log: console.log.bind(console)
 	});
 
 	return gulp.src(['./public/**/*'])
