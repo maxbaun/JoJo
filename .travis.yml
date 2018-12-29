@@ -11,5 +11,6 @@ cache:
 
 script:
   - node_modules/.bin/gatsby build
-  - node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
 
+after_success:
+  - node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
