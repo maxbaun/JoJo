@@ -10,7 +10,6 @@ gulp.task('deploy', function () {
 		host: 'jojoandjay.com',
 		user: args.user,
 		password: args.password,
-		secure: true,
 		log: console.log.bind(console)
 	});
 
